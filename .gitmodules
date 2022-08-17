@@ -1,6 +1,6 @@
-[submodule "src/client/esoja-api"]
-	path = src/client/esoja-api
-	url = https://github.com/barbaraport/esoja-api
 [submodule "src/server/esoja-api"]
 	path = src/server/esoja-api
 	url = https://github.com/barbaraport/esoja-api
+[submodule "src/client/esoja-mobile"]
+	path = src/client/esoja-mobile
+	url = https://github.com/barbaraport/esoja-mobile
