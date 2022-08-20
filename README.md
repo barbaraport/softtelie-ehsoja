@@ -2,7 +2,7 @@
 
 ## Tecnologias utilizadas
 
-<p><img src="https://img.shields.io/badge/Python-3.6-2bd">
+<p><img src="https://img.shields.io/badge/Python-3.10-2bd">
 
 ## Integrantes da equipe
 <ul>
