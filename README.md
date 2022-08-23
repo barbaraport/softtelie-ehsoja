@@ -14,6 +14,6 @@
     <li><a href="https://www.linkedin.com/in/gabrielsouzati/">Gabriel Souza</a> </li>
     <li><a href="https://www.linkedin.com/in/mariaeduarda-oliveira/">Maria Eduarda Oliveira</a> </li>
     <li><a href="https://www.linkedin.com/in/anna-yukimi-yamada-6ba23b149/">Anna Yukimi Yamada</a> </li>
-    <li><a href="https://www.linkedin.com/">Anna Carolina Mendes</a> </li>
-    <li><a href="https://www.linkedin.com/">Pedro Reginaldo</a> </li>
+    <li><a href="https://www.linkedin.com/in/anna-carolina-de-oliveira-vale-mendes-372411b3">Anna Carolina Mendes</a> </li>
+    <li><a href="https://www.linkedin.com/in/pedro-silva-18720b236/">Pedro Reginaldo Silva</a> </li>
 </ul>
