@@ -1,4 +1,7 @@
-# api-6-semestre
+<h1 align="center">EhSoja 🌱</h1>
+
+## Sobre o projeto
+<p align="justify"></p>
 
 ## Tecnologias utilizadas
 
@@ -11,4 +14,6 @@
     <li><a href="https://www.linkedin.com/in/gabrielsouzati/">Gabriel Souza</a> </li>
     <li><a href="https://www.linkedin.com/in/mariaeduarda-oliveira/">Maria Eduarda Oliveira</a> </li>
     <li><a href="https://www.linkedin.com/in/anna-yukimi-yamada-6ba23b149/">Anna Yukimi Yamada</a> </li>
+    <li><a href="https://www.linkedin.com/">Anna Carolina Mendes</a> </li>
+    <li><a href="https://www.linkedin.com/">Pedro Reginaldo</a> </li>
 </ul>
