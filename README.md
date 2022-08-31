@@ -3,7 +3,7 @@
 <p align="center">
     <img src="https://img.shields.io/badge/Python-007ACC?style=for-the-badge&logo=python&logoColor=white"/>
     <img src="https://img.shields.io/badge/Flask-007ACC?style=for-the-badge&logo=flask&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Postgressql-007ACC?style=for-the-badge&logo=postgresql&logoColor=white"/>
+    <img src="https://img.shields.io/badge/PostgreSQL-007ACC?style=for-the-badge&logo=postgresql&logoColor=white"/>
     <img src="https://img.shields.io/badge/Tensorflow-007ACC?style=for-the-badge&logo=tensorflow&logoColor=white"/>
 </p>
 
