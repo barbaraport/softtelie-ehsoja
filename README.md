@@ -74,7 +74,7 @@ Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da apl
 <p align="justify">Para que o desenvolvimento de cada requisito seja iniciado, é necessário que ele seja compreendido detalhadamente e seja fragmentado em diversas tarefas para os desenvolvedores. Posto isso, cada uma das pequenas tarefas que são geradas recebem uma descrição do que deve ser feito e uma prioridade. Tarefas que são mais difíceis ou que podem impossibilitar a realização de outra tarefa, geralmente têm prioridade máxima. Por fim, os desenvolvedores podem, proativamente, iniciar uma <i>task</i>.</p>
 
 <h3><i>Definition Of Done</i></h3>
-<p align="justify">Quais são os requisitos para que as tarefas sejam dadas como terminadas (done)?</p>
+<p align="justify">Para que cada uma das tarefas sejam dadas como prontas e finalizadas, é necessário que o código seja revisado a fim de evitar duplicação de código, propor possíves melhorias e verificar se realmente ele faz o que foi combinado. Após essa primeira avaliação, o sistema será executado pelo revisor a fim de verificar falhas e <i>bugs</i> que podem ter surgido após a implementação realizada. O código entrará em produção somente se estiver totalmente completo, validado e funcional.</p>
 
   
 ## Aplicação em funcionamento
