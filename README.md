@@ -70,6 +70,8 @@ Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da apl
 <h3><i>Definition Of Ready</i></h3>
 <p align="justify">Quais são os requisitos para que o desenvolvimento possa ser iniciado?</p>
 
+<h3><i>Definition Of Done</i></h3>
+<p align="justify">Quais são os requisitos para que as tarefas sejam dadas como terminadas (done)?</p>
 
   
 ## Aplicação em funcionamento
