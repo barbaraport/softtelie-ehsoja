@@ -15,11 +15,6 @@ eSoja é uma aplicação mobile voltada ao público agricultor, em específico, 
 Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da aplicação original adicionando o elemente de IA (inteligência artificial) a ele, de forma que o usuário possa apenas submeter imagens de seu cultivo e informações como quantia de vagens e grãos por vagens serão deduzidas através da analise desta imagem, garantindo mais rapidez e versatilidade ao usuário, que não precisará mais realizar este trabalho manual.
 </p>
 
-## Backlog do produto
-<p align="justify">
-
-</P>
-
 <h2>:calendar: Cronograma das Entregas :spiral_calendar:</h2>
 <table>
     <thead>
@@ -58,6 +53,9 @@ Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da apl
         <td><p align="center"><a href="#">Baixar</a></p></td>
     </tr>
 </table>
+
+<h2><i>Product Backlog</i></h2>
+<p align="justify">Colocar aqui todo o backlog (priorizado)</P>
   
 ## Aplicação em funcionamento
 
