@@ -27,28 +27,28 @@ Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da apl
     <tr>
         <td><p align="center">Entrega 1</p></td>
         <td><p align="justify">A aplicação receberá uma imagem a ser analisada, identificará e marcará os elementos na imagem</p></td>
-        <td><p align="center">20/08</p></td>
+        <td><p align="center">18/09</p></td>
         <td><p align="center"><a href="#">Visualizar</a></p></td>
         <td><p align="center"><a href="#">Baixar</a></p></td>
     </tr>
     <tr>
         <td><p align="center">Entrega 2</p></td>
         <td><p align="justify">O usuário poderá submeter imagens de seu plantio, que serão analisadas pelo algoritmo e visualizará os resultados</p></td>
-        <td><p align="center">xx/xx</p></td>
+        <td><p align="center">09/10</p></td>
         <td><p align="center"><a href="#">Visualizar</a></p></td>
         <td><p align="center"><a href="#">Baixar</a></p></td>
     </tr>
     <tr>
         <td><p align="center">Entrega 3</p></td>
         <td><p align="justify">O algoritmo será aperfeiçoado para reconhecer mais elementos na imagem</p></td>
-        <td><p align="center">xx/xx</p></td>
+        <td><p align="center">06/11</p></td>
         <td><p align="center"><a href="#">Visualizar</a></p></td>
         <td><p align="center"><a href="#">Baixar</a></p></td>
     </tr>
     <tr>
         <td><p align="center">Entrega 4</p></td>
         <td><p align="justify">O algoritmo será aperfeiçoada para que seja executado com mais eficiência</p></td>
-        <td><p align="center">xx/xx</p></td>
+        <td><p align="center">27/11</p></td>
         <td><p align="center"><a href="#">Visualizar</a></p></td>
         <td><p align="center"><a href="#">Baixar</a></p></td>
     </tr>
