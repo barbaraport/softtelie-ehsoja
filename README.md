@@ -67,6 +67,9 @@ Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da apl
 <h3><i>Mock-ups</i></h3>
 <p align="justify">Quais telas vamos precisar alterar para criar inserir a funcionalidade nova? Inserir o Figma aqui.</p>
 
+<h3>Modelagem de dados</h3>
+<p align="justify">Inserir modelo do banco de dados</p>
+
 <h3><i>Definition Of Ready</i></h3>
 <p align="justify">Quais são os requisitos para que o desenvolvimento possa ser iniciado?</p>
 
