@@ -55,7 +55,14 @@ Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da apl
 </table>
 
 <h2><i>Product Backlog</i></h2>
-<p align="justify">Colocar aqui todo o backlog (priorizado)</P>
+<p align="justify">Colocar aqui todo o backlog (priorizado)</p>
+
+
+<h2>Primeira entrega</h2>
+<p align="justify">Colocar uma breve explicação do que será entregue na primeira sprint</p>
+
+<h3><i>Sprint Backlog</i></h3>
+<p align="justify">Colocar as user stories da primeira sprint</p>
   
 ## Aplicação em funcionamento
 
