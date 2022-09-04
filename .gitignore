@@ -105,5 +105,5 @@ dist
 
 .idea
 __pycache__
-userImages
-/resources/models
+src/server/imageRecognition/resources/userImages/*
+src/server/imageRecognition/resources/models/*
