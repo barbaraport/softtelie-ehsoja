@@ -95,4 +95,16 @@
 			<ymax>322</ymax>
 		</bndbox>
 	</object>
+	<object>
+		<name>pod</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>74</xmin>
+			<ymin>347</ymin>
+			<xmax>95</xmax>
+			<ymax>381</ymax>
+		</bndbox>
+	</object>
 </annotation>
