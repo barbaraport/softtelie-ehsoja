@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
-	<filename>0b2bdc2d-4df2-4b86-a396-cb0325ea269b_3.jpg</filename>
-	<path>C:\Users\port3\repositories\api-6-semestre\src\server\imageRecognition\resources\trainData\images\0b2bdc2d-4df2-4b86-a396-cb0325ea269b_3.jpg</path>
+	<filename>1eb03b64-5b5c-452d-beca-7e9072c30525_2.jpg</filename>
+	<path>C:\Users\port3\repositories\api-6-semestre\src\server\imageRecognition\resources\trainData\images\1eb03b64-5b5c-452d-beca-7e9072c30525_2.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>8</xmin>
-			<ymin>40</ymin>
-			<xmax>233</xmax>
-			<ymax>740</ymax>
+			<xmin>29</xmin>
+			<ymin>32</ymin>
+			<xmax>204</xmax>
+			<ymax>756</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>98</xmin>
-			<ymin>394</ymin>
-			<xmax>116</xmax>
-			<ymax>444</ymax>
+			<xmin>125</xmin>
+			<ymin>156</ymin>
+			<xmax>172</xmax>
+			<ymax>178</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>174</xmin>
-			<ymin>422</ymin>
-			<xmax>191</xmax>
-			<ymax>470</ymax>
+			<xmin>130</xmin>
+			<ymin>80</ymin>
+			<xmax>160</xmax>
+			<ymax>104</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,46 +53,58 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>72</xmin>
-			<ymin>292</ymin>
-			<xmax>83</xmax>
-			<ymax>319</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pod</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>121</xmin>
-			<ymin>188</ymin>
-			<xmax>158</xmax>
-			<ymax>214</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pod</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>114</xmin>
-			<ymin>88</ymin>
-			<xmax>141</xmax>
-			<ymax>122</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pod</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>137</xmin>
-			<ymin>368</ymin>
+			<xmin>141</xmin>
+			<ymin>45</ymin>
 			<xmax>166</xmax>
-			<ymax>400</ymax>
+			<ymax>64</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pod</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>126</xmin>
+			<ymin>132</ymin>
+			<xmax>146</xmax>
+			<ymax>162</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pod</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>57</xmin>
+			<ymin>305</ymin>
+			<xmax>115</xmax>
+			<ymax>335</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pod</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>65</xmin>
+			<ymin>263</ymin>
+			<xmax>93</xmax>
+			<ymax>291</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pod</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>66</xmin>
+			<ymin>362</ymin>
+			<xmax>113</xmax>
+			<ymax>391</ymax>
 		</bndbox>
 	</object>
 </annotation>

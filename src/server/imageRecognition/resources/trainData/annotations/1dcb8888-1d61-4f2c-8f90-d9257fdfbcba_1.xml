@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>1dcb8888-1d61-4f2c-8f90-d9257fdfbcba_1.jpg</filename>
-	<path>/home/duda/Documents/API2/softtelie-ehsoja/src/server/imageRecognition/resources/trainData/images/1dcb8888-1d61-4f2c-8f90-d9257fdfbcba_1.jpg</path>
+	<path>C:\Users\port3\repositories\api-6-semestre\src\server\imageRecognition\resources\trainData\images\1dcb8888-1d61-4f2c-8f90-d9257fdfbcba_1.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -117,6 +117,66 @@
 			<ymin>397</ymin>
 			<xmax>111</xmax>
 			<ymax>429</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pod</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>134</xmin>
+			<ymin>325</ymin>
+			<xmax>155</xmax>
+			<ymax>375</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pod</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>179</xmin>
+			<ymin>135</ymin>
+			<xmax>207</xmax>
+			<ymax>152</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pod</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>194</xmin>
+			<ymin>106</ymin>
+			<xmax>228</xmax>
+			<ymax>125</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pod</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>213</xmin>
+			<ymin>27</ymin>
+			<xmax>245</xmax>
+			<ymax>55</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pod</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>145</xmin>
+			<ymin>66</ymin>
+			<xmax>195</xmax>
+			<ymax>85</ymax>
 		</bndbox>
 	</object>
 </annotation>
