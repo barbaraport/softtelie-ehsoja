@@ -1,6 +1,4 @@
-import PIL
 from PIL import Image
-
 import os
 
 
@@ -12,7 +10,7 @@ def resizeFromFolder(folderName):
 
         resizedImage = image.resize((256, 768), Image.Resampling.LANCZOS)
 
-        resizedImage.save("../trainData/images/" + imagePath)
+        resizedImage.save("../train_data_resize/images/" + imagePath)
 
 
 resizeFromFolder("01_SELECT21")
