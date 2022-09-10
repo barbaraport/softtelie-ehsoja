@@ -1,5 +1,6 @@
-Crie um ambiente virtual dentro de notebooks
+Utilize a versão 3.10 do Python
 
+Crie um ambiente virtual dentro de notebooks (o nome pode ser qualquer um)
 python -m venv modelTraining
 
 Ative o ambiente virtual
@@ -7,12 +8,6 @@ Ative o ambiente virtual
 
 Atualize o pip do ambiente virtual
 python -m pip install --upgrade pip
-
-Instale ipykernel
-pip install ipykernel
-
-Crie o usuário modelTraining para o kernel do notebook
-python -m ipykernel install --user --name=modelTraining
 
 Instale o jupyter notebook no ambiente virtual
 pip install notebook
