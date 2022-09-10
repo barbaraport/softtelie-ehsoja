@@ -1,6 +1,6 @@
 Utilize a versão 3.10 do Python
 
-Crie um ambiente virtual dentro de notebooks (o nome pode ser qualquer um)
+Crie um ambiente virtual dentro de notebooks (o nome pode ser qualquer um, mas o adicione ao gitignore caso não escolha modelTraining)
 python -m venv modelTraining
 
 Ative o ambiente virtual
