@@ -19,3 +19,5 @@ pip install notebook
 
 Inicialize o notebook
 jupyter notebook
+
+tensorboard --logdir=.
