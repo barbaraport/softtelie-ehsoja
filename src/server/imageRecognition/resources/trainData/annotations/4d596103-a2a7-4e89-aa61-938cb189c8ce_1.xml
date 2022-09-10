@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>4d596103-a2a7-4e89-aa61-938cb189c8ce_1.jpg</filename>
-	<path>/home/duda/Documents/API2/softtelie-ehsoja/src/server/imageRecognition/resources/trainData/images/4d596103-a2a7-4e89-aa61-938cb189c8ce_1.jpg</path>
+	<path>C:\Users\port3\repositories\api-6-semestre\src\server\imageRecognition\resources\trainData\images\4d596103-a2a7-4e89-aa61-938cb189c8ce_1.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -19,7 +19,7 @@
 		<bndbox>
 			<xmin>501</xmin>
 			<ymin>356</ymin>
-			<xmax>606</xmax>
+			<xmax>602</xmax>
 			<ymax>724</ymax>
 		</bndbox>
 	</object>
