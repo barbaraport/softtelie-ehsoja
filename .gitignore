@@ -107,3 +107,5 @@ dist
 __pycache__
 src/server/imageRecognition/resources/userImages/*
 src/server/imageRecognition/resources/models/*
+src/server/imageRecognition/notebooks/modelTraining/*
+src/server/imageRecognition/notebooks/dependencies/*
