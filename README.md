@@ -8,7 +8,7 @@
 </p>
 
 <p align="justify">
-Nossa aplicação é uma extensão/fork do repositório XXXX, do projeto eSoja.
+Nossa aplicação é uma extensão/fork do repositório do projeto eSoja. <a href="https://github.com/cluster-8/esoja-mobile">Clique aqui para vizualizar.</a>
 </br>
 eSoja é uma aplicação mobile voltada ao público agricultor, em específico, agricultores de soja, que disponibiliza aos seus usuários funcionalidades que os ajudam a monitorar, controlar e obter previsões sobre seu plantio.
 </br>
@@ -55,19 +55,33 @@ Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da apl
 </table>
 
 <h2><i>Product Backlog</i></h2>
-<p align="justify">Colocar aqui todo o backlog (priorizado)</p>
 
 
-<h2>Primeira entrega</h2>
+<h3>Primeira Entrega 📇</h3>
+ <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint1.png">
+
+<h3>Segunda Entrega 📇</h3>
+ <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint2.png">
+
+<h3>Terceira Entrega 📇</h3>
+ <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint3.png">
+
+<h3>Quarta Entrega 📇</h3>
+ <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint4.png">
+
+<h2><i>Primeira entrega</i></h2>
 <p align="justify">Colocar uma breve explicação do que será entregue na primeira sprint</p>
 
-<h3><i>Sprint Backlog</i></h3>
-<p align="justify">Colocar as user stories da primeira sprint</p>
+<h2><i>Sprint Backlog</i></h2>
+<h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/UserStories_Sprint1.png">
 
-<h3><i>Mock-ups</i></h3>
-<p align="justify">Quais telas vamos precisar alterar para criar inserir a funcionalidade nova? Inserir o Figma aqui.</p>
+<h2><i>Mock-ups</i></h2>
+    <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_1.png">
+    <h2 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_2.png">
+    <h3 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_3.png">
+    <h4 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Foto_das_Amostras.png">
 
-<h3>Modelagem de dados</h3>
+<h2>Modelagem de dados</h2>
 <p align="justify">Inserir modelo do banco de dados</p>
 
 <h3><i>Definition Of Ready</i></h3>
