@@ -81,8 +81,6 @@ Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da apl
     <h3 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_3.png">
     <h4 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Foto_das_Amostras.png">
 
-<h2>Modelagem de dados</h2>
-<p align="justify">Inserir modelo do banco de dados</p>
 
 <h3><i>Definition Of Ready</i></h3>
 <p align="justify">Para que o desenvolvimento de cada requisito seja iniciado, é necessário que ele seja compreendido detalhadamente e seja fragmentado em diversas tarefas para os desenvolvedores. Posto isso, cada uma das pequenas tarefas que são geradas recebem uma descrição do que deve ser feito e uma prioridade. Tarefas que são mais difíceis ou que podem impossibilitar a realização de outra tarefa, geralmente têm prioridade máxima. Por fim, os desenvolvedores podem, proativamente, iniciar uma <i>task</i>.</p>
