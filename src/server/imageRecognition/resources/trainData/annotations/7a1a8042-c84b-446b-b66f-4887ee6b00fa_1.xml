@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>7a1a8042-c84b-446b-b66f-4887ee6b00fa_1.jpg</filename>
-	<path>/home/duda/Documents/API2/softtelie-ehsoja/src/server/imageRecognition/resources/trainData/images/7a1a8042-c84b-446b-b66f-4887ee6b00fa_1.jpg</path>
+	<path>C:\Users\port3\Desktop\augmentation_test\trainData\images\7a1a8042-c84b-446b-b66f-4887ee6b00fa_1.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -29,9 +29,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>558</xmin>
-			<ymin>565</ymin>
-			<xmax>591</xmax>
+			<xmin>564</xmin>
+			<ymin>572</ymin>
+			<xmax>590</xmax>
 			<ymax>593</ymax>
 		</bndbox>
 	</object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>553</xmin>
-			<ymin>546</ymin>
-			<xmax>584</xmax>
-			<ymax>579</ymax>
+			<xmin>556</xmin>
+			<ymin>549</ymin>
+			<xmax>581</xmax>
+			<ymax>578</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -89,10 +89,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>544</xmin>
-			<ymin>487</ymin>
-			<xmax>577</xmax>
-			<ymax>509</ymax>
+			<xmin>548</xmin>
+			<ymin>488</ymin>
+			<xmax>574</xmax>
+			<ymax>508</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -101,10 +101,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>545</xmin>
-			<ymin>512</ymin>
-			<xmax>582</xmax>
-			<ymax>526</ymax>
+			<xmin>552</xmin>
+			<ymin>513</ymin>
+			<xmax>580</xmax>
+			<ymax>525</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -113,7 +113,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>540</xmin>
+			<xmin>548</xmin>
 			<ymin>458</ymin>
 			<xmax>577</xmax>
 			<ymax>471</ymax>
@@ -137,10 +137,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>557</xmin>
-			<ymin>610</ymin>
-			<xmax>588</xmax>
-			<ymax>636</ymax>
+			<xmin>565</xmin>
+			<ymin>609</ymin>
+			<xmax>585</xmax>
+			<ymax>635</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -153,6 +153,18 @@
 			<ymin>433</ymin>
 			<xmax>532</xmax>
 			<ymax>444</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pod</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>541</xmin>
+			<ymin>355</ymin>
+			<xmax>556</xmax>
+			<ymax>374</ymax>
 		</bndbox>
 	</object>
 </annotation>

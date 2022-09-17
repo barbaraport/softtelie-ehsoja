@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>0b2bdc2d-4df2-4b86-a396-cb0325ea269b_1.jpg</filename>
-	<path>C:\Users\port3\repositories\api-6-semestre\src\server\imageRecognition\resources\trainData\images\0b2bdc2d-4df2-4b86-a396-cb0325ea269b_1.jpg</path>
+	<path>C:\Users\port3\Desktop\augmentation_test\trainData\images\0b2bdc2d-4df2-4b86-a396-cb0325ea269b_1.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -93,18 +93,6 @@
 			<ymin>277</ymin>
 			<xmax>610</xmax>
 			<ymax>303</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pod</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>555</xmin>
-			<ymin>366</ymin>
-			<xmax>582</xmax>
-			<ymax>389</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -225,18 +213,6 @@
 			<ymin>551</ymin>
 			<xmax>555</xmax>
 			<ymax>600</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>pod</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>529</xmin>
-			<ymin>455</ymin>
-			<xmax>559</xmax>
-			<ymax>473</ymax>
 		</bndbox>
 	</object>
 </annotation>

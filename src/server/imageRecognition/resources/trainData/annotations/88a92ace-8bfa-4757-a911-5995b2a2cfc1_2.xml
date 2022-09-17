@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>88a92ace-8bfa-4757-a911-5995b2a2cfc1_2.jpg</filename>
-	<path>/home/duda/Documents/API2/softtelie-ehsoja/src/server/imageRecognition/resources/trainData/images/88a92ace-8bfa-4757-a911-5995b2a2cfc1_2.jpg</path>
+	<path>C:\Users\port3\Desktop\augmentation_test\trainData\images\88a92ace-8bfa-4757-a911-5995b2a2cfc1_2.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -41,9 +41,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>549</xmin>
-			<ymin>586</ymin>
-			<xmax>569</xmax>
+			<xmin>553</xmin>
+			<ymin>589</ymin>
+			<xmax>570</xmax>
 			<ymax>602</ymax>
 		</bndbox>
 	</object>
@@ -53,9 +53,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>539</xmin>
+			<xmin>537</xmin>
 			<ymin>537</ymin>
-			<xmax>552</xmax>
+			<xmax>550</xmax>
 			<ymax>560</ymax>
 		</bndbox>
 	</object>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>554</xmin>
+			<xmin>557</xmin>
 			<ymin>526</ymin>
 			<xmax>574</xmax>
-			<ymax>545</ymax>
+			<ymax>544</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -90,9 +90,21 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>535</xmin>
-			<ymin>559</ymin>
-			<xmax>554</xmax>
+			<ymin>561</ymin>
+			<xmax>550</xmax>
 			<ymax>577</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pod</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>537</xmin>
+			<ymin>583</ymin>
+			<xmax>552</xmax>
+			<ymax>604</ymax>
 		</bndbox>
 	</object>
 </annotation>

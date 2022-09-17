@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>281d4bef-a253-4879-a321-e004c0794269_2.jpg</filename>
-	<path>C:\Users\port3\repositories\api-6-semestre\src\server\imageRecognition\resources\trainData\images\281d4bef-a253-4879-a321-e004c0794269_2.jpg</path>
+	<path>C:\Users\port3\Desktop\augmentation_test\trainData\images\281d4bef-a253-4879-a321-e004c0794269_2.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,8 +17,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>492</xmin>
-			<ymin>219</ymin>
+			<xmin>497</xmin>
+			<ymin>220</ymin>
 			<xmax>603</xmax>
 			<ymax>878</ymax>
 		</bndbox>
@@ -31,7 +31,7 @@
 		<bndbox>
 			<xmin>527</xmin>
 			<ymin>277</ymin>
-			<xmax>556</xmax>
+			<xmax>551</xmax>
 			<ymax>298</ymax>
 		</bndbox>
 	</object>
@@ -43,8 +43,8 @@
 		<bndbox>
 			<xmin>527</xmin>
 			<ymin>365</ymin>
-			<xmax>558</xmax>
-			<ymax>377</ymax>
+			<xmax>556</xmax>
+			<ymax>376</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +65,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>538</xmin>
+			<xmin>540</xmin>
 			<ymin>412</ymin>
 			<xmax>562</xmax>
-			<ymax>422</ymax>
+			<ymax>423</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,8 +77,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>588</xmin>
-			<ymin>518</ymin>
+			<xmin>590</xmin>
+			<ymin>523</ymin>
 			<xmax>603</xmax>
 			<ymax>554</ymax>
 		</bndbox>
@@ -89,10 +89,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>561</xmin>
-			<ymin>638</ymin>
+			<xmin>558</xmin>
+			<ymin>641</ymin>
 			<xmax>572</xmax>
-			<ymax>678</ymax>
+			<ymax>674</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -125,10 +125,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>545</xmin>
-			<ymin>679</ymin>
-			<xmax>566</xmax>
-			<ymax>708</ymax>
+			<xmin>548</xmin>
+			<ymin>684</ymin>
+			<xmax>565</xmax>
+			<ymax>706</ymax>
 		</bndbox>
 	</object>
 </annotation>

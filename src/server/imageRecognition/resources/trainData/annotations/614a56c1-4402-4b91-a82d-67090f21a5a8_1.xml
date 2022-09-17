@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>614a56c1-4402-4b91-a82d-67090f21a5a8_1.jpg</filename>
-	<path>C:\Users\port3\repositories\api-6-semestre\src\server\imageRecognition\resources\trainData\images\614a56c1-4402-4b91-a82d-67090f21a5a8_1.jpg</path>
+	<path>C:\Users\port3\Desktop\augmentation_test\trainData\images\614a56c1-4402-4b91-a82d-67090f21a5a8_1.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -43,7 +43,7 @@
 		<bndbox>
 			<xmin>489</xmin>
 			<ymin>450</ymin>
-			<xmax>520</xmax>
+			<xmax>519</xmax>
 			<ymax>468</ymax>
 		</bndbox>
 	</object>
@@ -53,10 +53,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>473</xmin>
-			<ymin>320</ymin>
-			<xmax>497</xmax>
-			<ymax>337</ymax>
+			<xmin>478</xmin>
+			<ymin>322</ymin>
+			<xmax>496</xmax>
+			<ymax>336</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,7 +65,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>593</xmin>
+			<xmin>596</xmin>
 			<ymin>419</ymin>
 			<xmax>621</xmax>
 			<ymax>439</ymax>
@@ -102,8 +102,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>553</xmin>
-			<ymin>512</ymin>
-			<xmax>589</xmax>
+			<ymin>516</ymin>
+			<xmax>586</xmax>
 			<ymax>527</ymax>
 		</bndbox>
 	</object>
@@ -125,10 +125,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>553</xmin>
-			<ymin>392</ymin>
-			<xmax>584</xmax>
-			<ymax>408</ymax>
+			<xmin>554</xmin>
+			<ymin>394</ymin>
+			<xmax>583</xmax>
+			<ymax>406</ymax>
 		</bndbox>
 	</object>
 </annotation>
