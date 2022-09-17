@@ -12,7 +12,7 @@ Nossa aplicação é uma extensão/fork do repositório do projeto eSoja. <a hre
 </br>
 eSoja é uma aplicação mobile voltada ao público agricultor, em específico, agricultores de soja, que disponibiliza aos seus usuários funcionalidades que os ajudam a monitorar, controlar e obter previsões sobre seu plantio.
 </br>
-Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da aplicação original adicionando o elemento de IA (inteligência artificial) a ele, de forma que o usuário possa apenas submeter imagens de seu cultivo e informações como quantia de vagens e grãos por vagens serão deduzidas através da análise desta imagem, garantindo mais rapidez e versatilidade ao usuário, que não precisará mais realizar este trabalho manual.
+Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da aplicação original adicionando o elemente de IA (inteligência artificial) a ele, de forma que o usuário possa apenas submeter imagens de seu cultivo e informações como quantia de vagens e grãos por vagens serão deduzidas através da analise desta imagem, garantindo mais rapidez e versatilidade ao usuário, que não precisará mais realizar este trabalho manual.
 </p>
 
 <h2>:calendar: Cronograma das Entregas :spiral_calendar:</h2>
@@ -47,7 +47,7 @@ Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da apl
     </tr>
     <tr>
         <td><p align="center">Entrega 4</p></td>
-        <td><p align="justify">O algoritmo será aperfeiçoado para que seja executado com mais eficiência</p></td>
+        <td><p align="justify">O algoritmo será aperfeiçoada para que seja executado com mais eficiência</p></td>
         <td><p align="center">27/11</p></td>
         <td><p align="center"><a href="#">Visualizar</a></p></td>
         <td><p align="center"><a href="#">Baixar</a></p></td>
@@ -72,8 +72,8 @@ Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da apl
 <h2><i>Primeira entrega</i></h2>
 <p align="justify">Colocar uma breve explicação do que será entregue na primeira sprint</p>
 
-<h2><i>Sprint Backlog</i></h2>
-<h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/UserStories_Sprint1.png">
+<h2><i>Sprint Backlog Completo</i></h2>
+<h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/backlogCompleto_Sprint01.png">
 
 <h2><i>Mock-ups</i></h2>
     <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_1.png">
@@ -81,12 +81,14 @@ Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da apl
     <h3 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_3.png">
     <h4 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Foto_das_Amostras.png">
 
+<h2>User Stories</h2>
+    <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/UserStories_Sprint01.png">
 
 <h3><i>Definition Of Ready</i></h3>
 <p align="justify">Para que o desenvolvimento de cada requisito seja iniciado, é necessário que ele seja compreendido detalhadamente e seja fragmentado em diversas tarefas para os desenvolvedores. Posto isso, cada uma das pequenas tarefas que são geradas recebem uma descrição do que deve ser feito e uma prioridade. Tarefas que são mais difíceis ou que podem impossibilitar a realização de outra tarefa, geralmente têm prioridade máxima. Por fim, os desenvolvedores podem, proativamente, iniciar uma <i>task</i>.</p>
 
 <h3><i>Definition Of Done</i></h3>
-<p align="justify">Para que cada uma das tarefas seja dada como prontas e finalizadas, é necessário que o código seja revisado a fim de evitar duplicação de código, propor possíveis melhorias e verificar se realmente ele faz o que foi combinado. Após essa primeira avaliação, o sistema será executado pelo revisor a fim de verificar falhas e <i>bugs</i> que podem ter surgido após a implementação realizada. O código entrará em produção somente se estiver totalmente completo, validado e funcional.</p>
+<p align="justify">Para que cada uma das tarefas sejam dadas como prontas e finalizadas, é necessário que o código seja revisado a fim de evitar duplicação de código, propor possíves melhorias e verificar se realmente ele faz o que foi combinado. Após essa primeira avaliação, o sistema será executado pelo revisor a fim de verificar falhas e <i>bugs</i> que podem ter surgido após a implementação realizada. O código entrará em produção somente se estiver totalmente completo, validado e funcional.</p>
 
   
 ## Aplicação em funcionamento
