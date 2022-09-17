@@ -8,7 +8,7 @@
 </p>
 
 <p align="justify">
-Nossa aplicação é uma extensão/fork do repositório do projeto eSoja. <a href="https://github.com/cluster-8/esoja-mobile">Clique aqui para visualizar.</a>
+Nossa aplicação é uma extensão/fork do repositório do projeto <a href="https://github.com/cluster-8/esoja-mobile">eSoja.</a>
 </br>
 eSoja é uma aplicação mobile voltada ao público agricultor, em específico, agricultores de soja, que disponibiliza aos seus usuários funcionalidades que os ajudam a monitorar, controlar e obter previsões sobre seu plantio.
 </br>
@@ -26,7 +26,7 @@ Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da apl
     </thead>
     <tr>
         <td><p align="center">Entrega 1</p></td>
-        <td><p align="justify">A aplicação receberá uma imagem a ser analisada, identificará e marcará os elementos na imagem</p></td>
+        <td><p align="justify">Treinamento de um modelo base para reconhecer e marcar os elementos da soja na imagem</p></td>
         <td><p align="center">18/09</p></td>
         <td><p align="center"><a href="#">Visualizar</a></p></td>
         <td><p align="center"><a href="#">Baixar</a></p></td>
@@ -40,14 +40,14 @@ Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da apl
     </tr>
     <tr>
         <td><p align="center">Entrega 3</p></td>
-        <td><p align="justify">O algoritmo será aperfeiçoado para reconhecer mais elementos na imagem</p></td>
+        <td><p align="justify">Contagem de vagens e atualização desses dados no banco de dados</p></td>
         <td><p align="center">06/11</p></td>
         <td><p align="center"><a href="#">Visualizar</a></p></td>
         <td><p align="center"><a href="#">Baixar</a></p></td>
     </tr>
     <tr>
         <td><p align="center">Entrega 4</p></td>
-        <td><p align="justify">O algoritmo será aperfeiçoado para que seja executado com mais eficiência</p></td>
+        <td><p align="justify">Realizar a estimativa de quantos grãos de soja estão presentes na planta</p></td>
         <td><p align="center">27/11</p></td>
         <td><p align="center"><a href="#">Visualizar</a></p></td>
         <td><p align="center"><a href="#">Baixar</a></p></td>
@@ -56,37 +56,40 @@ Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da apl
 
 <h2><i>Product Backlog</i></h2>
 
+<p align="center">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint1.png" width="400px">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint2.png" width="400px">
+</p>
 
-<h3>Primeira Entrega 📇</h3>
- <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint1.png">
+<p align="center">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint3.png" width="400px">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint4.png" width="400px">
+</p>
 
-<h3>Segunda Entrega 📇</h3>
- <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint2.png">
-
-<h3>Terceira Entrega 📇</h3>
- <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint3.png">
-
-<h3>Quarta Entrega 📇</h3>
- <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint4.png">
+</br>
 
 <h2><i>Primeira entrega</i></h2>
-<p align="justify">Colocar uma breve explicação do que será entregue na primeira sprint</p>
+<p align="justify">Na primeira entrega, a equipe teve grande foco no estudo do conceito de <i>Inteligência Artificial</i>, <i>Redes neurais</i> e <i>Visão computacional</i> para que pudessemos oferecer, ao cliente, como entrega de valor um modelo básico que reconheça, ainda que mínimamente, a planta de soja e suas vagens em uma dada imagem, marcando a posição dos elementos encontrados.</p>
 
-<h2><i>Sprint Backlog</i></h2>
-<h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/UserStories_Sprint1.png">
+<h2><i>Sprint Backlog Completo</i></h2>
+<h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/backlogCompleto_Sprint01.png">
 
 <h2><i>Mock-ups</i></h2>
-    <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_1.png">
-    <h2 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_2.png">
-    <h3 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_3.png">
-    <h4 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Foto_das_Amostras.png">
+<p align="center">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_1.png" height="420px">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_2.png" height="420px">
+       <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_3.png" height="420px">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Foto_das_Amostras.png" height="420px">
+</p>
 
+<h2>User Stories</h2>
+    <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/UserStories_Sprint01.png">
 
 <h3><i>Definition Of Ready</i></h3>
 <p align="justify">Para que o desenvolvimento de cada requisito seja iniciado, é necessário que ele seja compreendido detalhadamente e seja fragmentado em diversas tarefas para os desenvolvedores. Posto isso, cada uma das pequenas tarefas que são geradas recebem uma descrição do que deve ser feito e uma prioridade. Tarefas que são mais difíceis ou que podem impossibilitar a realização de outra tarefa, geralmente têm prioridade máxima. Por fim, os desenvolvedores podem, proativamente, iniciar uma <i>task</i>.</p>
 
 <h3><i>Definition Of Done</i></h3>
-<p align="justify">Para que cada uma das tarefas seja dada como prontas e finalizadas, é necessário que o código seja revisado a fim de evitar duplicação de código, propor possíveis melhorias e verificar se realmente ele faz o que foi combinado. Após essa primeira avaliação, o sistema será executado pelo revisor a fim de verificar falhas e <i>bugs</i> que podem ter surgido após a implementação realizada. O código entrará em produção somente se estiver totalmente completo, validado e funcional.</p>
+<p align="justify">Para que cada uma das tarefas sejam dadas como prontas e finalizadas, é necessário que o código seja revisado a fim de evitar duplicação de código, propor possíves melhorias e verificar se realmente ele faz o que foi combinado. Após essa primeira avaliação, o sistema será executado pelo revisor a fim de verificar falhas e <i>bugs</i> que podem ter surgido após a implementação realizada. O código entrará em produção somente se estiver totalmente completo, validado e funcional.</p>
 
   
 ## Aplicação em funcionamento
