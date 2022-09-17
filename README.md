@@ -20,12 +20,12 @@
 <h2><i>Product Backlog</i>:pushpin:</h2>
 <p>Temos quatro <i>sprints</i> para o desenvolvimento da solução para o problema do nosso cliente. Sendo assim, priorizamos as funcionalidades desejadas de acordo com a imagem abaixo, de forma que cada entrega evolua em relação à última.</p>
 <p align="center">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint1.png"/>
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint2.png"/>
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Backlog/Backlog_Sprint1.png" width="400px">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Backlog/Backlog_Sprint2.png" width="400px">
 </p>
 <p align="center">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint3.png"/>
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint4.png"/>
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Backlog/Backlog_Sprint3.png" width="400px">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Backlog/Backlog_Sprint4.png" width="400px">
 </p>
 
 <h2>:calendar: Cronograma das Entregas :spiral_calendar:</h2>
@@ -67,46 +67,7 @@
     </tr>
 </table>
 
-<h2><i>Product Backlog</i></h2>
-
-<p align="center">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint1.png" width="400px">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint2.png" width="400px">
-</p>
-
-<p align="center">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint3.png" width="400px">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint4.png" width="400px">
-</p>
-
-</br>
-
-<h2><i>Primeira entrega</i></h2>
-<p align="justify">Na primeira entrega, a equipe teve grande foco no estudo do conceito de <i>Inteligência Artificial</i>, <i>Redes neurais</i> e <i>Visão computacional</i> para que pudessemos oferecer, ao cliente, como entrega de valor um modelo básico que reconheça, ainda que mínimamente, a planta de soja e suas vagens em uma dada imagem, marcando a posição dos elementos encontrados.</p>
-
-<h2><i>Sprint Backlog Completo</i></h2>
-<h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/backlogCompleto_Sprint01.png">
-
-<h2><i>Mock-ups</i></h2>
-<p align="center">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_1.png" height="420px">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_2.png" height="420px">
-       <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_3.png" height="420px">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Foto_das_Amostras.png" height="420px">
-</p>
-
-<h2>User Stories</h2>
-    <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/UserStories_Sprint01.png">
-
-<h3><i>Definition Of Ready</i></h3>
-<p align="justify">Para que o desenvolvimento de cada requisito seja iniciado, é necessário que ele seja compreendido detalhadamente e seja fragmentado em diversas tarefas para os desenvolvedores. Posto isso, cada uma das pequenas tarefas que são geradas recebem uma descrição do que deve ser feito e uma prioridade. Tarefas que são mais difíceis ou que podem impossibilitar a realização de outra tarefa, geralmente têm prioridade máxima. Por fim, os desenvolvedores podem, proativamente, iniciar uma <i>task</i>.</p>
-
-<h3><i>Definition Of Done</i></h3>
-<p align="justify">Para que cada uma das tarefas sejam dadas como prontas e finalizadas, é necessário que o código seja revisado a fim de evitar duplicação de código, propor possíves melhorias e verificar se realmente ele faz o que foi combinado. Após essa primeira avaliação, o sistema será executado pelo revisor a fim de verificar falhas e <i>bugs</i> que podem ter surgido após a implementação realizada. O código entrará em produção somente se estiver totalmente completo, validado e funcional.</p>
-
-  
-## Aplicação em funcionamento
-
+<h2>Aplicação em funcionamento</h2>
 
 <h2>:girl: Integrantes da equipe :boy:</h2>
 <ul>
