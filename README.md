@@ -56,18 +56,17 @@ Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da apl
 
 <h2><i>Product Backlog</i></h2>
 
+<p align="center">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint1.png" width="450px">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint2.png" width="450px">
+</p>
 
-<h3>Primeira Entrega 📇</h3>
- <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint1.png">
+<p align="center">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint3.png" width="450px">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint4.png" width="450px">
+</p>
 
-<h3>Segunda Entrega 📇</h3>
- <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint2.png">
-
-<h3>Terceira Entrega 📇</h3>
- <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint3.png">
-
-<h3>Quarta Entrega 📇</h3>
- <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint4.png">
+</br>
 
 <h2><i>Primeira entrega</i></h2>
 <p align="justify">Na primeira entrega, a equipe teve grande foco no estudo do conceito de <i>Inteligência Artificial</i>, <i>Redes neurais</i> e <i>Visão computacional</i> para que pudessemos oferecer, ao cliente, como entrega de valor um modelo básico que reconheça, ainda que mínimamente, a planta de soja e suas vagens em uma dada imagem, marcando a posição dos elementos encontrados.</p>
@@ -76,10 +75,12 @@ Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da apl
 <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/backlogCompleto_Sprint01.png">
 
 <h2><i>Mock-ups</i></h2>
-    <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_1.png">
-    <h2 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_2.png">
-    <h3 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_3.png">
-    <h4 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Foto_das_Amostras.png">
+<p align="center">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_1.png" height="500px">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_2.png" height="500px">
+       <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_3.png" height="500px">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Foto_das_Amostras.png" height="500px">
+</p>
 
 <h2>User Stories</h2>
     <h1 align="center"> <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/UserStories_Sprint01.png">
