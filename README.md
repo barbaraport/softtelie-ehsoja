@@ -41,28 +41,28 @@
         <td><p align="center">Entrega 1</p></td>
         <td><p align="justify">Treinamento de um modelo base para reconhecer e marcar os elementos da soja nas imagens de exemplo.</p></td>
         <td><p align="center">18/09</p></td>
-        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/tree/main/docs/Readmes/sprint_1">Visualizar</a></p></td>
+        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Readmes/sprint_1.md">Visualizar</a></p></td>
         <td><p align="center"><a href="">Baixar</a></p></td>
     </tr>
     <tr>
         <td><p align="center">Entrega 2</p></td>
         <td><p align="justify">O usuário poderá submeter imagens de seu plantio, que serão analisadas pelo algoritmo e visualizará os resultados.</p></td>
         <td><p align="center">09/10</p></td>
-        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/tree/main/docs/Readmes/sprint_2">Visualizar</a></p></td>
+        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/tree/main/docs/Readmes/sprint_2.md">Visualizar</a></p></td>
         <td><p align="center"><a href="#">Baixar</a></p></td>
     </tr>
     <tr>
         <td><p align="center">Entrega 3</p></td>
         <td><p align="justify">Contagem de vagens e atualização desses dados no banco de dados.</p></td>
         <td><p align="center">06/11</p></td>
-        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/tree/main/docs/Readmes/sprint_3">Visualizar</a></p></td>
+        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/tree/main/docs/Readmes/sprint_3.md">Visualizar</a></p></td>
         <td><p align="center"><a href="#">Baixar</a></p></td>
     </tr>
     <tr>
         <td><p align="center">Entrega 4</p></td>
         <td><p align="justify">Realizar a estimativa de quantos grãos de soja estão presentes na planta.</p></td>
         <td><p align="center">27/11</p></td>
-        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/tree/main/docs/Readmes/sprint_4">Visualizar</a></p></td>
+        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/tree/main/docs/Readmes/sprint_4.md">Visualizar</a></p></td>
         <td><p align="center"><a href="#">Baixar</a></p></td>
     </tr>
 </table>
