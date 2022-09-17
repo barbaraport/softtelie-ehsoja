@@ -57,13 +57,13 @@ Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da apl
 <h2><i>Product Backlog</i></h2>
 
 <p align="center">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint1.png" width="450px">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint2.png" width="450px">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint1.png" width="400px">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint2.png" width="400px">
 </p>
 
 <p align="center">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint3.png" width="450px">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint4.png" width="450px">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint3.png" width="400px">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint4.png" width="400px">
 </p>
 
 </br>
@@ -76,10 +76,10 @@ Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da apl
 
 <h2><i>Mock-ups</i></h2>
 <p align="center">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_1.png" height="500px">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_2.png" height="500px">
-       <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_3.png" height="500px">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Foto_das_Amostras.png" height="500px">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_1.png" height="450px">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_2.png" height="450px">
+       <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_3.png" height="450px">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Foto_das_Amostras.png" height="450px">
 </p>
 
 <h2>User Stories</h2>
