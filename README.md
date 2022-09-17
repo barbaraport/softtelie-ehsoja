@@ -76,10 +76,10 @@ Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da apl
 
 <h2><i>Mock-ups</i></h2>
 <p align="center">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_1.png" height="450px">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_2.png" height="450px">
-       <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_3.png" height="450px">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Foto_das_Amostras.png" height="450px">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_1.png" height="420px">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_2.png" height="420px">
+       <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Amostra_3.png" height="420px">
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Wireframes/before/Foto_das_Amostras.png" height="420px">
 </p>
 
 <h2>User Stories</h2>
