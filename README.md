@@ -14,7 +14,7 @@
 </p>
 
 <p align="justify">
-    O ehSoja é um novo módulo de para reconhecimento de plantas de soja dentro do <i>app</i> <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a>! O eSoja é uma aplicação <i>mobile</i> voltada ao público agricultor, em específico, agricultores de soja. O eSoja disponibiliza aos seus usuários funcionalidades que os ajudam a monitorar, controlar e obter previsões sobre seu plantio. Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da aplicação e uma inovação a ela. Atualmente o usuário necessita digitar manualmente a quantidade de vagens em uma planta para que ele possa estimar os dados da sua colheita. Sendo assim, desenvolvermos o upload de uma imagem da planta de soja e informações como quantia de vagens e grãos por vagem serão deduzidas através da análise desta imagem, garantindo mais rapidez e versatilidade ao usuário, que não precisará mais realizar esforço para obter a estimativa de colheita.
+    O ehSoja é um novo módulo de para reconhecimento de plantas de soja dentro do <i>app</i> <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a>! O eSoja é uma aplicação <i>mobile</i> voltada ao público agricultor, em específico, agricultores de soja. O eSoja disponibiliza aos seus usuários funcionalidades que os ajudam a monitorar, controlar e obter previsões sobre seu plantio e colheita. Nossa extensão do eSoja, o ehSoja, incrementa as funções nativas da aplicação e provê uma inovação a ela. Atualmente o usuário necessita digitar manualmente a quantidade de vagens em uma planta para que ele possa estimar os dados da sua colheita. Sendo assim, desenvolvermos o <i>upload</i> de uma imagem da planta de soja e informações como quantia de vagens e grãos por vagem serão deduzidas através da análise desta imagem, garantindo mais rapidez e versatilidade ao usuário, que não precisará mais realizar esforço para obter a estimativa de colheita.
 </p>
 
 <h2><i>Product Backlog</i>:pushpin:</h2>
@@ -42,33 +42,33 @@
         <td><p align="justify">Treinamento de um modelo base para reconhecer e marcar os elementos da soja nas imagens de exemplo.</p></td>
         <td><p align="center">18/09</p></td>
         <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Readmes/sprint_1.md">Visualizar</a></p></td>
-        <td><p align="center"><a href="">Baixar</a></p></td>
+        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/releases/tag/v0.1">Baixar</a></p></td>
     </tr>
     <tr>
         <td><p align="center">Entrega 2</p></td>
-        <td><p align="justify">O usuário poderá submeter imagens de seu plantio, que serão analisadas pelo algoritmo e visualizará os resultados.</p></td>
+        <td><p align="justify">O usuário poderá submeter imagens de seu plantio, que serão analisadas pelo algoritmo e poderá visualizar os resultados.</p></td>
         <td><p align="center">09/10</p></td>
         <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/tree/main/docs/Readmes/sprint_2.md">Visualizar</a></p></td>
-        <td><p align="center"><a href="#">Baixar</a></p></td>
+        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/releases/tag/v0.2">Baixar</a></p></td>
     </tr>
     <tr>
         <td><p align="center">Entrega 3</p></td>
         <td><p align="justify">Contagem de vagens e atualização desses dados no banco de dados.</p></td>
         <td><p align="center">06/11</p></td>
         <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/tree/main/docs/Readmes/sprint_3.md">Visualizar</a></p></td>
-        <td><p align="center"><a href="#">Baixar</a></p></td>
+        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/releases/tag/v0.3">Baixar</a></p></td>
     </tr>
     <tr>
         <td><p align="center">Entrega 4</p></td>
         <td><p align="justify">Realizar a estimativa de quantos grãos de soja estão presentes na planta.</p></td>
         <td><p align="center">27/11</p></td>
         <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/tree/main/docs/Readmes/sprint_4.md">Visualizar</a></p></td>
-        <td><p align="center"><a href="#">Baixar</a></p></td>
+        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/releases/tag/v0.4">Baixar</a></p></td>
     </tr>
 </table>
 
 <h2>:running_woman: ehSoja em funcionamento :computer::computer_mouse:</h2>
-<p align="justify">Abaixo estão as imagens que obtivemos a partir do treinamento do nosso modelo para a detecção das plantas e das suas vagens. Em alguns casos, as sombras foram reconhecidas como vagens, alguns pedaços das raízes das plantas e, também, algumas folhas. Devido a isso, precisamos implementar as melhorias para esses problemas.</p>
+<p align="justify">Abaixo estão as imagens que obtivemos a partir do treinamento do nosso modelo para a detecção das plantas e das suas vagens. Em alguns casos, as sombras foram reconhecidas como vagens, alguns pedaços das raízes das plantas e, também, algumas folhas. Devido a isso, precisamos implementar as devidas melhorias para esses problemas.</p>
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/10test_result_cropped.png"/>
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/11test_result_cropped.png"/>
