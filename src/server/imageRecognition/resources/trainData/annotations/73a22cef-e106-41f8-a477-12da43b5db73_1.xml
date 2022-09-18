@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>73a22cef-e106-41f8-a477-12da43b5db73_1.jpg</filename>
-	<path>/home/duda/Documents/API2/softtelie-ehsoja/src/server/imageRecognition/resources/trainData/images/73a22cef-e106-41f8-a477-12da43b5db73_1.jpg</path>
+	<path>C:\Users\port3\Desktop\augmentation_test\trainData\images\73a22cef-e106-41f8-a477-12da43b5db73_1.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>531</xmin>
+			<xmin>534</xmin>
 			<ymin>410</ymin>
 			<xmax>551</xmax>
-			<ymax>436</ymax>
+			<ymax>435</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -41,10 +41,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>544</xmin>
-			<ymin>466</ymin>
+			<xmin>548</xmin>
+			<ymin>469</ymin>
 			<xmax>567</xmax>
-			<ymax>490</ymax>
+			<ymax>488</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -91,7 +91,7 @@
 		<bndbox>
 			<xmin>525</xmin>
 			<ymin>558</ymin>
-			<xmax>550</xmax>
+			<xmax>544</xmax>
 			<ymax>579</ymax>
 		</bndbox>
 	</object>
@@ -127,8 +127,8 @@
 		<bndbox>
 			<xmin>509</xmin>
 			<ymin>405</ymin>
-			<xmax>532</xmax>
-			<ymax>426</ymax>
+			<xmax>529</xmax>
+			<ymax>425</ymax>
 		</bndbox>
 	</object>
 </annotation>

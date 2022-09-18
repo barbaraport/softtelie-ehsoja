@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>8b2a1b89-d731-4992-a8ab-7709894f989b_1.jpg</filename>
-	<path>C:\Users\port3\repositories\api-6-semestre\src\server\imageRecognition\resources\trainData\images\8b2a1b89-d731-4992-a8ab-7709894f989b_1.jpg</path>
+	<path>C:\Users\port3\Desktop\augmentation_test\trainData\images\8b2a1b89-d731-4992-a8ab-7709894f989b_1.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -31,8 +31,8 @@
 		<bndbox>
 			<xmin>510</xmin>
 			<ymin>582</ymin>
-			<xmax>540</xmax>
-			<ymax>598</ymax>
+			<xmax>536</xmax>
+			<ymax>597</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -42,8 +42,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>523</xmin>
-			<ymin>525</ymin>
-			<xmax>546</xmax>
+			<ymin>527</ymin>
+			<xmax>542</xmax>
 			<ymax>548</ymax>
 		</bndbox>
 	</object>
@@ -53,9 +53,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>559</xmin>
-			<ymin>550</ymin>
-			<xmax>582</xmax>
+			<xmin>560</xmin>
+			<ymin>552</ymin>
+			<xmax>579</xmax>
 			<ymax>567</ymax>
 		</bndbox>
 	</object>
@@ -78,9 +78,33 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>527</xmin>
-			<ymin>534</ymin>
-			<xmax>544</xmax>
+			<ymin>538</ymin>
+			<xmax>543</xmax>
 			<ymax>561</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pod</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>541</xmin>
+			<ymin>632</ymin>
+			<xmax>554</xmax>
+			<ymax>651</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pod</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>546</xmin>
+			<ymin>610</ymin>
+			<xmax>559</xmax>
+			<ymax>629</ymax>
 		</bndbox>
 	</object>
 </annotation>
