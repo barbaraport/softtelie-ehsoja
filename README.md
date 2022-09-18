@@ -67,7 +67,15 @@
     </tr>
 </table>
 
-<h2>Aplicação em funcionamento</h2>
+<h2>:running_woman: ehSoja em funcionamento :computer::computer_mouse:</h2>
+<p align="justify">Abaixo estão as imagens que obtivemos a partir do treinamento do nosso modelo para a detecção das plantas e das suas vagens. Em alguns casos, as sombras foram reconhecidas como vagens, alguns pedaços das raízes das plantas e, também, algumas folhas. Devido a isso, precisamos implementar as melhorias para esses problemas.</p>
+<p align="center">
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/10test_result_cropped.png"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/11test_result_cropped.png"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/14val_result_cropped.png"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/15test_result_cropped.png"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/15val_result_cropped.png"/>
+</p>
 
 <h2>:girl: Integrantes da equipe :boy:</h2>
 <ul>
