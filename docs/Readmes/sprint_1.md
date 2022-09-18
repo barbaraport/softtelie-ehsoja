@@ -23,7 +23,7 @@
   <p align="justify">Na sprint 1 decidimos iniciar o projeto dando um primeiro passo na identificação de vagens e sojas a partir das imagens de exemplo.
   </p>
   <p align="center">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/Readme/docs/Readmes/Backlog_Sprint1.png" width="348px"/>
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Backlog/Backlog_Sprint1.png" width="348px"/>
   </p>
   <h3>:grey_question: Por quê?</h3>
   <p align="justify">Reconhecer a planta e as suas vagens em uma é o passo que mais demanda um bom refinamento do modelo criado para o reconhecimento dessas características. Sendo assim, entregamos uma primeira versão de forma a mostrar o nosso potencial e receber <i>feedbacks</i> de forma mais rápida para termos mais chances de obter um modelo próximo à perfeição.</p>
@@ -43,7 +43,7 @@
 <h2 align="center"><i>Burndown</i> :date::chart_with_downwards_trend:</h3>
 <p align="justify">Durante a nossa <i>sprint</i> tivemos várias dificuldades técnicas pois inteligência artificial é um novo assunto para nós. Mesmo assim, nos esforçamos pois temos o compromisso de realizar a entrega ao nosso cliente.</p>
 <p align="center">
-  <img src=""/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Burndown/sprint_1.png"/>
 </p>
   
 <h2>:girl: Integrantes da equipe :boy:</h2>
