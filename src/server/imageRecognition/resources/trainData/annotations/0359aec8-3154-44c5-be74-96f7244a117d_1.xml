@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>0359aec8-3154-44c5-be74-96f7244a117d_1.jpg</filename>
-	<path>/home/duda/Documents/API2/softtelie-ehsoja/src/server/imageRecognition/resources/trainData/images/0359aec8-3154-44c5-be74-96f7244a117d_1.jpg</path>
+	<path>C:\Users\port3\Desktop\augmentation_test\trainData\images\0359aec8-3154-44c5-be74-96f7244a117d_1.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -41,7 +41,7 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>590</xmin>
+			<xmin>599</xmin>
 			<ymin>395</ymin>
 			<xmax>652</xmax>
 			<ymax>444</ymax>
@@ -53,8 +53,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>538</xmin>
-			<ymin>347</ymin>
+			<xmin>541</xmin>
+			<ymin>350</ymin>
 			<xmax>564</xmax>
 			<ymax>422</ymax>
 		</bndbox>
@@ -65,9 +65,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>462</xmin>
-			<ymin>421</ymin>
-			<xmax>528</xmax>
+			<xmin>464</xmin>
+			<ymin>424</ymin>
+			<xmax>515</xmax>
 			<ymax>466</ymax>
 		</bndbox>
 	</object>
@@ -79,8 +79,8 @@
 		<bndbox>
 			<xmin>410</xmin>
 			<ymin>392</ymin>
-			<xmax>467</xmax>
-			<ymax>449</ymax>
+			<xmax>459</xmax>
+			<ymax>447</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -89,10 +89,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>410</xmin>
-			<ymin>499</ymin>
-			<xmax>485</xmax>
-			<ymax>559</ymax>
+			<xmin>411</xmin>
+			<ymin>507</ymin>
+			<xmax>477</xmax>
+			<ymax>557</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -102,9 +102,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>471</xmin>
-			<ymin>651</ymin>
-			<xmax>498</xmax>
-			<ymax>716</ymax>
+			<ymin>656</ymin>
+			<xmax>493</xmax>
+			<ymax>710</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -113,10 +113,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>457</xmin>
+			<xmin>466</xmin>
 			<ymin>306</ymin>
 			<xmax>519</xmax>
-			<ymax>344</ymax>
+			<ymax>343</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -125,10 +125,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>455</xmin>
+			<xmin>463</xmin>
 			<ymin>216</ymin>
 			<xmax>507</xmax>
-			<ymax>230</ymax>
+			<ymax>231</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -149,10 +149,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>516</xmin>
+			<xmin>521</xmin>
 			<ymin>137</ymin>
 			<xmax>557</xmax>
-			<ymax>163</ymax>
+			<ymax>162</ymax>
 		</bndbox>
 	</object>
 	<object>

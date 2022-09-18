@@ -1,7 +1,7 @@
 <annotation>
 	<folder>images</folder>
 	<filename>6baa1dcb-fefa-4561-bfbf-50f1f4533dc1_1.jpg</filename>
-	<path>/home/duda/Documents/API2/softtelie-ehsoja/src/server/imageRecognition/resources/trainData/images/6baa1dcb-fefa-4561-bfbf-50f1f4533dc1_1.jpg</path>
+	<path>C:\Users\port3\Desktop\augmentation_test\trainData\images\6baa1dcb-fefa-4561-bfbf-50f1f4533dc1_1.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -141,6 +141,18 @@
 			<ymin>403</ymin>
 			<xmax>603</xmax>
 			<ymax>416</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pod</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>515</xmin>
+			<ymin>581</ymin>
+			<xmax>527</xmax>
+			<ymax>601</ymax>
 		</bndbox>
 	</object>
 </annotation>
