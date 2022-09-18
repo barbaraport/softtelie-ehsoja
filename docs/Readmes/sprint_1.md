@@ -15,12 +15,12 @@
 </p>
 
 <p align="justify">
-    O ehSoja é um novo módulo de para reconhecimento de plantas de soja dentro do <i>app</i> <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a>! O eSoja é uma aplicação <i>mobile</i> voltada ao público agricultor, em específico, agricultores de soja. O eSoja disponibiliza aos seus usuários funcionalidades que os ajudam a monitorar, controlar e obter previsões sobre seu plantio. Nossa extensão do eSoja, o ehSoja, incrementa as funcionalidades nativas da aplicação e uma inovação a ela. Atualmente o usuário necessita digitar manualmente a quantidade de vagens em uma planta para que ele possa estimar os dados da sua colheita. Sendo assim, desenvolvermos o upload de uma imagem da planta de soja e informações como quantia de vagens e grãos por vagem serão deduzidas através da análise desta imagem, garantindo mais rapidez e versatilidade ao usuário, que não precisará mais realizar esforço para obter a estimativa de colheita.
+    O ehSoja é um novo módulo de para reconhecimento de plantas de soja dentro do <i>app</i> <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a>! O eSoja é uma aplicação <i>mobile</i> voltada ao público agricultor, em específico, agricultores de soja. O eSoja disponibiliza aos seus usuários funcionalidades que os ajudam a monitorar, controlar e obter previsões sobre seu plantio e colheita. Nossa extensão do eSoja, o ehSoja, incrementa as funções nativas da aplicação e provê uma inovação a ela. Atualmente o usuário necessita digitar manualmente a quantidade de vagens em uma planta para que ele possa estimar os dados da sua colheita. Sendo assim, desenvolvermos o <i>upload</i> de uma imagem da planta de soja e informações como quantia de vagens e grãos por vagem serão deduzidas através da análise desta imagem, garantindo mais rapidez e versatilidade ao usuário, que não precisará mais realizar esforço para obter a estimativa de colheita.
 </p>
   
   <h2 align="center">:rainbow::spiral_calendar: Primeira Entrega :stars:</h2>
   <h3>:question: O que fizemos?</h3>
-  <p align="justify">Na sprint 1 decidimos iniciar o projeto dando um primeiro passo na identificação de vagens e sojas a partir das imagens de exemplo.
+  <p align="justify">Na <i>sprint</i> 1 decidimos iniciar o projeto dando um primeiro passo na identificação de plantas de soja e vagens a partir das imagens de exemplo que recebemos.
   </p>
   <p align="center">
     <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Backlog/Backlog_Sprint1.png" width="400px"/>
@@ -30,7 +30,7 @@
   <p align="justify">Reconhecer a planta e as suas vagens em uma é o passo que mais demanda um bom refinamento do modelo criado para o reconhecimento dessas características. Sendo assim, entregamos uma primeira versão de forma a mostrar o nosso potencial e receber <i>feedbacks</i> de forma mais rápida para termos mais chances de obter um modelo próximo à perfeição.</p>
   
 <h2>:running_woman: ehSoja em funcionamento :computer::computer_mouse:</h2>
-<p align="justify">Abaixo estão as imagens que obtivemos a partir do treinamento do nosso modelo para a detecção das plantas e das suas vagens. Em alguns casos, as sombras foram reconhecidas como vagens, alguns pedaços das raízes das plantas e, também, algumas folhas. Devido a isso, precisamos implementar as melhorias para esses problemas.</p>
+<p align="justify">Abaixo estão as imagens que obtivemos a partir do treinamento do nosso modelo para a detecção das plantas e das suas vagens. Em alguns casos, as sombras foram reconhecidas como vagens, alguns pedaços das raízes das plantas e, também, algumas folhas. Devido a isso, precisamos implementar as devidas melhorias para esses problemas.</p>
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/10test_result_cropped.png"/>
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/11test_result_cropped.png"/>
@@ -43,11 +43,10 @@
 <p align="justify">Para que o desenvolvimento de cada requisito seja iniciado, é necessário que ele seja compreendido detalhadamente e seja fragmentado em diversas tarefas para os desenvolvedores. Posto isso, cada uma das pequenas tarefas que são geradas recebem uma descrição do que deve ser feito e uma prioridade. Tarefas que são mais difíceis ou que podem impossibilitar a realização de outra tarefa, geralmente têm prioridade máxima. Por fim, os desenvolvedores podem, proativamente, iniciar uma <i>task</i>.</p>
 
 <h3><i>:crossed_flags: Definition Of Done :white_check_mark:</i></h3>
-<p align="justify">Para que cada uma das tarefas seja dada como prontas e finalizadas, é necessário que o código seja revisado a fim de evitar duplicação de código, propor possíveis melhorias e verificar se realmente ele faz o que foi combinado. Após essa primeira avaliação, o sistema será executado pelo revisor a fim de verificar falhas e <i>bugs</i> que podem ter surgido após a implementação realizada. O código entrará em produção somente se estiver totalmente completo, validado e funcional.</p>
-
+<p align="justify">Para que cada uma das tarefas seja dada como pronta e finalizada, é necessário que o código seja revisado a fim de evitar duplicação de código, propor possíveis melhorias e verificar se realmente ele faz o que foi combinado. Após essa primeira avaliação, o sistema será executado pelo revisor a fim de verificar falhas e <i>bugs</i> que podem ter surgido após a implementação realizada. O código entrará em produção somente se estiver totalmente completo, validado e funcional.</p>
 
 <h2 align="center"><i>Burndown</i> :date::chart_with_downwards_trend:</h3>
-<p align="justify">Durante a nossa <i>sprint</i> tivemos várias dificuldades técnicas pois inteligência artificial é um novo assunto para nós. Mesmo assim, nos esforçamos pois temos o compromisso de realizar a entrega ao nosso cliente.</p>
+<p align="justify">Durante a nossa <i>sprint</i> tivemos várias dificuldades técnicas pois inteligência artificial é um novo assunto para nós. Mesmo assim, nos esforçamos e mantivemos nosso foco, pois temos o compromisso de realizar uma entrega de valor ao nosso cliente.</p>
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Burndown/sprint_1.png"/>
 </p>
