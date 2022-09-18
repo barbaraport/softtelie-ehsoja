@@ -24,7 +24,7 @@
   </p>
   <p align="center">
     <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Backlog/Backlog_Sprint1.png" width="400px"/>
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Backlog/UserStories_Sprint01.png" width="400px"/>
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Backlog/UserStories_Sprint01.png" height="210px"/>
   </p>
   <h3>:grey_question: Por quê?</h3>
   <p align="justify">Reconhecer a planta e as suas vagens em uma é o passo que mais demanda um bom refinamento do modelo criado para o reconhecimento dessas características. Sendo assim, entregamos uma primeira versão de forma a mostrar o nosso potencial e receber <i>feedbacks</i> de forma mais rápida para termos mais chances de obter um modelo próximo à perfeição.</p>
