@@ -41,34 +41,34 @@ ehSoja is a new module for recognizing soybean plants through the <a href="https
         <td><p align="center">Sprint 1</p></td>
         <td><p align="justify">Training a base model to recognize and mark the soy elements on the example images.</p></td>
         <td><p align="center">18/09</p></td>
-        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Readmes/sprint_1.md">Visualizar</a></p></td>
-        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/releases/tag/v0.1">Baixar</a></p></td>
+        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Readmes/sprint_1.md">View</a></p></td>
+        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/releases/tag/v0.1">Download</a></p></td>
     </tr>
     <tr>
-        <td><p align="center">Entrega 2</p></td>
-        <td><p align="justify">O usuário poderá submeter imagens de seu plantio, que serão analisadas pelo algoritmo e poderá visualizar os resultados.</p></td>
+        <td><p align="center">Sprint 2</p></td>
+        <td><p align="justify">The user can submit images of his planting to be analyzed by the algorithm which will bring them the results.</p></td>
         <td><p align="center">09/10</p></td>
-        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/tree/main/docs/Readmes/sprint_2.md">Visualizar</a></p></td>
-        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/releases/tag/v0.2">Baixar</a></p></td>
+        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/tree/main/docs/Readmes/sprint_2.md">View</a></p></td>
+        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/releases/tag/v0.2">Download</a></p></td>
     </tr>
     <tr>
-        <td><p align="center">Entrega 3</p></td>
-        <td><p align="justify">Contagem de vagens e atualização desses dados no banco de dados.</p></td>
+        <td><p align="center">Sprint 3</p></td>
+        <td><p align="justify">Counting pods and updating its data in the database.</p></td>
         <td><p align="center">06/11</p></td>
-        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/tree/main/docs/Readmes/sprint_3.md">Visualizar</a></p></td>
-        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/releases/tag/v0.3">Baixar</a></p></td>
+        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/tree/main/docs/Readmes/sprint_3.md">View</a></p></td>
+        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/releases/tag/v0.3">Download</a></p></td>
     </tr>
     <tr>
-        <td><p align="center">Entrega 4</p></td>
-        <td><p align="justify">Realizar a estimativa de quantos grãos de soja estão presentes na planta.</p></td>
+        <td><p align="center">Sprint 4</p></td>
+        <td><p align="justify">Estimate how many soybeans there are in the plant.</p></td>
         <td><p align="center">27/11</p></td>
-        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/tree/main/docs/Readmes/sprint_4.md">Visualizar</a></p></td>
-        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/releases/tag/v0.4">Baixar</a></p></td>
+        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/tree/main/docs/Readmes/sprint_4.md">View</a></p></td>
+        <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/releases/tag/v0.4">Download</a></p></td>
     </tr>
 </table>
 
-<h2>:running_woman: ehSoja em funcionamento :computer::computer_mouse:</h2>
-<p align="justify">Abaixo estão as imagens que obtivemos a partir do treinamento do nosso modelo para a detecção das plantas e das suas vagens. Em alguns casos, as sombras foram reconhecidas como vagens, alguns pedaços das raízes das plantas e, também, algumas folhas. Devido a isso, precisamos implementar as devidas melhorias para esses problemas.</p>
+<h2>:running_woman: ehSoja in action :computer::computer_mouse:</h2>
+<p align="justify">Below we have the images obtained from training our model to detect plants and their pods. In some cases, shadows, pieces of plant roots and some leaves were also recognized as pods. Facing this, we need to implement appropriate improvements for these issues.</p>
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/10test_result_cropped.png"/>
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/11test_result_cropped.png"/>
@@ -77,7 +77,7 @@ ehSoja is a new module for recognizing soybean plants through the <a href="https
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/15val_result_cropped.png"/>
 </p>
 
-<h2>:girl: Integrantes da equipe :boy:</h2>
+<h2>:girl: Our team members :boy:</h2>
 <ul>
     <li><a href="https://www.linkedin.com/in/b%C3%A1rbara-port-402158198/">Bárbara dos Santos Port</a> (<i>Scrum Master</i>)</li>
     <li><a href="https://www.linkedin.com/in/rafael-furtado-613a9712a/">Rafael Furtado Rodrigues dos Santos </a>(<i>Product Owner</i>)</li>
