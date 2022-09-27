@@ -1,6 +1,5 @@
-from python:3.10
-copy src/ /src
-workdir src
-copy 'requirements.txt' 'requirements.txt'
-run ["pip","install", "-r", "requirements.txt"]
-cmd ["python", "main.py"]
+FROM python:3.7.14
+COPY requirements.txt app/requirements.txt
+COPY imageRecognition app/
+WORKDIR /app
+RUN "pip install requirements.txt"
