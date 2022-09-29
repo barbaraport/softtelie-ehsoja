@@ -16,22 +16,22 @@
 </p>
 
 <p align="justify">
-    O ehSoja é um novo módulo de para reconhecimento de plantas de soja dentro do <i>app</i> <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a>! O eSoja é uma aplicação <i>mobile</i> voltada ao público agricultor, em específico, agricultores de soja. O eSoja disponibiliza aos seus usuários funcionalidades que os ajudam a monitorar, controlar e obter previsões sobre seu plantio e colheita. Nossa extensão do eSoja, o ehSoja, incrementa as funções nativas da aplicação e provê uma inovação a ela. Atualmente o usuário necessita digitar manualmente a quantidade de vagens em uma planta para que ele possa estimar os dados da sua colheita. Sendo assim, desenvolvermos o <i>upload</i> de uma imagem da planta de soja e informações como quantia de vagens e grãos por vagem serão deduzidas através da análise desta imagem, garantindo mais rapidez e versatilidade ao usuário, que não precisará mais realizar esforço para obter a estimativa de colheita.
+ehSoja is a new module for recognizing soybean plants through the <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a> app! eSoja is a mobile application for the agricultors, in specific, soy farmers. eSoja provides its users with features that help them in monitoring, controlling and obtaining forecasts about their planting and harvesting. Our eSoja extension, ehSoja, enhances the native functions of the application and provides it with an innovation. Currently, the user needs to manually enter the number of pods within a plant so that the aplication can estimate the harvest data for them. Therefore, we developed the <i>upload</i> of a soybean plant image so that informations like the amount of pods and grains per pod can be deduced through an analysis of the image. This functionality guarantees agility and versatility to the user, who will no longer need to make an effort to obtain an estimate of his harvest.
 </p>
   
-  <h2 align="center">:rainbow::spiral_calendar: Primeira Entrega :stars:</h2>
+  <h2 align="center">:rainbow::spiral_calendar: First delivery :stars:</h2>
   <h3>:question: O que fizemos?</h3>
-  <p align="justify">Na <i>sprint</i> 1 decidimos iniciar o projeto dando um primeiro passo na identificação de plantas de soja e vagens a partir das imagens de exemplo que recebemos.
+  <p align="justify">In the 1st <i>sprint</i> we decided to start the project by taking a first step into the identification of soybean plants and its pods from the sample images we received.
   </p>
   <p align="center">
     <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Backlog/Backlog_Sprint1.png" width="400px"/>
     <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Backlog/UserStories_Sprint01.png" height="210px"/>
   </p>
-  <h3>:grey_question: Por quê?</h3>
-  <p align="justify">Reconhecer a planta e as suas vagens em uma é o passo que mais demanda um bom refinamento do modelo criado para o reconhecimento dessas características. Sendo assim, entregamos uma primeira versão de forma a mostrar o nosso potencial e receber <i>feedbacks</i> de forma mais rápida para termos mais chances de obter um modelo próximo à perfeição.</p>
+  <h3>:grey_question: Why?</h3>
+  <p align="justify">Recognizing the plant and its pods is requires time and a good refinement of the model the most. Therefore, we deliver this version in order to show our potential and receive <i>feedback</i> faster so that we have better chances of getting a model close to perfection.</p>
   
-<h2>:running_woman: ehSoja em funcionamento :computer::computer_mouse:</h2>
-<p align="justify">Abaixo estão as imagens que obtivemos a partir do treinamento do nosso modelo para a detecção das plantas e das suas vagens. Em alguns casos, as sombras foram reconhecidas como vagens, alguns pedaços das raízes das plantas e, também, algumas folhas. Devido a isso, precisamos implementar as devidas melhorias para esses problemas.</p>
+<h2>:running_woman: ehSoja running :computer::computer_mouse:</h2>
+<p align="justify">Down below we have the images obtained from training our model to detect plants and its pods. There are a few cases where the shadows, parts of plant roots and leaves were recognized as pods. That being said, we need to adjust our model looking forward to solve these issues.</p>
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/10test_result_cropped.png"/>
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/11test_result_cropped.png"/>
@@ -41,18 +41,18 @@
 </p>
   
 <h3><i>:crossed_flags: Definition Of Ready</i></h3>
-<p align="justify">Para que o desenvolvimento de cada requisito seja iniciado, é necessário que ele seja compreendido detalhadamente e seja fragmentado em diversas tarefas para os desenvolvedores. Posto isso, cada uma das pequenas tarefas que são geradas recebem uma descrição do que deve ser feito e uma prioridade. Tarefas que são mais difíceis ou que podem impossibilitar a realização de outra tarefa, geralmente têm prioridade máxima. Por fim, os desenvolvedores podem, proativamente, iniciar uma <i>task</i>.</p>
+<p align="justify">In order to start the development of each requirement, it must be well-comprehended and subdivided into several tasks for the developers. That being said, each of the small tasks generated receive a description of what must be done and its priority. Tasks that are more difficult may block the execution of another task, so they usually receive top priority. Finally, developers can proactively initiate a task.</p>
 
 <h3><i>:crossed_flags: Definition Of Done :white_check_mark:</i></h3>
-<p align="justify">Para que cada uma das tarefas seja dada como pronta e finalizada, é necessário que o código seja revisado a fim de evitar duplicação de código, propor possíveis melhorias e verificar se realmente ele faz o que foi combinado. Após essa primeira avaliação, o sistema será executado pelo revisor a fim de verificar falhas e <i>bugs</i> que podem ter surgido após a implementação realizada. O código entrará em produção somente se estiver totalmente completo, validado e funcional.</p>
+<p align="justify">For each task to be considered done, it is necessary to review the code in order to avoid conflicts, add improvements and verify if it meets its expectations. After the first evaluation, the reviewer will run the system in order to check if there are bugs or other issues that may have arisen after the implementation. The code will go into production only after this verification is complete.</p>
 
 <h2 align="center"><i>Burndown</i> :date::chart_with_downwards_trend:</h3>
-<p align="justify">Durante a nossa <i>sprint</i> tivemos várias dificuldades técnicas pois inteligência artificial é um novo assunto para nós. Mesmo assim, nos esforçamos e mantivemos nosso foco, pois temos o compromisso de realizar uma entrega de valor ao nosso cliente.</p>
+<p align="justify">During our sprint we had several technical difficulties as artificial intelligence is a new subject for us to work with. Even so, we made an effort and kept our focus, as we are committed to delivering value to our customers.</p>
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Burndown/sprint_1.png"/>
 </p>
   
-<h2>:girl: Integrantes da equipe :boy:</h2>
+<h2>:girl: Our team members :boy:</h2>
 <ul>
     <li><a href="https://www.linkedin.com/in/b%C3%A1rbara-port-402158198/">Bárbara dos Santos Port</a> (<i>Scrum Master</i>)</li>
     <li><a href="https://www.linkedin.com/in/rafael-furtado-613a9712a/">Rafael Furtado Rodrigues dos Santos </a>(<i>Product Owner</i>)</li>
