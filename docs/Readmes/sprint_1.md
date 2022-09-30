@@ -25,7 +25,7 @@ ehSoja is a new module for recognizing soybean plants through the <a href="https
   </p>
   <p align="center">
     <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Backlog/Backlog_Sprint1.png" width="400px"/>
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Backlog/UserStories_Sprint01.png" height="210px"/>
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/User%20Stories/UserStories_Sprint01.png" height="210px"/>
   </p>
   <h3>:grey_question: Why?</h3>
   <p align="justify">Recognizing the plant and its pods is requires time and a good refinement of the model the most. Therefore, we deliver this version in order to show our potential and receive <i>feedback</i> faster so that we have better chances of getting a model close to perfection.</p>
