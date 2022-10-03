@@ -34,8 +34,6 @@ ehSoja is a new module for recognizing soybean plants through the <a href="https
 <p align="justify">Abaixo estão os mocku-ups criados para a entrega, prints do resultado final e um GIF exemplificando o fluxo de utilização</p>
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/confirmacao.png"/>
-</p>
-<p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png"/>
 </p>
   
