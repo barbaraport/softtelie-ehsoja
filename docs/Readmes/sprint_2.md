@@ -21,17 +21,17 @@ ehSoja is a new module for recognizing soybean plants through the <a href="https
   
   <h2 align="center">:rainbow::spiral_calendar: MVP :stars:</h2>
   <h3>:question: What we did?</h3>
-  <p align="justify">In the 1st <i>sprint</i> we decided to start the project by taking a first step into the identification of soybean plants and its pods from the sample images we received.
+  <p align="justify">In the 2nd <i>sprint</i> nós fizemos a alteração da interface de cadastro de novas amostras para o talhão, ajustando-a para a que o usuário possa enviar imagens das plantas e conferir o resultado da sua análise com o modelo que criamos na 1th <i>sprint</i>
   </p>
   <p align="center">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Backlog/Backlog_Sprint1.png" width="400px"/>
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/User%20Stories/UserStories_Sprint01.png" height="210px"/>
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Backlog/Backlog_Sprint2.png" width="400px"/>
+    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/User%20Stories/UserStories_Sprint02.png" height="210px"/>
   </p>
   <h3>:grey_question: Why?</h3>
-  <p align="justify">Recognizing the plant and its pods is requires time and a good refinement of the model the most. Therefore, we deliver this version in order to show our potential and receive <i>feedback</i> faster so that we have better chances of getting a model close to perfection.</p>
+  <p align="justify">Visualizar o resultado da análise antes de confirmar seu registro é de suma importância para garantir uma integridade dos dados, pois dá ao usuário o poder de decidir se a análise ficou boa ou não</p>
   
 <h2>:running_woman: ehSoja running :computer::computer_mouse:</h2>
-<p align="justify">Down below we have the images obtained from training our model to detect plants and its pods. There are a few cases where the shadows, parts of plant roots and leaves were recognized as pods. That being said, we need to adjust our model looking forward to solve these issues.</p>
+<p align="justify">Abaixo estão os mocku-ups criados para a entrega, prints do resultado final e um GIF exemplificando o fluxo de utilização</p>
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/10test_result_cropped.png"/>
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/11test_result_cropped.png"/>
@@ -41,15 +41,15 @@ ehSoja is a new module for recognizing soybean plants through the <a href="https
 </p>
   
 <h3><i>:crossed_flags: Definition Of Ready</i></h3>
-<p align="justify">In order to start the development of each requirement, it must be well-comprehended and subdivided into several tasks for the developers. That being said, each of the small tasks generated receive a description of what must be done and its priority. Tasks that are more difficult may block the execution of another task, so they usually receive top priority. Finally, developers can proactively initiate a task.</p>
+<p align="justify">TO DO</p>
 
 <h3><i>:crossed_flags: Definition Of Done :white_check_mark:</i></h3>
-<p align="justify">For each task to be considered done, it is necessary to review the code in order to avoid conflicts, add improvements and verify if it meets its expectations. After the first evaluation, the reviewer will run the system in order to check if there are bugs or other issues that may have arisen after the implementation. The code will go into production only after this verification is complete.</p>
+<p align="justify">TO DO</p>
 
 <h2 align="center"><i>Burndown</i> :date::chart_with_downwards_trend:</h3>
-<p align="justify">During our sprint we had several technical difficulties as artificial intelligence is a new subject for us to work with. Even so, we made an effort and kept our focus, as we are committed to delivering value to our customers.</p>
+<p align="justify">TO DO</p>
 <p align="center">
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Burndown/sprint_1.png"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Burndown/sprint_2.png"/>
 </p>
   
 <h2>:girl: Our team members :boy:</h2>
