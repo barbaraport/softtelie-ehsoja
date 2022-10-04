@@ -21,24 +21,24 @@ ehSoja is a new module for recognizing soybean plants through the <a href="https
   
   <h2 align="center">:rainbow::spiral_calendar: MVP :stars:</h2>
   <h3>:question: What we did?</h3>
-  <p align="justify">In the 2nd <i>sprint</i> nós fizemos a alteração da interface de cadastro de novas amostras para o talhão, ajustando-a para a que o usuário possa enviar imagens das plantas e conferir o resultado da sua análise com o modelo que criamos na 1th <i>sprint</i>
+  <p align="justify">In the 2nd sprint we made changes in the new samples registration interface so that the user can send the images and verify it's analysis's results generated with the model we created in the 1st sprint.
   </p>
   <p align="center">
     <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Backlog/Backlog_Sprint2.png" width="400px"/>
     <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/User%20Stories/UserStories_Sprint02.png" height="210px"/>
   </p>
   <h3>:grey_question: Why?</h3>
-  <p align="justify">Visualizar o resultado da análise antes de confirmar seu registro é de suma importância para garantir uma integridade dos dados, pois dá ao usuário o poder de decidir se a análise ficou boa ou não</p>
+  <p align="justify">Viewing the analysis result before confirming your record is highly important to ensure data integrity, as it allows the user to decide whether the analysis was successful or not.</p>
   
 <h2>:running_woman: ehSoja running :computer::computer_mouse:</h2>
-<p align="justify">Abaixo estão os mocku-ups criados para a entrega, prints do resultado final e um GIF exemplificando o fluxo de utilização</p>
+<p align="justify">Below we have the mocku-ups created for the 2nd sprint, screenshots of the final result and a GIF exemplifying the flow of use.</p>
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/confirmacao.png"/>
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png"/>
 </p>
   
 <h3><i>:crossed_flags: Definition Of Ready</i></h3>
-<p align="justify">Para que a equipe pudesse iniciar a etapa de desenvolvimento, foram gerados os seguintes artefatos:</p>
+<p align="justify">The following artifacts were generated so that the team could start the development stage:</p>
 
 - Epics da sprint
 <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png"/>
@@ -50,12 +50,11 @@ ehSoja is a new module for recognizing soybean plants through the <a href="https
 <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png"/>
 
 <h3><i>:crossed_flags: Definition Of Done :white_check_mark:</i></h3>
-<p align="justify">Seguindo o backlog levantado para a entrega do produto de valor da sprint, os
-artefatos gerados ao cliente foram:</p>
+<p align="justify">Following the backlog gathered for the delivery of the sprint's valuable product, the artifacts generated for the costumer were:</p>
 
 - [Código fonte](https://github.com/barbaraport/softtelie-ehsoja/tree/main/src)
 
-- Nova funcionalidade na aplicação: O usuário agora pode visualizar o resultado da analise da imagem a ser submetida para se cadastrar uma nova amostra ao talhão
+- New functionality in the application: The user can now view the image analysis's result to be submitted for the registration of a new sample.
 <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png"/>
 
 <h2 align="center"><i>Burndown</i> :date::chart_with_downwards_trend:</h3>
