@@ -95,10 +95,7 @@ class ImageHandler:
         return Image.open(byte_image)
 
     @staticmethod
-    def save_to_base_64(plt):
-        fp = BytesIO()
-        plt.savefig(fp, format='jpg')
-
-        plt_as_b64 = base64.b64encode(fp.getvalue()).decode()
+    def save_to_base_64(image_bytes):
+        plt_as_b64 = base64.b64encode(image_bytes.read()).decode("utf-8")
 
         return plt_as_b64

@@ -12,6 +12,7 @@ import sys
 import random
 import itertools
 import colorsys
+from io import BytesIO
 
 import numpy as np
 from skimage.measure import find_contours
@@ -163,10 +164,15 @@ def display_instances(image, boxes, masks, class_ids, class_names,
             p = Polygon(verts, facecolor="none", edgecolor=color)
             ax.add_patch(p)
     ax.imshow(masked_image.astype(np.uint8))
+
+    plt_bytes = BytesIO()
+    plt.savefig(plt_bytes, format='png')
+    plt_bytes.seek(0)
+
     if auto_show:
         plt.show()
-    
-    return plt
+
+    return plt_bytes
 
 
 
