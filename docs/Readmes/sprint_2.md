@@ -38,10 +38,25 @@ ehSoja is a new module for recognizing soybean plants through the <a href="https
 </p>
   
 <h3><i>:crossed_flags: Definition Of Ready</i></h3>
-<p align="justify">TO DO</p>
+<p align="justify">Para que a equipe pudesse iniciar a etapa de desenvolvimento, foram gerados os seguintes artefatos:</p>
+
+- Epics da sprint
+<img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png"/>
+
+- User stories
+<img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png"/>
+
+- Mock-ups
+<img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png"/>
 
 <h3><i>:crossed_flags: Definition Of Done :white_check_mark:</i></h3>
-<p align="justify">TO DO</p>
+<p align="justify">Seguindo o backlog levantado para a entrega do produto de valor da sprint, os
+artefatos gerados ao cliente foram:</p>
+
+- [Código fonte](https://github.com/barbaraport/softtelie-ehsoja/tree/main/src)
+
+- Nova funcionalidade na aplicação: O usuário agora pode visualizar o resultado da analise da imagem a ser submetida para se cadastrar uma nova amostra ao talhão
+<img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png"/>
 
 <h2 align="center"><i>Burndown</i> :date::chart_with_downwards_trend:</h3>
 <p align="justify">TO DO</p>
