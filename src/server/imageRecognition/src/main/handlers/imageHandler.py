@@ -1,7 +1,14 @@
-import os, os.path, base64, uuid
+import base64
+import os
+import os.path
+import uuid
+from io import BytesIO
+from io import StringIO
+
+from PIL.Image import Image
 
 
-class imageHandler():
+class ImageHandler:
     '''
     Class for handling operations with images stored in the application
 
@@ -47,7 +54,7 @@ class imageHandler():
         imagePath = f"{self._resourcesFolder}\\userImages\\{stringUUID + '.jpg'}"
 
         # Garantindo unicidade do nome dos arquivos
-        while(os.path.exists(imagePath)):
+        while (os.path.exists(imagePath)):
             imageUUID = uuid.uuid4()
             stringUUID = str(imageUUID)
             imagePath = f"{self._resourcesFolder}\\userImages\\{stringUUID + '.jpg'}"
@@ -71,8 +78,27 @@ class imageHandler():
         '''
         imagePath = f"{self._resourcesFolder}\\{imagePath}"
         print(imagePath)
-        if(os.path.exists(imagePath)):
+        if (os.path.exists(imagePath)):
             with open(imagePath, 'rb') as photo:
                 return base64.b64encode(photo.read())
         else:
             raise Exception(f"Image with in the path {imagePath}, could not be found")
+
+    @staticmethod
+    def convert_to_pil_image(image):
+        """
+        converts the uploaded image into an Image (PIL object)
+
+        :param image: the original uploaded image
+        :return: the image opened by PIL
+        """
+        byte_image = BytesIO(image.stream.read())
+        return Image.open(byte_image)
+
+    @staticmethod
+    def save_to_base_64(plt):
+        fp = StringIO()
+        plt.savefig(fp, format='jpg')
+        fp.seek(0)
+
+        return base64.b64encode(fp.read())

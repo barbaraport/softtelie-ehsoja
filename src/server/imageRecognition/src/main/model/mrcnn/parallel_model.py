@@ -120,7 +120,7 @@ if __name__ == "__main__":
     GPU_COUNT = 2
 
     # Root directory of the project
-    ROOT_DIR = os.path.abspath("../")
+    ROOT_DIR = os.path.abspath("../../services/")
 
     # Directory to save logs and trained model
     MODEL_DIR = os.path.join(ROOT_DIR, "logs")

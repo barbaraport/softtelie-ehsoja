@@ -1,4 +1,4 @@
-from src.main.services.imageHandler import imageHandler
+from src.main.handlers.imageHandler import imageHandler
 
 
 def convertImageToBase64Test():

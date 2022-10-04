@@ -1,28 +1,47 @@
-from keras_preprocessing.image import load_img, img_to_array
+import base64
+import json
 
-from src.main.iaModel.EhSojaConfig import EhSojaConfig
-from src.main.services.mrcnn.model import MaskRCNN
-from src.main.services.mrcnn.visualize import display_instances
+from keras import backend as K
+from keras_preprocessing.image import img_to_array
+
+from src.main.model.ehSoja.EhSoja import load_trained_model
+from src.main.model.mrcnn.visualize import display_instances
+from src.main.handlers.imageHandler import ImageHandler
 
 
 class ImageRecognition:
 
     @staticmethod
-    def recognize_images():
-        config = EhSojaConfig()
-        model = MaskRCNN(mode="inference", config=config, model_dir="logs")
-        model.load_weights("./mask_rcnn_shapes_0006.h5", by_name=True)
+    def recognize_images(images):
+        K.clear_session()
 
-        class_names = ['BG', 'pod']
+        model = load_trained_model()
+        class_names = ['background', 'pod']
+        results = {}
 
-        img = load_img('image.jpg')
-        img = img_to_array(img)
+        index = 0
+        for image in images:
+            decoded_image = base64.b64decode(image)
+            pil_image = img_to_array(decoded_image)
 
-        results = model.detect([img], verbose=0)
-        r = results[0]
-        display_instances(img, r['rois'], r['masks'], r['class_ids'], class_names, r['scores'])
+            results = model.detect([pil_image])
+            r = results[0]
+            image_plt = display_instances(pil_image, r['rois'], r['masks'], r['class_ids'], class_names, r['scores'])
+            final_image_b64 = ImageHandler.save_to_base_64(image_plt)
 
-        classes = r['class_ids']
-        print("Total Objects found", len(classes))
-        for i in range(len(classes)):
-            print(class_names[classes[i]])
+            classes = r['class_ids']
+            print("Total Objects found", len(classes))
+
+            results = {
+                index: {
+                    "results": r,
+                    "image": final_image_b64
+                }
+            }
+
+        results = json.dumps(results)
+
+        K.clear_session()
+
+        return results
+
