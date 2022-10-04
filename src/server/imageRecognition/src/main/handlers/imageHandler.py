@@ -3,7 +3,6 @@ import os
 import os.path
 import uuid
 from io import BytesIO
-from io import StringIO
 
 from PIL.Image import Image
 
@@ -97,8 +96,9 @@ class ImageHandler:
 
     @staticmethod
     def save_to_base_64(plt):
-        fp = StringIO()
+        fp = BytesIO()
         plt.savefig(fp, format='jpg')
-        fp.seek(0)
 
-        return base64.b64encode(fp.read())
+        plt_as_b64 = base64.b64encode(fp.getvalue()).decode()
+
+        return plt_as_b64

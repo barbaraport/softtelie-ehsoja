@@ -2,6 +2,7 @@ import base64
 import json
 
 from keras import backend as K
+from keras.preprocessing.image import load_img
 from keras_preprocessing.image import img_to_array
 
 from src.main.model.ehSoja.EhSoja import load_trained_model
@@ -12,7 +13,7 @@ from src.main.handlers.imageHandler import ImageHandler
 class ImageRecognition:
 
     @staticmethod
-    def recognize_images(images):
+    def recognize_images():
         K.clear_session()
 
         model = load_trained_model()
@@ -20,8 +21,11 @@ class ImageRecognition:
         results = {}
 
         index = 0
+        images = ['D:\\api-6-semestre\\src\\server\\imageRecognition\\src\\main\\services\\image.jpg']
         for image in images:
-            decoded_image = base64.b64decode(image)
+            #decoded_image = base64.b64decode(image)
+            img = load_img(image)
+            decoded_image = img
             pil_image = img_to_array(decoded_image)
 
             results = model.detect([pil_image])
@@ -34,7 +38,6 @@ class ImageRecognition:
 
             results = {
                 index: {
-                    "results": r,
                     "image": final_image_b64
                 }
             }
