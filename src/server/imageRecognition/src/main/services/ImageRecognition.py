@@ -1,6 +1,7 @@
 import json
 
 from keras import backend as K
+from keras_preprocessing.image import img_to_array
 
 from src.main.model.ehSoja.EhSoja import load_trained_model
 from src.main.model.mrcnn.visualize import display_instances
@@ -15,30 +16,24 @@ class ImageRecognition:
 
         model = load_trained_model()
         class_names = ['background', 'pod']
-        results = {}
+        recognized_images = {}
 
         index = 0
         for image in images:
-
             pil_image = ImageHandler.convert_base_b4_to_pil_image(image)
+            img_array = img_to_array(pil_image)
 
-            results = model.detect([pil_image])
+            results = model.detect([img_array])
             r = results[0]
-            image_plt = display_instances(pil_image, r['rois'], r['masks'], r['class_ids'], class_names, r['scores'])
+            image_plt = display_instances(img_array, r['rois'], r['masks'], r['class_ids'], class_names, r['scores'])
             final_image_b64 = ImageHandler.save_to_base_64(image_plt)
 
-            classes = r['class_ids']
-            print("Total Objects found", len(classes))
+            recognized_images[index] = {"image": final_image_b64}
 
-            results = {
-                index: {
-                    "image": final_image_b64
-                }
-            }
+            index += 1
 
-        results = json.dumps(results)
+        recognized_images = json.dumps(recognized_images)
 
         K.clear_session()
 
-        return results
-
+        return recognized_images

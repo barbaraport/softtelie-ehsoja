@@ -169,8 +169,8 @@ def display_instances(image, boxes, masks, class_ids, class_names,
     plt.savefig(plt_bytes, format='png')
     plt_bytes.seek(0)
 
-    if auto_show:
-        plt.show()
+    # if auto_show:
+    #    plt.show()
 
     return plt_bytes
 
