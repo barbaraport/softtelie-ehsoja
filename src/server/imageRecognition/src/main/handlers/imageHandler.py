@@ -4,7 +4,7 @@ import os.path
 import uuid
 from io import BytesIO
 
-from PIL.Image import Image
+from PIL import Image
 
 
 class ImageHandler:
@@ -84,15 +84,17 @@ class ImageHandler:
             raise Exception(f"Image with in the path {imagePath}, could not be found")
 
     @staticmethod
-    def convert_to_pil_image(image):
-        """
-        converts the uploaded image into an Image (PIL object)
-
-        :param image: the original uploaded image
-        :return: the image opened by PIL
-        """
+    def convert_bytes_to_pil_image(image):
         byte_image = BytesIO(image.stream.read())
         return Image.open(byte_image)
+
+    @staticmethod
+    def convert_base_b4_to_pil_image(im_b64):
+        im_bytes = base64.b64decode(im_b64)
+        im_file = BytesIO(im_bytes)
+        img = Image.open(im_file)
+
+        return img
 
     @staticmethod
     def save_to_base_64(image_bytes):
