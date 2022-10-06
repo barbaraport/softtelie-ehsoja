@@ -18,6 +18,8 @@
 ehSoja is a new module for recognizing soybean plants through the <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a> app! eSoja is a mobile application for the agricultors, in specific, soy farmers. eSoja provides its users with features that help them in monitoring, controlling and obtaining forecasts about their planting and harvesting. Our eSoja extension, ehSoja, enhances the native functions of the application and provides it with an innovation. Currently, the user needs to manually enter the number of pods within a plant so that the aplication can estimate the harvest data for them. Therefore, we developed the <i>upload</i> of a soybean plant image so that informations like the amount of pods and grains per pod can be deduced through an analysis of the image. This functionality guarantees agility and versatility to the user, who will no longer need to make an effort to obtain an estimate of his harvest.
 </p>
 
+<p align="center">See the eSoja app with our modifications <a href="https://github.com/barbaraport/esoja-mobile">here</a>! Or see the eSoja server with our modifications <a href="https://github.com/barbaraport/esoja-api">here</a>!</p>
+
 <h2><i>Product Backlog</i>:pushpin:</h2>
 <p>We have four <i>sprints</i> dedicated to the development of our client's issue's solution. That being said, we prioritize the desired features according to the image below, so that each sprint review will have improvements over the previous one.</p>
 <p align="center">
