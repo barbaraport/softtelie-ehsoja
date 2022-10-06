@@ -77,18 +77,54 @@ to check if the identification is satisfatory</p></td>
 <p align="justify">The following artifacts were generated so that the team could start the development stage:</p>
 
 - Epics da sprint
-<img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png"/>
+<table>
+    <tr>
+        <td width="1000px"><p align="center">Create/change the old plant's registration interface to give to the user access to the new functionalities</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">Create an interface that allows the user to visualize the image analysis result</p></td>
+    </tr>
+</table>
 
 - User stories
-<img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png"/>
+<table>
+    <thead>
+        <th>Story :label:</th>
+        <th>Why :star:</th>
+    </thead>
+    <tr>
+        <td><p align="justify">I, as an user, have access to the new interface to register plants</p></td>
+        <td><p align="justify">With the access to the new interface, I can register a plant with the new requested data</p></td>
+    </tr>
+    <tr>
+        <td><p align="justify">I, as an user, can take a new photo by the application to register a plant</p></td>
+        <td><p align="justify">Taking a photo without have to photograph it previously make the process more faster</p></td>
+    </tr>
+    <tr>
+        <td><p align="justify">I, as an user, can choose a photo from my galery to register a plant</p></td>
+        <td><p align="justify">If I alredy has the photo of the plant that I want to register, choosing it from my galery will speed up the process</p></td>
+    </tr>
+    <tr>
+        <td><p align="justify">I, as an user, submit the plant’s photo to be analyzed</p></td>
+        <td><p align="justify">Submitting the plant's photo be analyzed will allow me to know if I submit a good photo</p></td>
+    </tr>
+    <tr>
+        <td><p align="justify">I, as an user, receive the analyzed image with the identified elements marked on it
+to check if the identification is satisfatory</p></td>
+        <td><p align="justify">Receiving the analyzed photo will allow me to check if the submited photo was good and ensure that I will only register if the analyzis satisfies me</p></td>
+    </tr>
+</table>
 
 - Mock-ups
-<img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png"/>
+<p align="center">
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/confirmacao.png"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png"/>
+</p>
 
 <h3><i>:crossed_flags: Definition Of Done :white_check_mark:</i></h3>
 <p align="justify">Following the backlog gathered for the delivery of the sprint's valuable product, the artifacts generated for the costumer were:</p>
 
-- [Código fonte](https://github.com/barbaraport/softtelie-ehsoja/tree/main/src)
+- [Source code](https://github.com/barbaraport/softtelie-ehsoja/tree/main/src)
 
 - New functionality in the application: The user can now view the image analysis's result to be submitted for the registration of a new sample.
 <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png"/>
