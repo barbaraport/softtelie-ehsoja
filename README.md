@@ -23,7 +23,7 @@ ehSoja is a new module for recognizing soybean plants through the <a href="https
 <h2><i>Product Backlog</i>:pushpin:</h2>
 <p>We have four <i>sprints</i> dedicated to the development of our client's issue's solution. That being said, we prioritize the desired features according to the image below, so that each sprint review will have improvements over the previous one.</p>
 
-<h2 align="center">Sprint 1</h2>
+<h2 align="center">:test_tube: Sprint 1</h2>
 <table>
     <tr>
         <td width="1000px"><p align="center">Basic model training for the recognition of soy plants :heavy_check_mark:</p></td>
