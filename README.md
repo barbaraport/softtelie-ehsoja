@@ -41,7 +41,7 @@ ehSoja is a new module for recognizing soybean plants through the <a href="https
         <td width="1000px"><p align="center">Create/change the old plant's registration interface to give to the user access to the new functionalities :heavy_check_mark:</p></td>
     </tr>
     <tr>
-        <td><p align="center">Create an interface that allows the user to visualize the image analysis resul :heavy_check_mark:t</p></td>
+        <td><p align="center">Create an interface that allows the user to visualize the image analysis result :heavy_check_mark:</p></td>
     </tr>
 </table>
 <h2 align="center">:bookmark_tabs: Sprint 3 :pencil:</h2>
