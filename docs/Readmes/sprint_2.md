@@ -42,15 +42,15 @@ ehSoja is a new module for recognizing soybean plants through the <a href="https
         <td><p align="justify">Taking a photo without have to photograph it previously make the process more faster</p></td>
     </tr>
     <tr>
-        <td><p align="center">I, as an user, can choose a photo from my galery to register a plant</p></td>
+        <td><p align="justify">I, as an user, can choose a photo from my galery to register a plant</p></td>
         <td><p align="justify">If I alredy has the photo of the plant that I want to register, choosing it from my galery will speed up the process</p></td>
     </tr>
     <tr>
-        <td><p align="center">I, as an user, submit the plant’s photo to be analyzed</p></td>
+        <td><p align="justify">I, as an user, submit the plant’s photo to be analyzed</p></td>
         <td><p align="justify">Submitting the plant's photo be analyzed will allow me to know if I submit a good photo</p></td>
     </tr>
     <tr>
-        <td><p align="center">I, as an user, receive the analyzed image with the identified elements marked on it
+        <td><p align="justify">I, as an user, receive the analyzed image with the identified elements marked on it
 to check if the identification is satisfatory</p></td>
         <td><p align="justify">Receiving the analyzed photo will allow me to check if the submited photo was good and ensure that I will only register if the analyzis satisfies me</p></td>
     </tr>
