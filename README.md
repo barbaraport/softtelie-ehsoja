@@ -18,16 +18,50 @@
 ehSoja is a new module for recognizing soybean plants through the <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a> app! eSoja is a mobile application for the agricultors, in specific, soy farmers. eSoja provides its users with features that help them in monitoring, controlling and obtaining forecasts about their planting and harvesting. Our eSoja extension, ehSoja, enhances the native functions of the application and provides it with an innovation. Currently, the user needs to manually enter the number of pods within a plant so that the aplication can estimate the harvest data for them. Therefore, we developed the <i>upload</i> of a soybean plant image so that informations like the amount of pods and grains per pod can be deduced through an analysis of the image. This functionality guarantees agility and versatility to the user, who will no longer need to make an effort to obtain an estimate of his harvest.
 </p>
 
+<p align="center">See the eSoja app with our modifications <a href="https://github.com/barbaraport/esoja-mobile">here</a>! Or see the eSoja server with our modifications <a href="https://github.com/barbaraport/esoja-api">here</a>!</p>
+
 <h2><i>Product Backlog</i>:pushpin:</h2>
 <p>We have four <i>sprints</i> dedicated to the development of our client's issue's solution. That being said, we prioritize the desired features according to the image below, so that each sprint review will have improvements over the previous one.</p>
-<p align="center">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Backlog/Backlog_Sprint1.png" width="400px">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Backlog/Backlog_Sprint2.png" width="400px">
-</p>
-<p align="center">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Backlog/Backlog_Sprint3.png" width="400px">
-    <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Backlog/Backlog_Sprint4.png" width="400px">
-</p>
+
+<h2 align="center">:test_tube: Sprint 1</h2>
+<table>
+    <tr>
+        <td width="1000px"><p align="center">Basic model training for the recognition of soy plants :heavy_check_mark:</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">Basic model training for recognition of pods in soy plants :heavy_check_mark:</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">Marking the pods found in the soy plant :heavy_check_mark:</p></td>
+    </tr>
+</table>
+<h2 align="center">:test_tube: Sprint 2</h2>
+<table>
+    <tr>
+        <td width="1000px"><p align="center">Create/change the old plant's registration interface to give to the user access to the new functionalities :heavy_check_mark:</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">Create an interface that allows the user to visualize the image analysis result :heavy_check_mark:</p></td>
+    </tr>
+</table>
+<h2 align="center">:test_tube: Sprint 3</h2>
+<table>
+    <tr>
+        <td width="1000px"><p align="center">Enhance the recogntion model of pods :triangular_flag_on_post:</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">Count how many pods have been found in the soy plant :triangular_flag_on_post:</p></td>
+    </tr>
+</table>
+<h2 align="center">:test_tube: Sprint 4</h2>
+<table>
+    <tr>
+        <td width="1000px"><p align="center">Train the model so it can  recognize the amount of seeds in each pod :triangular_flag_on_post:</p></td>
+    </tr>
+    <tr>
+        <td><p align="center">Fill in the total numbers of pods on the soy plant according to the image analysis :triangular_flag_on_post:</p></td>
+    </tr>
+</table>
 
 <h2>:calendar: Delivery Schedule :spiral_calendar:</h2>
 <table>
