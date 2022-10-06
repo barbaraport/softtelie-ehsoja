@@ -26,40 +26,40 @@ ehSoja is a new module for recognizing soybean plants through the <a href="https
 <h2 align="center">:bookmark_tabs: Sprint 1 :pencil:</h2>
 <table>
     <tr>
-        <td width="1000px"><p align="center">Basic model training for the recognition of soy plants</p></td>
+        <td width="1000px"><p align="center">Basic model training for the recognition of soy plants :heavy_check_mark:</p></td>
     </tr>
     <tr>
-        <td><p align="center">Basic model training for recognition of pods in soy plants</p></td>
+        <td><p align="center">Basic model training for recognition of pods in soy plants :heavy_check_mark:</p></td>
     </tr>
     <tr>
-        <td><p align="center">Marking the pods found in the soy plant</p></td>
+        <td><p align="center">Marking the pods found in the soy plant :heavy_check_mark:</p></td>
     </tr>
 </table>
 <h2 align="center">:bookmark_tabs: Sprint 2 :pencil:</h2>
 <table>
     <tr>
-        <td width="1000px"><p align="center">Create/change the old plant's registration interface to give to the user access to the new functionalities</p></td>
+        <td width="1000px"><p align="center">Create/change the old plant's registration interface to give to the user access to the new functionalities :heavy_check_mark:</p></td>
     </tr>
     <tr>
-        <td><p align="center">Create an interface that allows the user to visualize the image analysis result</p></td>
+        <td><p align="center">Create an interface that allows the user to visualize the image analysis resul :heavy_check_mark:t</p></td>
     </tr>
 </table>
 <h2 align="center">:bookmark_tabs: Sprint 3 :pencil:</h2>
 <table>
     <tr>
-        <td width="1000px"><p align="center">Enhance the recogntion model of pods</p></td>
+        <td width="1000px"><p align="center">Enhance the recogntion model of pods :triangular_flag_on_post:</p></td>
     </tr>
     <tr>
-        <td><p align="center">Count how many pods have been found in the soy plant</p></td>
+        <td><p align="center">Count how many pods have been found in the soy plant :triangular_flag_on_post:</p></td>
     </tr>
 </table>
 <h2 align="center">:bookmark_tabs: Sprint 4 :pencil:</h2>
 <table>
     <tr>
-        <td width="1000px"><p align="center">Train the model so it can  recognize the amount of seeds in each pod</p></td>
+        <td width="1000px"><p align="center">Train the model so it can  recognize the amount of seeds in each pod :triangular_flag_on_post:</p></td>
     </tr>
     <tr>
-        <td><p align="center">Fill in the total numbers of pods on the soy plant according to the image analysis</p></td>
+        <td><p align="center">Fill in the total numbers of pods on the soy plant according to the image analysis :triangular_flag_on_post:</p></td>
     </tr>
 </table>
 
