@@ -76,7 +76,7 @@ to check if the identification is satisfatory</p></td>
 <h3><i>:crossed_flags: Definition Of Ready</i></h3>
 <p align="justify">The following artifacts were generated so that the team could start the development stage:</p>
 
-- Epics da sprint
+- Sprint's epics
 <table>
     <tr>
         <td width="1000px"><p align="center">Create/change the old plant's registration interface to give to the user access to the new functionalities</p></td>
