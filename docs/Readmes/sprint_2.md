@@ -30,8 +30,8 @@ ehSoja is a new module for recognizing soybean plants through the <a href="https
 
 <table>
     <thead>
-        <th width=100px>Story :label:</th>
-        <th width=450px>Why :star:</th>
+        <th>Story :label:</th>
+        <th>Why :star:</th>
     </thead>
     <tr>
         <td><p align="justify">I, as an user, have access to the new interface to register plants</p></td>
