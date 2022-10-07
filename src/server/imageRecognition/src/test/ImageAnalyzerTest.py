@@ -2,7 +2,7 @@ import numpy
 import tensorflow
 from matplotlib import pyplot
 
-from src.main.iaModel.MnistImageAnalyzer import MnistImageAnalyzer
+from src.main.model.MnistImageAnalyzer import MnistImageAnalyzer
 
 
 def analyze(analyzer, indexToAnalyze, classNames, testImages, testLabels):
