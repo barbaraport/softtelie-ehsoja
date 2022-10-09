@@ -79,7 +79,7 @@ Compared to the last sprint, we started training a model that does the segmentat
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_2/ehSoja-Sprint-2.gif" height="600px"/>
 </p>
-<p align="justify">We have made several attempts to improve the IoU, Intersection over Union, which is calculated from the division between the detection masks and the masks annotated by us. Finally, we obtained a percentage of 20% similarity between the segments.
+<p align="justify">We have made several attempts to improve the IoU, Intersection over Union, which is calculated from the division between the detection masks and the masks annotated by us. Finally, we obtained a percentage of 20% similarity between the segmentations.
 
 Among one of the used techniques, we performed data augmentation to pass more examples to our model, but we obtained small advances. We will review all annotations made by us to verify they are correct, as well as ask to our teachers about other techniques.</p>
   
