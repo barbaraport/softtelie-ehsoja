@@ -73,6 +73,12 @@ to check if the identification is satisfatory</p></td>
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png" height="600px"/>
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/confirmacao.png" height="600px"/>
 </p>
+<p align="justify">For this sprint we integrated the application with the dispatch of the images and the recognition of the pods in the images. You can click on the preview preview option to quickly analyze only the chosen image, or finish importing all the images so that in the last step the request is made automatically and all the images are analyzed at once.
+
+Compared to the last sprint, we started training a model that does the segmentation of the pods, and not just their location in the image.</p>
+<p align="center">
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_2/ehSoja-Sprint-2.gif" height="600px"/>
+</p>
   
 <h3><i>:crossed_flags: Definition Of Ready</i></h3>
 <p align="justify">The following artifacts were generated so that the team could start the development stage:</p>
