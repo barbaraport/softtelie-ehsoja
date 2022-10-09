@@ -15,21 +15,21 @@
 </p>
 
 <p align="justify">
-ehSoja is a new module for recognizing soybean plants through the <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a> app! eSoja is a mobile application for the agricultors, in specific, soy farmers. eSoja provides its users with features that help them in monitoring, controlling and obtaining forecasts about their planting and harvesting. Our eSoja extension, ehSoja, enhances the native functions of the application and provides it with an innovation. Currently, the user needs to manually enter the number of pods within a plant so that the aplication can estimate the harvest data for them. Therefore, we developed the <i>upload</i> of a soybean plant image so that informations like the amount of pods and grains per pod can be deduced through an analysis of the image. This functionality guarantees agility and versatility to the user, who will no longer need to make an effort to obtain an estimate of his harvest.
+The ehSoja is a new module for recognizing soybean plants through the <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a> app! eSoja is a mobile application for the agricultors, in specific, soy farmers. eSoja provides its users with features that help them in monitoring, controlling and obtaining forecasts about their planting and harvesting. Our eSoja extension, ehSoja, enhances the native functions of the application and provides it with an innovation. Currently, the user needs to manually enter the number of pods within a plant so that the aplication can estimate the harvest data for them. Therefore, we developed the <i>upload</i> of a soybean plant image so that informations like the amount of pods and grains per pod can be deduced through an analysis of the image. This functionality guarantees agility and versatility to the user, who will no longer need to make effort to obtain an estimate of his harvest.
 </p>
 
-<p align="center">See the eSoja app with our modifications <a href="https://github.com/barbaraport/esoja-mobile">here</a>! Or see the eSoja server with our modifications <a href="https://github.com/barbaraport/esoja-api">here</a>!</p>
+<p align="center">🌱 See the eSoja app with our modifications <a href="https://github.com/barbaraport/esoja-mobile">here</a>! Or see the eSoja server with our modifications <a href="https://github.com/barbaraport/esoja-api">here</a>! 🌱</p>
 
 <h2><i>Product Backlog</i>:pushpin:</h2>
-<p>We have four <i>sprints</i> dedicated to the development of our client's issue's solution. That being said, we prioritize the desired features according to the image below, so that each sprint review will have improvements over the previous one.</p>
+<p>We have four sprints, each one lasting three weeks, dedicated to the development of our client's issue's solution. That being said, we prioritize the desired features according to the table below, so that each sprint will have improvements over the previous one.</p>
 
 <h2 align="center">:test_tube: Sprint 1</h2>
 <table>
     <tr>
-        <td width="1000px"><p align="center">Basic model training for the recognition of soy plants :heavy_check_mark:</p></td>
+        <td width="1000px"><p align="center">Basic model training to localize soy plants in an image :heavy_check_mark:</p></td>
     </tr>
     <tr>
-        <td><p align="center">Basic model training for recognition of pods in soy plants :heavy_check_mark:</p></td>
+        <td><p align="center">Basic model training to localize pods in soy plants within an image:heavy_check_mark:</p></td>
     </tr>
     <tr>
         <td><p align="center">Marking the pods found in the soy plant :heavy_check_mark:</p></td>
@@ -47,7 +47,7 @@ ehSoja is a new module for recognizing soybean plants through the <a href="https
 <h2 align="center">:test_tube: Sprint 3</h2>
 <table>
     <tr>
-        <td width="1000px"><p align="center">Enhance the recogntion model of pods :triangular_flag_on_post:</p></td>
+        <td width="1000px"><p align="center">Enhance the recognition model of pods :triangular_flag_on_post:</p></td>
     </tr>
     <tr>
         <td><p align="center">Count how many pods have been found in the soy plant :triangular_flag_on_post:</p></td>
@@ -56,7 +56,7 @@ ehSoja is a new module for recognizing soybean plants through the <a href="https
 <h2 align="center">:test_tube: Sprint 4</h2>
 <table>
     <tr>
-        <td width="1000px"><p align="center">Train the model so it can  recognize the amount of seeds in each pod :triangular_flag_on_post:</p></td>
+        <td width="1000px"><p align="center">Train the model so it can recognize the amount of seeds in each pod :triangular_flag_on_post:</p></td>
     </tr>
     <tr>
         <td><p align="center">Fill in the total numbers of pods on the soy plant according to the image analysis :triangular_flag_on_post:</p></td>
@@ -74,28 +74,28 @@ ehSoja is a new module for recognizing soybean plants through the <a href="https
     </thead>
     <tr>
         <td><p align="center">Sprint 1</p></td>
-        <td><p align="justify">Training a base model to recognize and mark the soy elements on the example images.</p></td>
+        <td><p align="justify">Training a base model to recognize and mark the soy elements on the example images</p></td>
         <td><p align="center">18/09</p></td>
         <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Readmes/sprint_1.md">View</a></p></td>
         <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/releases/tag/v0.1">Download</a></p></td>
     </tr>
     <tr>
         <td><p align="center">Sprint 2</p></td>
-        <td><p align="justify">The user can submit images of his planting to be analyzed by the algorithm which will bring them the results.</p></td>
+        <td><p align="justify">The user can submit images of his planting to be analyzed by the algorithm which will return the results</p></td>
         <td><p align="center">09/10</p></td>
         <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/tree/main/docs/Readmes/sprint_2.md">View</a></p></td>
         <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/releases/tag/v0.2">Download</a></p></td>
     </tr>
     <tr>
         <td><p align="center">Sprint 3</p></td>
-        <td><p align="justify">Counting pods and updating its data in the database.</p></td>
+        <td><p align="justify">Counting pods and updating its data in the database</p></td>
         <td><p align="center">06/11</p></td>
         <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/tree/main/docs/Readmes/sprint_3.md">View</a></p></td>
         <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/releases/tag/v0.3">Download</a></p></td>
     </tr>
     <tr>
         <td><p align="center">Sprint 4</p></td>
-        <td><p align="justify">Estimate how many soybeans there are in the plant.</p></td>
+        <td><p align="justify">Estimate how many soybeans there are in the soy plant</p></td>
         <td><p align="center">27/11</p></td>
         <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/tree/main/docs/Readmes/sprint_4.md">View</a></p></td>
         <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/releases/tag/v0.4">Download</a></p></td>
@@ -103,13 +103,9 @@ ehSoja is a new module for recognizing soybean plants through the <a href="https
 </table>
 
 <h2>:running_woman: ehSoja in action :computer::computer_mouse:</h2>
-<p align="justify">Below we have the images obtained from training our model to detect plants and their pods. In some cases, shadows, pieces of plant roots and some leaves were also recognized as pods. Facing this, we need to implement appropriate improvements for these issues.</p>
+<p align="justify">Will be added soon!</p>
 <p align="center">
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/10test_result_cropped.png"/>
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/11test_result_cropped.png"/>
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/14val_result_cropped.png"/>
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/15test_result_cropped.png"/>
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_1/15val_result_cropped.png"/>
+  <img src="#"/>
 </p>
 
 <h2>:girl: Our team members :boy:</h2>
