@@ -103,9 +103,11 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 </table>
 
 <h2>:running_woman: ehSoja in action :computer::computer_mouse:</h2>
-<p align="justify">Will be added soon!</p>
+<p align="justify">For this sprint we integrated the application with the dispatch of the images and the recognition of the pods in the images. You can click on the preview preview option to quickly analyze only the chosen image, or finish importing all the images so that in the last step the request is made automatically and all the images are analyzed at once.
+
+Compared to the last sprint, we started training a model that does the segmentation of the pods, and not just their location in the image.</p>
 <p align="center">
-  <img src="#"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_2/ehSoja-Sprint-2.gif" height="600px"/>
 </p>
 
 <h2>:girl: Our team members :boy:</h2>
