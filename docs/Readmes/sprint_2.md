@@ -16,9 +16,10 @@
 </p>
 
 <p align="justify">
-ehSoja is a new module for recognizing soybean plants through the <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a> app! eSoja is a mobile application for the agricultors, in specific, soy farmers. eSoja provides its users with features that help them in monitoring, controlling and obtaining forecasts about their planting and harvesting. Our eSoja extension, ehSoja, enhances the native functions of the application and provides it with an innovation. Currently, the user needs to manually enter the number of pods within a plant so that the aplication can estimate the harvest data for them. Therefore, we developed the <i>upload</i> of a soybean plant image so that informations like the amount of pods and grains per pod can be deduced through an analysis of the image. This functionality guarantees agility and versatility to the user, who will no longer need to make an effort to obtain an estimate of his harvest.
+The ehSoja is a new module for recognizing soybean plants through the <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a> app! eSoja is a mobile application for the agricultors, in specific, soy farmers. eSoja provides its users with features that help them in monitoring, controlling and obtaining forecasts about their planting and harvesting. Our eSoja extension, ehSoja, enhances the native functions of the application and provides it with an innovation. Currently, the user needs to manually enter the number of pods within a plant so that the aplication can estimate the harvest data for them. Therefore, we developed the <i>upload</i> of a soybean plant image so that informations like the amount of pods and grains per pod can be deduced through an analysis of the image. This functionality guarantees agility and versatility to the user, who will no longer need to make effort to obtain an estimate of his harvest.
 </p>
-  
+
+<p align="center">🌱 See the eSoja app with our modifications <a href="https://github.com/barbaraport/esoja-mobile">here</a>! Or see the eSoja server with our modifications <a href="https://github.com/barbaraport/esoja-api">here</a>! 🌱</p>
 
 <h2 align="center">:bookmark_tabs: Sprint backlog :pencil:</h2>
 <table>
@@ -37,16 +38,16 @@ ehSoja is a new module for recognizing soybean plants through the <a href="https
         <th>Why :star:</th>
     </thead>
     <tr>
-        <td><p align="justify">I, as an user, have access to the new interface to register plants</p></td>
+        <td><p align="justify">I, as an user, have access to the new interface to register a plant</p></td>
         <td><p align="justify">With the access to the new interface, I can register a plant with the new requested data</p></td>
     </tr>
     <tr>
         <td><p align="justify">I, as an user, can take a new photo by the application to register a plant</p></td>
-        <td><p align="justify">Taking a photo without have to photograph it previously make the process more faster</p></td>
+        <td><p align="justify">Taking a photo without have to photograph it previously make the steps be faster</p></td>
     </tr>
     <tr>
         <td><p align="justify">I, as an user, can choose a photo from my galery to register a plant</p></td>
-        <td><p align="justify">If I alredy has the photo of the plant that I want to register, choosing it from my galery will speed up the process</p></td>
+        <td><p align="justify">If I already has the photo of the plant that I want to register, choosing it from my galery will speed up the steps</p></td>
     </tr>
     <tr>
         <td><p align="justify">I, as an user, submit the plant’s photo to be analyzed</p></td>
@@ -55,22 +56,22 @@ ehSoja is a new module for recognizing soybean plants through the <a href="https
     <tr>
         <td><p align="justify">I, as an user, receive the analyzed image with the identified elements marked on it
 to check if the identification is satisfatory</p></td>
-        <td><p align="justify">Receiving the analyzed photo will allow me to check if the submited photo was good and ensure that I will only register if the analyzis satisfies me</p></td>
+        <td><p align="justify">Receiving the analyzed photo will allow me to check if the submitted photo was good and ensure that I will only register if the analysis satisfies me</p></td>
     </tr>
 </table>
 
   <h3>:question: What we did?</h3>
-  <p align="justify">In the 2nd sprint we made changes in the new samples registration interface so that the user can send the images and verify it's analysis's results generated with the model we created in the 1st sprint.
+  <p align="justify">In the 2nd sprint we made changes in the new samples registration interface so that the user can send the images and verify it's analysis results generated with the model we trained in the 1st sprint.
   </p>
 
   <h3>:grey_question: Why?</h3>
   <p align="justify">Viewing the analysis result before confirming your record is highly important to ensure data integrity, as it allows the user to decide whether the analysis was successful or not.</p>
   
 <h2>:running_woman: ehSoja running :computer::computer_mouse:</h2>
-<p align="justify">Below we have the mocku-ups created for the 2nd sprint, screenshots of the final result and a GIF exemplifying the flow of use.</p>
+<p align="justify">Below we have the mock-ups created for the 2nd sprint and a GIF exemplifying the flow of use inside the eSoja app.</p>
 <p align="center">
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/confirmacao.png"/>
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png" height="600px"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/confirmacao.png" height="600px"/>
 </p>
   
 <h3><i>:crossed_flags: Definition Of Ready</i></h3>
@@ -93,16 +94,16 @@ to check if the identification is satisfatory</p></td>
         <th>Why :star:</th>
     </thead>
     <tr>
-        <td><p align="justify">I, as an user, have access to the new interface to register plants</p></td>
+        <td><p align="justify">I, as an user, have access to the new interface to register a plant</p></td>
         <td><p align="justify">With the access to the new interface, I can register a plant with the new requested data</p></td>
     </tr>
     <tr>
         <td><p align="justify">I, as an user, can take a new photo by the application to register a plant</p></td>
-        <td><p align="justify">Taking a photo without have to photograph it previously make the process more faster</p></td>
+        <td><p align="justify">Taking a photo without have to photograph it previously make the steps be faster</p></td>
     </tr>
     <tr>
         <td><p align="justify">I, as an user, can choose a photo from my galery to register a plant</p></td>
-        <td><p align="justify">If I alredy has the photo of the plant that I want to register, choosing it from my galery will speed up the process</p></td>
+        <td><p align="justify">If I already has the photo of the plant that I want to register, choosing it from my galery will speed up the steps</p></td>
     </tr>
     <tr>
         <td><p align="justify">I, as an user, submit the plant’s photo to be analyzed</p></td>
@@ -111,14 +112,14 @@ to check if the identification is satisfatory</p></td>
     <tr>
         <td><p align="justify">I, as an user, receive the analyzed image with the identified elements marked on it
 to check if the identification is satisfatory</p></td>
-        <td><p align="justify">Receiving the analyzed photo will allow me to check if the submited photo was good and ensure that I will only register if the analyzis satisfies me</p></td>
+        <td><p align="justify">Receiving the analyzed photo will allow me to check if the submitted photo was good and ensure that I will only register if the analysis satisfies me</p></td>
     </tr>
 </table>
 
 - Mock-ups
 <p align="center">
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/confirmacao.png"/>
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png" height="600px"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/confirmacao.png" height="600px"/>
 </p>
 
 <h3><i>:crossed_flags: Definition Of Done :white_check_mark:</i></h3>
@@ -126,11 +127,13 @@ to check if the identification is satisfatory</p></td>
 
 - [Source code](https://github.com/barbaraport/softtelie-ehsoja/tree/main/src)
 
-- New functionality in the application: The user can now view the image analysis's result to be submitted for the registration of a new sample.
-<img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png"/>
+- New functionality in the application: The user can now view the image analysis result to be submitted for the registration of a new sample.
+<p align="center">
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png"/>
+</p>
 
 <h2 align="center"><i>Burndown</i> :date::chart_with_downwards_trend:</h3>
-<p align="justify">TO DO</p>
+<p align="justify">Taking a look at the burndown of the 2nd sprint, it was possible to see that most of the time we were behind schedule. The detection of the sent image was successfully implemented and without any delays, but its integration with the application was difficult, since the application code is complex. We tried our best to get a better result at the end of the sprint and in the last few days we dedicated ourselves to carrying out all our documentation.</p>
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Burndown/sprint_2.png"/>
 </p>
