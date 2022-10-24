@@ -37,3 +37,20 @@ class ImageRecognition:
         K.clear_session()
 
         return recognized_images
+
+    @staticmethod
+    def countPods(base64Image):
+        K.clear_session()
+
+        model = load_trained_model()
+
+        pil_image = ImageHandler.convert_base_b4_to_pil_image(base64Image)
+        img_array = img_to_array(pil_image)
+
+        results = model.detect([img_array])[0]
+
+        podsFound = len(results["rois"])
+
+        K.clear_session()
+
+        return podsFound
