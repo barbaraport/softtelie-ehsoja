@@ -1,6 +1,7 @@
 import os
 import cv2
 import numpy as np
+import imutils
 
 IMAGE_SIZE = 128
 
@@ -27,26 +28,12 @@ def treat_images(folder_name):
 def resize(image):
     height, width = image.shape[:2]
 
-    if height > IMAGE_SIZE and width > IMAGE_SIZE:
-        new_height = height
-        new_width = width
-        while new_height > IMAGE_SIZE:
-            new_height = new_height - 4
-
-        while new_width > IMAGE_SIZE:
-            new_width = new_width - 4
-        
-        dimension = (new_width, new_height)
-    elif height > IMAGE_SIZE:
-        dimension = (width, IMAGE_SIZE)
+    if height > IMAGE_SIZE:
+        return imutils.resize(image, height=IMAGE_SIZE)
     elif width > IMAGE_SIZE:
-        dimension = (IMAGE_SIZE, height)
+        return imutils.resize(image, width=IMAGE_SIZE)
     else:
-        dimension = (IMAGE_SIZE, IMAGE_SIZE)
-    
-    dim = (round(dimension[0]), round(dimension[1]))
-    
-    return cv2.resize(image, dim, interpolation = cv2.INTER_AREA)
+        return cv2.resize(image, width=IMAGE_SIZE, height=IMAGE_SIZE)
 
 
 def equalize_histogram(image, clip = 1.5, tile = 8):
@@ -67,7 +54,7 @@ def fill_image(image):
 
     original_image_height, original_image_width = image.shape[:2]
 
-    blank_image = np.zeros((IMAGE_SIZE, IMAGE_SIZE, 3), np.uint8)
+    blank_image = np.zeros((IMAGE_SIZE * 2, IMAGE_SIZE * 2, 3), np.uint8)
     blank_image[:, :] = (0, 0, 0)
     blank_image_height, blank_image_width = blank_image.shape[:2]
 
