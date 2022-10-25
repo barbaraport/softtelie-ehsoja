@@ -26,7 +26,7 @@ import argparse
 # 图像均为cv2读取
 class DataAugmentForObjectDetection():
     def __init__(self,
-                 change_light_rate=0.5,
+                 change_light_rate=0.25,
                  add_noise_rate=0.5,
                  random_point=0.5,
                  flip_rate=0.5,
@@ -93,7 +93,7 @@ class DataAugmentForObjectDetection():
             x_min = min(x_min, points[:, 0].min())
             y_min = min(y_min, points[:, 1].min())
             x_max = max(x_max, points[:, 0].max())
-            y_max = max(y_max, points[:, 0].max())
+            y_max = max(y_max, points[:, 1].max())
 
         d_to_left = x_min  # 包含所有目标框的最大左移动距离
         d_to_right = w - x_max  # 包含所有目标框的最大右移动距离
@@ -171,7 +171,7 @@ class DataAugmentForObjectDetection():
             if self.is_flip_pic_bboxes or 1:
                 if random.random() < self.flip_rate:  # 翻转
                     change_num += 1
-                    img, bboxes = self._flip_pic_bboxes(img, dic_info)
+                    img, dic_info = self._flip_pic_bboxes(img, dic_info)
 
         return img, dic_info
 
@@ -180,7 +180,7 @@ class DataAugmentForObjectDetection():
 class ToolHelper():
     # 从json文件中提取原始标定的信息
     def parse_json(self, path):
-        with open(path)as f:
+        with open(path, encoding='utf-8') as f:
             json_data = json.load(f)
         return json_data
 
@@ -199,13 +199,13 @@ class ToolHelper():
     # 保持json结果
 
     def save_json(self, file_name, save_folder, dic_info):
-        with open(os.path.join(save_folder, file_name), 'w') as f:
+        with open(os.path.join(save_folder, file_name), 'w', encoding='UTF-8') as f:
             json.dump(dic_info, f, indent=2)
 
 
 if __name__ == '__main__':
 
-    need_aug_num = 11  # 每张图片需要增强的次数
+    need_aug_num = 15  # 每张图片需要增强的次数
 
     toolhelper = ToolHelper()  # 工具
 
