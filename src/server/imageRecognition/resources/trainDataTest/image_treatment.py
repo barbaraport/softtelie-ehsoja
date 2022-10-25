@@ -27,13 +27,20 @@ def treat_images(folder_name):
 
 def resize(image):
     height, width = image.shape[:2]
+    new_image_size = IMAGE_SIZE
+    
+    while new_image_size >= IMAGE_SIZE or new_image_size >= IMAGE_SIZE:
 
-    if height > IMAGE_SIZE:
-        return imutils.resize(image, height=IMAGE_SIZE)
-    elif width > IMAGE_SIZE:
-        return imutils.resize(image, width=IMAGE_SIZE)
-    else:
-        return cv2.resize(image, width=IMAGE_SIZE, height=IMAGE_SIZE)
+        if height > new_image_size:
+            resized =  imutils.resize(image, height=new_image_size)
+        elif width > new_image_size:
+            resized =  imutils.resize(image, width=new_image_size)
+        else:
+            resized =  cv2.resize(image, width=new_image_size, height=new_image_size)
+        
+        new_image_size -= 2
+    
+    return resized
 
 
 def equalize_histogram(image, clip = 1.5, tile = 8):
@@ -54,7 +61,7 @@ def fill_image(image):
 
     original_image_height, original_image_width = image.shape[:2]
 
-    blank_image = np.zeros((IMAGE_SIZE * 2, IMAGE_SIZE * 2, 3), np.uint8)
+    blank_image = np.zeros((1024, 1024, 3), np.uint8)
     blank_image[:, :] = (0, 0, 0)
     blank_image_height, blank_image_width = blank_image.shape[:2]
 
