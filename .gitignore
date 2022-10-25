@@ -5,6 +5,7 @@ src/server/imageRecognition/notebooks/modelTraining/*
 src/server/imageRecognition/notebooks/dependencies/*
 *.h5
 src/server/imageRecognition/resources/trainDataTest/train_data_augmented/*
+src/server/imageRecognition/resources/trainDataTest/more_images/treated/*
 
 
 

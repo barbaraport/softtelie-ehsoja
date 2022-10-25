@@ -2,6 +2,8 @@ import os
 import cv2
 import numpy as np
 
+IMAGE_SIZE = 128
+
 def treat_images(folder_name):
     images_path = os.listdir(folder_name)
 
@@ -13,7 +15,7 @@ def treat_images(folder_name):
 
         resized_image = image_to_resize
 
-        if original_image_height > 1024 or original_image_width > 1024:
+        if original_image_height > IMAGE_SIZE or original_image_width > IMAGE_SIZE:
             resized_image = resize(image_to_resize)
 
         equalized_image = equalize_histogram(resized_image)
@@ -25,16 +27,26 @@ def treat_images(folder_name):
 def resize(image):
     height, width = image.shape[:2]
 
-    if height > 1024:
-        dimension = (width, 1024)
-    elif width > 1024:
-        dimension = (1024, height)
-    elif height > 1024 and width > 1024:
-        dimension = (1024, 1024)
-        # to implement in the future if exists
-        # a case where the image is bigger than 1024x1024
+    if height > IMAGE_SIZE and width > IMAGE_SIZE:
+        new_height = height
+        new_width = width
+        while new_height > IMAGE_SIZE:
+            new_height = new_height - 4
+
+        while new_width > IMAGE_SIZE:
+            new_width = new_width - 4
+        
+        dimension = (new_width, new_height)
+    elif height > IMAGE_SIZE:
+        dimension = (width, IMAGE_SIZE)
+    elif width > IMAGE_SIZE:
+        dimension = (IMAGE_SIZE, height)
+    else:
+        dimension = (IMAGE_SIZE, IMAGE_SIZE)
     
-    return cv2.resize(image, dimension, interpolation = cv2.INTER_AREA)
+    dim = (round(dimension[0]), round(dimension[1]))
+    
+    return cv2.resize(image, dim, interpolation = cv2.INTER_AREA)
 
 
 def equalize_histogram(image, clip = 1.5, tile = 8):
@@ -55,7 +67,7 @@ def fill_image(image):
 
     original_image_height, original_image_width = image.shape[:2]
 
-    blank_image = np.zeros((1024, 1024, 3), np.uint8)
+    blank_image = np.zeros((IMAGE_SIZE, IMAGE_SIZE, 3), np.uint8)
     blank_image[:, :] = (0, 0, 0)
     blank_image_height, blank_image_width = blank_image.shape[:2]
 
@@ -70,11 +82,11 @@ def fill_image(image):
 
 
 def save(image_name, image):
-    path = "train_data_without_augmentation/stage1_train/images/" + image_name
+    path = "more_images/treated/" + image_name
 
     print("[INFO] Saving image at: " + path)
     
     cv2.imwrite(path, image)
 
 
-treat_images("rawImages")
+treat_images("more_images/raw")
