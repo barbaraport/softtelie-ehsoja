@@ -205,7 +205,7 @@ class ToolHelper():
 
 if __name__ == '__main__':
 
-    need_aug_num = 15  # 每张图片需要增强的次数
+    need_aug_num = 10  # 每张图片需要增强的次数
 
     toolhelper = ToolHelper()  # 工具
 
@@ -215,8 +215,8 @@ if __name__ == '__main__':
 
     # 获取相关参数
     parser = argparse.ArgumentParser()
-    parser.add_argument('--source_img_json_path', type=str, default='train_data_without_augmentation')
-    parser.add_argument('--save_img_json_path', type=str, default='train_data_augmented')
+    parser.add_argument('--source_img_json_path', type=str, default='more_images/treated')
+    parser.add_argument('--save_img_json_path', type=str, default='more_images/augmented')
     args = parser.parse_args()
     source_img_json_path = args.source_img_json_path  # 图片和json文件原始位置
     save_img_json_path = args.save_img_json_path  # 图片增强结果保存文件

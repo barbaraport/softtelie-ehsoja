@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 import imutils
 
-IMAGE_SIZE = 128
+IMAGE_SIZE = 1024
 
 def treat_images(folder_name):
     images_path = os.listdir(folder_name)
@@ -76,11 +76,11 @@ def fill_image(image):
 
 
 def save(image_name, image):
-    path = "more_images/treated/" + image_name
+    path = "resized/"+ str(IMAGE_SIZE) + image_name
 
     print("[INFO] Saving image at: " + path)
     
     cv2.imwrite(path, image)
 
 
-treat_images("more_images/raw")
+treat_images("cropedIamgeSamples")
