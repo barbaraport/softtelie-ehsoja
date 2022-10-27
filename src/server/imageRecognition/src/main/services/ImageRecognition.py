@@ -23,7 +23,7 @@ class ImageRecognition:
             pil_image = ImageHandler.convert_base_b4_to_pil_image(image)
             img_array = img_to_array(pil_image)
 
-            results = model.detect([img_array])
+            results = model.detect([img_array], verbose=1)
             r = results[0]
             image_plt = display_instances(img_array, r['rois'], r['masks'], r['class_ids'], class_names, r['scores'])
             final_image_b64 = ImageHandler.save_to_base_64(image_plt)
