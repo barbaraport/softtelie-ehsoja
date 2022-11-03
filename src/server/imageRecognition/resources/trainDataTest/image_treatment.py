@@ -82,7 +82,7 @@ def fill_image(image):
 
 
 def save(image_name, image):
-    path = "gray/"+ str(IMAGE_SIZE) + image_name
+    path = "gray/" + image_name
 
     print("[INFO] Saving image at: " + path)
     
