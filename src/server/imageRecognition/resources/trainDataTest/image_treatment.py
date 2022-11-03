@@ -9,20 +9,21 @@ def treat_images(folder_name):
     images_path = os.listdir(folder_name)
 
     for image_path in images_path:
-        path = folder_name + "\\" + image_path
-        image_to_resize = cv2.imread(path)
+        if '.jpg' in image_path or '.png' in image_path or '.jpeg' in image_path:
+            path = folder_name + "\\" + image_path
+            image_to_resize = cv2.imread(path)
 
-        original_image_height, original_image_width = image_to_resize.shape[:2]
+            original_image_height, original_image_width = image_to_resize.shape[:2]
 
-        resized_image = image_to_resize
+            resized_image = image_to_resize
 
-        if original_image_height > IMAGE_SIZE or original_image_width > IMAGE_SIZE:
-            resized_image = resize(image_to_resize)
+            if original_image_height > IMAGE_SIZE or original_image_width > IMAGE_SIZE:
+                resized_image = resize(image_to_resize)
 
-        equalized_image = equalize_histogram(resized_image)
-        filled_image = fill_image(equalized_image)
-        
-        save(image_path, filled_image)
+            gray_image = convert_to_gray(resized_image)
+            filled_image = fill_image(gray_image)
+            
+            save(image_path, filled_image)
 
 
 def resize(image):
@@ -48,13 +49,18 @@ def equalize_histogram(image, clip = 1.5, tile = 8):
     lab_image = cv2.cvtColor(image, cv2.COLOR_RGB2LAB)
 
     # contrast limited adaptive histogram equalization (CLAHE)
-    clahe = cv2.createCLAHE(clipLimit=clip,tileGridSize=(tile,tile))
+    clahe = cv2.createCLAHE(clipLimit=clip, tileGridSize=(tile,tile))
 
     lab_image[:,:,0] = clahe.apply(lab_image[:,:,0])
 
     equalized_image = cv2.cvtColor(lab_image, cv2.COLOR_LAB2RGB)
 
     return equalized_image
+
+
+def convert_to_gray(image):
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    return cv2.cvtColor(gray, cv2.COLOR_GRAY2BGR)
 
 
 def fill_image(image):
@@ -76,11 +82,11 @@ def fill_image(image):
 
 
 def save(image_name, image):
-    path = "resized/"+ str(IMAGE_SIZE) + image_name
+    path = "gray/"+ str(IMAGE_SIZE) + image_name
 
     print("[INFO] Saving image at: " + path)
     
     cv2.imwrite(path, image)
 
 
-treat_images("cropedIamgeSamples")
+treat_images("train_data_without_augmentation")
