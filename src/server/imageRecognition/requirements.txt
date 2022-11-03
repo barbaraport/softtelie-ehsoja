@@ -5,9 +5,9 @@ tensorflow==1.13.1
 Flask
 matplotlib
 Pillow
-numpy
 IPython
 scipy
 cython
-scikit-image
 opencv-python
+scikit-image==0.16.2
+numpy==1.18.5
