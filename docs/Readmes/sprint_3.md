@@ -24,15 +24,15 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 <h2 align="center">:bookmark_tabs: Sprint backlog :pencil:</h2>
 <table>
     <tr>
-        <td width="1000px"><p align="center">Melhorar o modelo de reconhecimento de vagens</p></td>
+        <td width="1000px"><p align="center">Improve the pod's recognition model</p></td>
     </tr>
     <tr>
-        <td><p align="center">Realizar a contagem de quantas vagens foram identificadas</p></td>
+        <td><p align="center">Perform the count of how many pods has been identified</p></td>
     <tr>
-        <td><p align="center">Atualizar o banco de dados com as informações extraídas da análise da imagem</p></td>
+        <td><p align="center">Updates the database with the extracted information from the image analysis</p></td>
     </tr>
     <tr>
-        <td><p align="center">Atualizar a interface de estatísticas para exibir ao usuário a quantia de vagens identificadas</p></td>
+        <td><p align="center">Review the statistics interface to show to the user the amount of identified pods</p></td>
     </tr>
 </table>
 
@@ -43,28 +43,28 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
         <th>Why :star:</th>
     </thead>
     <tr>
-        <td><p align="justify">Eu, como usuário, submeto uma requisição para o cadastro de novas amostras de plantas</p></td>
-        <td><p align="justify">Com o cadastro de novos amostras, posso atualizar as informações do meu talhão</p></td>
+        <td><p align="justify">I, as an user, submit a request to register new plants samples</p></td>
+        <td><p align="justify">With the register of new samples, I can update the informations of my plot</p></td>
     </tr>
     <tr>
-        <td><p align="justify">Eu, como usuário, consigo visualizar, na página de estatísticas do talhão, as amostras cadastradas</p></td>
-        <td><p align="justify">Visualizar as amostras cadastradas me garante que o meu registro foi bem sucedido</p></td>
+        <td><p align="justify">I, as an user, can visualize, in the page of the plot's statistics, the registered samples</p></td>
+        <td><p align="justify">Visualize the registered samples ensures to me that the register was well succeeded</p></td>
     </tr>
     <tr>
-        <td><p align="justify">Eu, como usuário, consigo ver, nos detalhes das amostras na página de estatísticas, a quantia de vagens identificadas na imagem</p></td>
-        <td><p align="justify">Ao saber quantas vagens foram identificadas pela análise, posso tomar decisões posteriores baseadas nisso</p></td>
+        <td><p align="justify">I, as an user, can visualize, in the details of the samples in the statistics page, the amount of identified pods in the image</p></td>
+        <td><p align="justify">Knowing how mano pods has been identified by the analysis, I can take later decisions based on that</p></td>
     </tr>
 </table>
 
   <h3>:question: What we did?</h3>
-  <p align="justify">TO-DO
+  <p align="justify">In the 3rd sprint, we updated the database model to reflect the new data that a register of a new sample for a plot represents now, changed the page of statistics of a plot to show this new data and performs adjusts in the detection model in a way that it can better detect the pods in an image.
   </p>
 
   <h3>:grey_question: Why?</h3>
-  <p align="justify">TO-DO</p>
+  <p align="justify">Updating the database model and chaging the statistics page to show the new information grants to the user the possibility to know exactly what informations the detection model has extracted from the image, and, the adjusts in the model was done to make it perform a better extraction of the informations within the given image.</p>
   
 <h2>:running_woman: ehSoja running :computer::computer_mouse:</h2>
-<p align="justify">TO-DO</p>
+<p align="justify">In the GIF bellow, it's shown the registration of a new plant sample for the plot with the analysis of the image. After the registration, the user access the statistics page and is show to him the informations extracted from the analysis, in specially the amount of pods detected by the detection model.</p>
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_3/ehSoja-Sprint-3.gif" height="600px"/>
 </p>
@@ -75,15 +75,15 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 - Sprint's epics
 <table>
     <tr>
-        <td width="1000px"><p align="center">Melhorar o modelo de reconhecimento de vagens</p></td>
+        <td width="1000px"><p align="center">Improve the pod's recognition model</p></td>
     </tr>
     <tr>
-        <td><p align="center">Realizar a contagem de quantas vagens foram identificadas</p></td>
+        <td><p align="center">Perform the count of how many pods has been identified</p></td>
     <tr>
-        <td><p align="center">Atualizar o banco de dados com as informações extraídas da análise da imagem</p></td>
+        <td><p align="center">Updates the database with the extracted information from the image analysis</p></td>
     </tr>
     <tr>
-        <td><p align="center">Atualizar a interface de estatísticas para exibir ao usuário a quantia de vagens identificadas</p></td>
+        <td><p align="center">Review the statistics interface to show to the user the amount of identified pods</p></td>
     </tr>
 </table>
 
@@ -94,23 +94,27 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
         <th>Why :star:</th>
     </thead>
     <tr>
-        <td><p align="justify">Eu, como usuário, submeto uma requisição para o cadastro de novas amostras de plantas</p></td>
-        <td><p align="justify">Com o cadastro de novos amostras, posso atualizar as informações do meu talhão</p></td>
+        <td><p align="justify">I, as an user, submit a request to register new plants samples</p></td>
+        <td><p align="justify">With the register of new samples, I can update the informations of my plot</p></td>
     </tr>
     <tr>
-        <td><p align="justify">Eu, como usuário, consigo visualizar, na página de estatísticas do talhão, as amostras cadastradas</p></td>
-        <td><p align="justify">Visualizar as amostras cadastradas me garante que o meu registro foi bem sucedido</p></td>
+        <td><p align="justify">I, as an user, can visualize, in the page of the plot's statistics, the registered samples</p></td>
+        <td><p align="justify">Visualize the registered samples ensures to me that the register was well succeeded</p></td>
     </tr>
     <tr>
-        <td><p align="justify">Eu, como usuário, consigo ver, nos detalhes das amostras na página de estatísticas, a quantia de vagens identificadas na imagem</p></td>
-        <td><p align="justify">Ao saber quantas vagens foram identificadas pela análise, posso tomar decisões posteriores baseadas nisso</p></td>
+        <td><p align="justify">I, as an user, can visualize, in the details of the samples in the statistics page, the amount of identified pods in the image</p></td>
+        <td><p align="justify">Knowing how mano pods has been identified by the analysis, I can take later decisions based on that</p></td>
     </tr>
 </table>
 
 - Mock-ups
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png" height="600px"/>
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/confirmacao.png" height="600px"/>
+</p>
+
+- New database model: The table with the color indicates the modified table in the new model.
+<p align="center">
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Modelo%20de%20dados/modelo_sprint_3.png" height="600px"/>
 </p>
 
 <h3><i>:crossed_flags: Definition Of Done :white_check_mark:</i></h3>
@@ -118,8 +122,17 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 
 - [Source code](https://github.com/barbaraport/softtelie-ehsoja/tree/main/src)
 
+- New functionality in the application: The user can now view in the plot's statistics page the extracted information of the image.
+<p align="center">
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_3/ehSoja-Sprint-3.gif" height="600px"/>
+</p>
+
+- The pod's recognition model was improved to be recognize the pods in the given image.
+
+- The database model was updated to reflect the new data that is generated when registering a sample.
+
 <h2 align="center"><i>Burndown</i> :date::chart_with_downwards_trend:</h3>
-<p align="justify">TO-DO</p>
+<p align="justify">Looking at the burndown of the sprint, it's possible to see that the team was ahead of the time with the completion of the tasks, which results in more time to be afford on the improvement of the recognition model.</p>
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Burndown/sprint_3.png"/>
 </p>
