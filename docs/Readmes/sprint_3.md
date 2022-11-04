@@ -109,7 +109,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 
 - Mock-ups
 <p align="center">
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/after/registro.png" height="600px"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/sprint_3/newStatisticsPage.jpeg" height="600px"/>
 </p>
 
 - New database model: The table with the color indicates the modified table in the new model.
