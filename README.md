@@ -107,7 +107,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 
 Compared to the last sprint, we started training a model that does the segmentation of the pods, and not just their location in the image.</p>
 <p align="center">
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_2/ehSoja-Sprint-2.gif" height="600px"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_3/ehSoja-Sprint-3.gif" height="600px"/>
 </p>
 <p align="justify">We have made several attempts to improve the IoU, Intersection over Union, which is calculated from the division between the detection masks and the masks annotated by us. Finally, we obtained a percentage of 20% similarity between the segmentations.
 

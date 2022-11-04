@@ -65,6 +65,9 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
   
 <h2>:running_woman: ehSoja running :computer::computer_mouse:</h2>
 <p align="justify">TO-DO</p>
+<p align="center">
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_3/ehSoja-Sprint-3.gif" height="600px"/>
+</p>
   
 <h3><i>:crossed_flags: Definition Of Ready</i></h3>
 <p align="justify">The following artifacts were generated so that the team could start the development stage:</p>
