@@ -29,10 +29,10 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
     <tr>
         <td><p align="center">Count the amount of identified pods</p></td>
     <tr>
-        <td><p align="center">Atualizar o banco de dados com as informações extraídas da análise da imagem</p></td>
+        <td><p align="center">Update de database with the data extracted from the image analysis</p></td>
     </tr>
     <tr>
-        <td><p align="center">Atualizar a interface de estatísticas para exibir ao usuário a quantia de vagens identificadas</p></td>
+        <td><p align="center"> Update the stactistics interface, which shows the amount of identified pods to the user</p></td>
     </tr>
 </table>
 
@@ -48,15 +48,15 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
     </tr>
     <tr>
         <td><p align="justify">I, as an user, at the planting's stactistics page, can view the registered samples</p></td>
-        <td><p align="justify">Viewing the registered samples guarantees that my upload was successful</p></td>
+        <td><p align="justify">By viewing the registered samples, I have the guarantee that my upload was successful</p></td>
     </tr>
     <tr>
         <td><p align="justify">I, as an user, from the planting's stactistics page, can view the amount of identified pods of an image in the sample's details</p></td>
-        <td><p align="justify">Knowing the amount of pods identified by the analysis, posso tomar decisões posteriores baseadas nisso</p></td>
+        <td><p align="justify">Knowing the amount of pods identified by the analysis, I can take decisions based on it afterwards</p></td>
     </tr>
 </table>
 
-  <h3>:question: What we did?</h3>
+  <h3>:question: What was done?</h3>
   <p align="justify">TO-DO
   </p>
 
@@ -75,15 +75,15 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 - Sprint's epics
 <table>
     <tr>
-        <td width="1000px"><p align="center">Melhorar o modelo de reconhecimento de vagens</p></td>
+        <td width="1000px"><p align="center">Improve the pods recognization model</p></td>
     </tr>
     <tr>
-        <td><p align="center">Realizar a contagem de quantas vagens foram identificadas</p></td>
+        <td><p align="center">Count the amount of identified pods</p></td>
     <tr>
-        <td><p align="center">Atualizar o banco de dados com as informações extraídas da análise da imagem</p></td>
+        <td><p align="center">Update de database with the data extracted from the image analysis</p></td>
     </tr>
     <tr>
-        <td><p align="center">Atualizar a interface de estatísticas para exibir ao usuário a quantia de vagens identificadas</p></td>
+        <td><p align="center"> Update the stactistics interface, which shows the amount of identified pods to the user</p></td>
     </tr>
 </table>
 
@@ -94,16 +94,16 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
         <th>Why :star:</th>
     </thead>
     <tr>
-        <td><p align="justify">Eu, como usuário, submeto uma requisição para o cadastro de novas amostras de plantas</p></td>
-        <td><p align="justify">Com o cadastro de novos amostras, posso atualizar as informações do meu talhão</p></td>
+        <td><p align="justify">I, as an user, can submit a request the registration of new plant samples</p></td>
+        <td><p align="justify">With the new registered samples, I can update my planting's data</p></td>
     </tr>
     <tr>
-        <td><p align="justify">Eu, como usuário, consigo visualizar, na página de estatísticas do talhão, as amostras cadastradas</p></td>
-        <td><p align="justify">Visualizar as amostras cadastradas me garante que o meu registro foi bem sucedido</p></td>
+        <td><p align="justify">I, as an user, at the planting's stactistics page, can view the registered samples</p></td>
+        <td><p align="justify">By viewing the registered samples, I have the guarantee that my upload was successful</p></td>
     </tr>
     <tr>
-        <td><p align="justify">Eu, como usuário, consigo ver, nos detalhes das amostras na página de estatísticas, a quantia de vagens identificadas na imagem</p></td>
-        <td><p align="justify">Ao saber quantas vagens foram identificadas pela análise, posso tomar decisões posteriores baseadas nisso</p></td>
+        <td><p align="justify">I, as an user, from the planting's stactistics page, can view the amount of identified pods of an image in the sample's details</p></td>
+        <td><p align="justify">Knowing the amount of pods identified by the analysis, I can take decisions based on it afterwards</p></td>
     </tr>
 </table>
 
