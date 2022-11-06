@@ -29,7 +29,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
     <tr>
         <td><p align="center">Perform the count of how many pods has been identified</p></td>
     <tr>
-        <td><p align="center">Updates the database with the extracted information from the image analysis</p></td>
+        <td><p align="center">Update the database with the extracted information from the image analysis</p></td>
     </tr>
     <tr>
         <td><p align="center">Review the statistics interface to show to the user the amount of identified pods</p></td>
@@ -80,7 +80,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
     <tr>
         <td><p align="center">Perform the count of how many pods has been identified</p></td>
     <tr>
-        <td><p align="center">Updates the database with the extracted information from the image analysis</p></td>
+        <td><p align="center">Update the database with the extracted information from the image analysis</p></td>
     </tr>
     <tr>
         <td><p align="center">Review the statistics interface to show to the user the amount of identified pods</p></td>
@@ -112,7 +112,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Mockups/sprint_3/newStatisticsPage.jpeg" height="600px"/>
 </p>
 
-- New database model: The table with the color indicates the modified table in the new model.
+- New database model: The table with the reddish color indicates the modified table in the new database model.
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Modelo%20de%20dados/modelo_sprint_3.png" height="600px"/>
 </p>
