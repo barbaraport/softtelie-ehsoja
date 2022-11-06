@@ -85,7 +85,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 <ul>
     <li>Choosing better images for model training and validation;</li>
     <li>Training with the <b>Learning Rate</b> of 0.0001;</li>
-    <li>Changing some Mask RCNN's hyper parameters:</li>
+    <li>Changing some Mask R-CNN's hyper parameters:</li>
     <ul>
         <li><b>BACKBONE</b> changed from Resnet101 to Resnet50;</li>
         <li><b>BATCH_SIZE</b> changed to 32. The default value is the GPU_COUNT times the IMAGES_PER_GPU;</li>
