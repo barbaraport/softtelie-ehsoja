@@ -18,11 +18,11 @@ def recognize_images():
 
 
 @imageRecognitionRoutes.route("/countPods", methods=["POST"])
-def countPodsRoute():
-    responseBody = request.json
+def count_pods_route():
+    response_body = request.json
 
-    image = responseBody["base64Image"]
+    image = response_body["base64Image"]
 
-    podsFound = ImageRecognition.countPods(image)
+    pods_found = ImageRecognition.count_pods(image)
 
-    return make_response(jsonify({"podsFound": podsFound}), 200)
+    return make_response(jsonify({"podsFound": pods_found}), 200)

@@ -5,18 +5,14 @@ from src.main.model.mrcnn.model import MaskRCNN
 
 
 class EhSojaConfig(Config):
-    # give the configuration a recognizable name
-    NAME = "ehSoja_inference"
-
-    # set the number of GPUs to use along with the number of images
-    # per GPU
+    NAME = "eS_inference"
     GPU_COUNT = 1
     IMAGES_PER_GPU = 1
-
-    # number of classes (we would normally add +1 for the background
-    # but the background class is *already* included in the class
-    # names)
-    NUM_CLASSES = 1 + 1
+    NUM_CLASSES = 2
+    DETECTION_MIN_CONFIDENCE = 0.6
+    IMAGE_RESIZE_MODE = "none"
+    IMAGE_MAX_DIM = 1024
+    IMAGE_MIN_DIM = 1024
 
 
 def load_trained_model():
