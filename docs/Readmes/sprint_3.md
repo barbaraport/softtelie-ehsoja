@@ -73,11 +73,12 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_3/ehSoja-Sprint-3.gif" height="600px"/>
 </p>
+<p align="justify">Below are more examples of how our trained model performed after our changes. We can notice that some objects that are not even close to being pods are also considered to be pods, and we are already researching how to improve this flaw. We are considering the hypothesis that this detail is decreasing our IoU.</p>
 <p align="center">
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_3/example1.png" height="250px"/>
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_3/example2.png" height="250px"/>
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_3/example3.png" height="250px"/>
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_3/example4.png" height="250px"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_3/example1.png" height="400px"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_3/example2.png" height="400px"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_3/example3.png" height="400px"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_3/example4.png" height="400px"/>
 </p>
 
 <p align="justify">We have made several attempts to improve the IoU, Intersection over Union, which is calculated from the division between the detection masks and the masks annotated by us. Finally, we obtained a percentage of 44% similarity between the the ground-truth bounding boxes and the predicted bounding boxes. The successfull attempts were:</p>
@@ -91,9 +92,9 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
         <li><b>DETECTION_MIN_CONFIDENCE</b> changed from 0.7 to 0.6;</li>
         <li><b>IMAGE_RESIZE_MODE</b> set to none, because we already make this step before the training;</li>
         <li><b>IMAGE_MAX_DIM</b> and <b>IMAGE_MIN_DIM</b> set to 1024;</li>
-        <li><b>DETECTION_NMS_THRESHOLD</B> set to 0.1 to increase the quantity of objects that can be a pod;</li>
+        <li><b>DETECTION_NMS_THRESHOLD</b> set to 0.1 to increase the quantity of objects that can be a pod;</li>
         <li><b>RPN_ANCHOR_SCALES</b> set to (8, 16, 32, 64, 128), so that Mask R-CNN can predict smallest objects;</li>
-        <li><b>RPN_NMS_THRESHOLD</b></li> set to 0.1 to increase the quantity of proposals of what can be a pod;</li>
+        <li><b>RPN_NMS_THRESHOLD</b> set to 0.1 to increase the quantity of proposals of what can be a pod;</li>
     </ul>
     <li>Applying data augmentation (flip, crop, rotate, translation...);</li>
     <li>Improving the amount of images for calculate the IoU, and</li>
