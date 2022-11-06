@@ -52,7 +52,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
         <td width="1000px"><p align="center">Enhance the recognition model of pods :heavy_check_mark:</p></td>
     </tr>
     <tr>
-        <td><p align="center">Count how many pods have been found in the soy plant :heavy_check_mark:</p></td>
+        <td><p align="center">Count how many pods were found in the soy plant :heavy_check_mark:</p></td>
     </tr>
 </table>
 <h2 align="center">:test_tube: Sprint 4</h2>
@@ -61,7 +61,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
         <td width="1000px"><p align="center">Calculate the amount of seeds in each pod :triangular_flag_on_post:</p></td>
     </tr>
     <tr>
-        <td><p align="center">Estimate the total numbers of soybeans on the soy plant according to the image analysis :triangular_flag_on_post:</p></td>
+        <td><p align="center">Estimate the number of soybeans in a soy plant according to the image analysis :triangular_flag_on_post:</p></td>
     </tr>
 </table>
 
@@ -83,7 +83,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
     </tr>
     <tr>
         <td><p align="center">Sprint 2</p></td>
-        <td><p align="justify">The user can submit images of his planting to be analyzed by the algorithm which will return the results</p></td>
+        <td><p align="justify">The user can submit images of their planting so it can be analyzed by the algorithm which will return the results</p></td>
         <td><p align="center">09/10</p></td>
         <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/tree/main/docs/Readmes/sprint_2.md">View</a></p></td>
         <td><p align="center"><a href="https://github.com/barbaraport/softtelie-ehsoja/releases/tag/v0.2">Download</a></p></td>
