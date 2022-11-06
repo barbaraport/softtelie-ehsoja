@@ -19,7 +19,9 @@
 The ehSoja is a new module for recognizing soybean plants through the <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a> app! eSoja is a mobile application for the agricultors, in specific, soy farmers. eSoja provides its users with features that help them in monitoring, controlling and obtaining forecasts about their planting and harvesting. Our eSoja extension, ehSoja, enhances the native functions of the application and provides it with an innovation. Currently, the user needs to manually enter the number of pods within a plant so that the aplication can estimate the harvest data for them. Therefore, we developed the <i>upload</i> of a soybean plant image so that informations like the amount of pods and grains per pod can be deduced through an analysis of the image. This functionality guarantees agility and versatility to the user, who will no longer need to make effort to obtain an estimate of his harvest.
 </p>
 
-<p align="center">🌱 See the eSoja app with our modifications <a href="https://github.com/barbaraport/esoja-mobile">here</a>! Or see the eSoja server with our modifications <a href="https://github.com/barbaraport/esoja-api">here</a>! 🌱</p>
+<p align="center">🌱 See the eSoja app with our modifications <a href="https://github.com/barbaraport/esoja-mobile">here</a>! 🌿</p>
+<p align="center">🌿 See the eSoja server with our modifications <a href="https://github.com/barbaraport/esoja-api">here</a>! 🌱</p>
+<p align="center">🌱 See our dataset <a href="https://github.com/barbaraport/pods_dataset">here</a>! 🌿</p><br>
 
 <h2 align="center">:bookmark_tabs: Sprint backlog :pencil:</h2>
 <table>
@@ -64,10 +66,29 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
   <p align="justify">Updating the database model and changing the statistics page to show the new information grants to the user the possibility to know exactly what informations the detection model has extracted from the image and the adjusts in the model was done to make it perform a better extraction of the information within the given image.</p>
   
 <h2>:running_woman: ehSoja running :computer::computer_mouse:</h2>
+<p align="justify">For this sprint we integrated the application with the dispatch of the images and the counting of the recognized pods in the images. You can click on the preview option to quickly analyze the chosen image or finish importing all the images. After the pods of all images have been counted, the user is redirected to the statistics pages, where is shown the amount of pods in each sample.</p>
 <p align="justify">In the GIF bellow, it's shown the registration of a new plant sample for the plot with the analysis of the image. After the registration, the user access the statistics page and it displays the informations extracted from the analysis, in specially the amount of pods detected by the detection model.</p>
+
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_3/ehSoja-Sprint-3.gif" height="600px"/>
 </p>
+
+<p align="justify">We have made several attempts to improve the IoU, Intersection over Union, which is calculated from the division between the detection masks and the masks annotated by us. Finally, we obtained a percentage of 38% similarity between the the ground-truth bounding boxes and the predicted bounding boxes. The successfull attempts were:</p>
+<ul>
+    <li>Choosing better images for model training and validation;</li>
+    <li>Training with the <b>Learning Rate</b> of 0.0001;</li>
+    <li>Changing some Mask RCNN's hyper parameters:</li>
+    <ul>
+        <li><b>BACKBONE</b> changed from Resnet101 to Resnet50;</li>
+        <li><b>BATCH_SIZE</b> changed to 32. The default value is the GPU_COUNT times the IMAGES_PER_GPU;</li>
+        <li><b>DETECTION_MIN_CONFIDENCE</b> changed from 0.7 to 0.6;</li>
+        <li><b>IMAGE_RESIZE_MODE</b> set to none, because we already make this step before the training;</li>
+        <li><b>IMAGE_MAX_DIM</b> and <b>IMAGE_MIN_DIM</b> set to 1024;</li>
+    </ul>
+    <li>Applying data augmentation (flip, crop, rotate, translation...);</li>
+    <li>Improving the amount of images for calculate the IoU, and</li>
+    <li>Changing the <b>IoU threshold</b> to 0.3.</li>
+</ul>
   
 <h3><i>:crossed_flags: Definition Of Ready</i></h3>
 <p align="justify">The following artifacts were generated so that the team could start the development stage:</p>
