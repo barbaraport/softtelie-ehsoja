@@ -61,7 +61,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
         <td width="1000px"><p align="center">Calculate the amount of seeds in each pod :triangular_flag_on_post:</p></td>
     </tr>
     <tr>
-        <td><p align="center">Fill in the total numbers of pods on the soy plant according to the image analysis :triangular_flag_on_post:</p></td>
+        <td><p align="center">Estimate the total numbers of soybeans on the soy plant according to the image analysis :triangular_flag_on_post:</p></td>
     </tr>
 </table>
 
@@ -105,15 +105,12 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 </table>
 
 <h2>:running_woman: ehSoja in action :computer::computer_mouse:</h2>
-<p align="justify">For this sprint we integrated the application with the dispatch of the images and the recognition of the pods in the images. You can click on the preview option to quickly analyze the chosen image or finish importing all the images. Then, in the last step the request is made automatically and all the images are analyzed at once.
-
-Compared to the last sprint, we started training a model that does the segmentation of the pods, and not just their location in the image.</p>
+<p align="justify">For this sprint we integrated the application with the dispatch of the images and the counting of the recognized pods in the images. You can click on the preview option to quickly analyze the chosen image or finish importing all the images. After the pods of all images have been counted, the user is redirected to the statistics pages, where is shown the amount of pods in each sample.
+    
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_3/ehSoja-Sprint-3.gif" height="600px"/>
 </p>
-<p align="justify">We have made several attempts to improve the IoU, Intersection over Union, which is calculated from the division between the detection masks and the masks annotated by us. Finally, we obtained a percentage of 20% similarity between the segmentations.
-
-Among one of the used techniques, we performed data augmentation to pass more examples to our model, but we obtained small advances. We will review all annotations made by us to verify they are correct, as well as ask to our teachers about other techniques.</p>
+<p align="justify">We have made several attempts to improve the IoU, Intersection over Union, which is calculated from the division between the detection masks and the masks annotated by us. Finally, we obtained a percentage of 38% similarity between the the ground-truth bounding boxes and the predicted bounding boxes.</p>
 
 <h2>:girl: Our team members :boy:</h2>
 <ul>
