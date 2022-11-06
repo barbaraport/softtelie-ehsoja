@@ -18,7 +18,9 @@
 The ehSoja is a new module for recognizing soybean plants through the <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a> app! eSoja is a mobile application for the agricultors, in specific, soy farmers. eSoja provides its users with features that help them in monitoring, controlling and obtaining forecasts about their planting and harvesting. Our eSoja extension, ehSoja, enhances the native functions of the application and provides it with an innovation. Currently, the user needs to manually enter the number of pods within a plant so that the aplication can estimate the harvest data for them. Therefore, we developed the <i>upload</i> of a soybean plant image so that informations like the amount of pods and grains per pod can be deduced through an analysis of the image. This functionality guarantees agility and versatility to the user, who will no longer need to make effort to obtain an estimate of his harvest.
 </p>
 
-<p align="center">🌱 See the eSoja app with our modifications <a href="https://github.com/barbaraport/esoja-mobile">here</a>! Or see the eSoja server with our modifications <a href="https://github.com/barbaraport/esoja-api">here</a>! 🌱</p>
+<p align="center">🌱 See the eSoja app with our modifications <a href="https://github.com/barbaraport/esoja-mobile">here</a>! 🌿</p>
+<p align="center">🌿 See the eSoja server with our modifications <a href="https://github.com/barbaraport/esoja-api">here</a>! 🌱</p>
+<p align="center">🌱 See our dataset <a href="https://github.com/barbaraport/pods_dataset">here</a>! 🌿</p>
 
 <h2><i>Product Backlog</i>:pushpin:</h2>
 <p>We have four sprints, each one lasting three weeks, dedicated to the development of our client's issue's solution. That being said, we prioritize the desired features according to the table below, so that each sprint will have improvements over the previous one.</p>
@@ -47,16 +49,16 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 <h2 align="center">:test_tube: Sprint 3</h2>
 <table>
     <tr>
-        <td width="1000px"><p align="center">Enhance the recognition model of pods :triangular_flag_on_post:</p></td>
+        <td width="1000px"><p align="center">Enhance the recognition model of pods :heavy_check_mark:</p></td>
     </tr>
     <tr>
-        <td><p align="center">Count how many pods have been found in the soy plant :triangular_flag_on_post:</p></td>
+        <td><p align="center">Count how many pods have been found in the soy plant :heavy_check_mark:</p></td>
     </tr>
 </table>
 <h2 align="center">:test_tube: Sprint 4</h2>
 <table>
     <tr>
-        <td width="1000px"><p align="center">Train the model so it can recognize the amount of seeds in each pod :triangular_flag_on_post:</p></td>
+        <td width="1000px"><p align="center">Calculate the amount of seeds in each pod :triangular_flag_on_post:</p></td>
     </tr>
     <tr>
         <td><p align="center">Fill in the total numbers of pods on the soy plant according to the image analysis :triangular_flag_on_post:</p></td>
