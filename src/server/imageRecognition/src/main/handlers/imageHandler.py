@@ -89,7 +89,7 @@ class ImageHandler:
         return Image.open(byte_image)
 
     @staticmethod
-    def convert_base_b4_to_pil_image(im_b64):
+    def convert_base_64_to_pil_image(im_b64):
         im_bytes = base64.b64decode(im_b64)
         im_file = BytesIO(im_bytes)
         img = Image.open(im_file)
