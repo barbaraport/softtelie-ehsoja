@@ -25,7 +25,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 <p align="center">🌱 See our dataset <a href="https://github.com/barbaraport/pods_dataset">here</a>! 🌿</p><br>
 
 <h2 align="center">:bookmark_tabs: Sprint backlog :pencil:</h2>
-<table>
+<table height="230px">
     <tr>
         <td width="1000px"><p align="center">Descobrir tamanho das vagens identificadas</p></td>
     </tr>
@@ -72,7 +72,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 <p align="justify">The following artifacts were generated so that the team could start the development stage:</p>
 
 - Sprint's epics
-<table>
+<table height="230px">
     <tr>
         <td width="1000px"><p align="center">Descobrir tamanho das vagens identificadas</p></td>
     </tr>
