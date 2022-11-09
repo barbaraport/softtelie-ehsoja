@@ -18,10 +18,10 @@ def main():
     print("Centímetros por pixel: ", cm_per_pixel)
 
     bboxes_shape = get_bboxes_shape(bboxes)
-    print("Tamanho das bboxes em pixels: ", bboxes_shape)
+    print("Tamanho das bboxes, em pixels: ", bboxes_shape)
 
     pods_sizes = get_pods_real_size(bboxes_shape, cm_per_pixel)
-    print("Tamanho das vagens em centímetros: ", pods_sizes)
+    print("Tamanho das vagens, em centímetros: ", pods_sizes)
 
     seed_quantity = get_soy_seeds_per_pod(pods_sizes)
     print("Quantidade de grãos: ", seed_quantity)
