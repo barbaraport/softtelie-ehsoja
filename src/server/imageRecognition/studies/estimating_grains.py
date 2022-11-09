@@ -1,5 +1,7 @@
 from math import floor
 
+AVERAGE_CM_POD_DIAMETER = 1.5
+
 def main():
     plant_size_cm = int(input("Tamanho da planta, em centímetros: ")) # 150 cm
     plant_size_px = int(input("Tamanho da planta, em pixels: ")) # maybe it can be the size from the image or the bounding box from the soy plant (train another model to recognize it)
@@ -71,7 +73,6 @@ def get_pods_real_size(shapes, cm_per_pixel):
 
 def get_soy_seeds_per_pod(pods_sizes):
 
-    AVERAGE_CM_POD_DIAMETER = 1.5
     seeds_quantity = 0
 
     for pod_size in pods_sizes:
