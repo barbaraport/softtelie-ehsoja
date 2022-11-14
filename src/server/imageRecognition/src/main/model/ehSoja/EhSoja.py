@@ -17,7 +17,7 @@ class EhSojaConfig(Config):
 
 def load_trained_model():
     project_root = os.getcwd()
-    trained_model_directory = os.path.join(project_root, "main", "model", "trainedModel/")
+    trained_model_directory = os.path.join(project_root, "src", "main", "model", "trainedModel/")
 
     config = EhSojaConfig()
     model = MaskRCNN(mode="inference", config=config, model_dir="logs")
