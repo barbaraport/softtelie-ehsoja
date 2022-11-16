@@ -1,4 +1,5 @@
 import json
+from math import floor
 
 from keras import backend as K
 from keras_preprocessing.image import img_to_array
@@ -39,7 +40,7 @@ class ImageRecognition:
         return recognized_images
 
     @staticmethod
-    def count_pods(base_64_image):
+    def extractInformation(base_64_image, plantHeight):
         K.clear_session()
 
         model = load_trained_model()
@@ -51,6 +52,62 @@ class ImageRecognition:
 
         pods_found = len(results["rois"])
 
+        grainsFound = 0
+
+        for boundingBox in results["rois"]:
+            grainsFound += ImageRecognition._calculateGrainsFromBoundingBox(boundingBox, plantHeight)
+
         K.clear_session()
 
-        return pods_found
+        extractedData = {
+            "podsFound": pods_found,
+            "grainsFound": grainsFound
+        }
+
+        return extractedData
+
+    @staticmethod
+    def _calculateGrainsFromBoundingBox(self, boundingBox, plantHeight):
+        imageHeight = 1024
+        AVERAGE_CM_POD_DIAMETER = 1.5
+
+        pixelSize = plantHeight / imageHeight
+
+        shapes = []
+
+        for bbox in boundingBox:
+            y1, x1, y2, x2 = bbox
+
+            shape1 = abs(y1 - y2)
+            shape2 = abs(x1 - x2)
+
+            pod_shape = [shape1, shape2]
+
+            height = max(pod_shape)
+            width = min(pod_shape)
+
+            pod_shape = [height, width]
+
+            shapes.append(pod_shape)
+
+        sizes = []
+
+        for shape in shapes:
+            height, width = shape
+
+            real_height = height * pixelSize
+            real_width = width * pixelSize
+
+            real_shape = [real_height, real_width]
+
+            sizes.append(real_shape)
+
+        seeds_quantity = 0
+
+        for pod_size in sizes:
+            height, _ = pod_size
+            pod_seeds = floor(height / AVERAGE_CM_POD_DIAMETER)
+
+            seeds_quantity += pod_seeds
+
+        return seeds_quantity
