@@ -4,9 +4,9 @@ from math import floor
 from keras import backend as K
 from keras_preprocessing.image import img_to_array
 
+from src.main.handlers.imageHandler import ImageHandler
 from src.main.model.ehSoja.EhSoja import load_trained_model
 from src.main.model.mrcnn.visualize import display_instances
-from src.main.handlers.imageHandler import ImageHandler
 
 
 class ImageRecognition:
@@ -67,47 +67,36 @@ class ImageRecognition:
         return extractedData
 
     @staticmethod
-    def _calculateGrainsFromBoundingBox(self, boundingBox, plantHeight):
+    def _calculateGrainsFromBoundingBox(boundingBox, plantHeight):
         imageHeight = 1024
         AVERAGE_CM_POD_DIAMETER = 1.5
 
         pixelSize = plantHeight / imageHeight
 
-        shapes = []
+        y1, x1, y2, x2 = boundingBox
 
-        for bbox in boundingBox:
-            y1, x1, y2, x2 = bbox
+        shape1 = abs(y1 - y2)
+        shape2 = abs(x1 - x2)
 
-            shape1 = abs(y1 - y2)
-            shape2 = abs(x1 - x2)
+        pod_shape = [shape1, shape2]
 
-            pod_shape = [shape1, shape2]
+        height = max(pod_shape)
+        width = min(pod_shape)
 
-            height = max(pod_shape)
-            width = min(pod_shape)
+        pod_shape = [height, width]
 
-            pod_shape = [height, width]
+        height, width = pod_shape
 
-            shapes.append(pod_shape)
+        real_height = height * pixelSize
+        real_width = width * pixelSize
 
-        sizes = []
-
-        for shape in shapes:
-            height, width = shape
-
-            real_height = height * pixelSize
-            real_width = width * pixelSize
-
-            real_shape = [real_height, real_width]
-
-            sizes.append(real_shape)
+        real_shape = [real_height, real_width]
 
         seeds_quantity = 0
 
-        for pod_size in sizes:
-            height, _ = pod_size
-            pod_seeds = floor(height / AVERAGE_CM_POD_DIAMETER)
+        height, _ = real_shape
+        pod_seeds = floor(height / AVERAGE_CM_POD_DIAMETER)
 
-            seeds_quantity += pod_seeds
+        seeds_quantity += pod_seeds
 
         return seeds_quantity
