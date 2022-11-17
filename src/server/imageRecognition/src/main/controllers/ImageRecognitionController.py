@@ -22,7 +22,8 @@ def count_pods_route():
     response_body = request.json
 
     image = response_body["base64Image"]
+    plantHeight = response_body["plantHeight"]
 
-    pods_found, grains_found = [ImageRecognition.count_pods(image),0]
+    extractedData = ImageRecognition.extractInformation(image, plantHeight)
 
-    return make_response(jsonify({"podsFound": pods_found, "grainsFound": grains_found}), 200)
+    return make_response(jsonify(extractedData), 200)
