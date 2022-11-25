@@ -27,14 +27,14 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 <h2 align="center">:bookmark_tabs: Sprint backlog :pencil:</h2>
 <table height="230px">
     <tr>
-        <td width="1000px"><p align="center">Descobrir tamanho das vagens identificadas</p></td>
+        <td width="1000px"><p align="center">Estimate the size of the identified pods</p></td>
     </tr>
     <tr>
-        <td><p align="center">Estimar quantia de grãos para cada vagem</p></td>
+        <td><p align="center">Estimate the amount of grains in each pod</p></td>
     <tr>
-        <td><p align="center">Calcular quantia estimada de grãos para a planta de soja</p></td>
+        <td><p align="center">Calculate the estimated amount of grains for each soy plant</p></td>
     <tr>
-        <td><p align="center">Utilizar a quantia estimada de grãos da planta para alimentar a aplicação com esses dados</p></td>
+        <td><p align="center">Use the estimated amount of grains to fill the aplication with its data</p></td>
     <tr>
 </table>
 
@@ -45,12 +45,12 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
         <th>Why :star:</th>
     </thead>
     <tr>
-        <td><p align="justify">Eu, como usuário, registro amostras de plantas para que o sistema conte quantos grãos estão em cada planta</p></td>
-        <td><p align="justify">Com o sistema contando a quantia de grãos por mim, não preciso gastar tempo contando manualmente</p></td>
+        <td><p align="justify">I, as an user, can registrate samples of plants so that the system can count the amount of grains contained in each sample</p></td>
+        <td><p align="justify">With the grains being counted by the system, I won't need to count it manually myself</p></td>
     </tr>
     <tr>
-        <td><p align="justify">Eu, como usuário, consigo ver, na página de estatísticas das amostras, quantos grãos foram estimados para cada planta</p></td>
-        <td><p align="justify">Ao ficar ciente da quantia de grãos que foram identificados nas amostras, posso julgar por mim mesmo se devo ou não utilizar esses dados</p></td>
+        <td><p align="justify">I, as an user, can see the estimated amount of grains per plant at the samples stactistics page</p></td>
+        <td><p align="justify">Knowing the amount of grains identified, I can decide whether to use this data or not</p></td>
     </tr>
     <tr>
         <td><p align="justify">Eu, como usuário, utilizo normalmente as outras funcionalidades da aplicação que dependam da informação de grãos por planta</p></td>
