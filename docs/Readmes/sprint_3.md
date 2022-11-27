@@ -17,7 +17,7 @@
 </p>
 
 <p align="justify">
-The ehSoja is a new module for recognizing soybean plants through the <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a> app! eSoja is a mobile application for the agricultors, in specific, soy farmers. eSoja provides its users with features that help them in monitoring, controlling and obtaining forecasts about their planting and harvesting. Our eSoja extension, ehSoja, enhances the native functions of the application and provides it with an innovation. Currently, the user needs to manually enter the number of pods within a plant so that the aplication can estimate the harvest data for them. Therefore, we developed the <i>upload</i> of a soybean plant image so that informations like the amount of pods and grains per pod can be deduced through an analysis of the image. This functionality guarantees agility and versatility to the user, who will no longer need to make effort to obtain an estimate of his harvest.
+The ehSoja is a new module for recognizing soybean plants through the <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a> app! eSoja is a mobile application for the agricultor, in specific, soy farmers. eSoja provides its users with features that help them in monitoring, controlling and obtaining forecasts about their planting and harvesting. Our eSoja extension, ehSoja, enhances the native functions of the application and provides it with an innovation. Currently, the user needs to manually enter the number of pods within a plant so that the application can estimate the harvest data for them. Therefore, we developed the <i>upload</i> of a soybean plant image so that information like the amount of pods and grains per pod can be deduced through an analysis of the image. This functionality guarantees agility and versatility to the user, who will no longer need to make effort to obtain an estimate of his harvest.
 </p>
 
 <p align="center">🌱 See the eSoja app with our modifications <a href="https://github.com/barbaraport/esoja-mobile">here</a>! 🌿</p>
@@ -47,7 +47,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
     </thead>
     <tr>
         <td><p align="justify">I, as an user, submit a request to register new plants samples</p></td>
-        <td><p align="justify">With the register of new samples, I can update the informations of my plot</p></td>
+        <td><p align="justify">With the register of new samples, I can update the information of my plot</p></td>
     </tr>
     <tr>
         <td><p align="justify">I, as an user, can visualize, in the page of the plot's statistics, the registered samples</p></td>
@@ -64,11 +64,11 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
   </p>
 
   <h3>:grey_question: Why?</h3>
-  <p align="justify">Updating the database model and changing the statistics page to show the new information grants to the user the possibility to know exactly what informations the detection model has extracted from the image and the adjusts in the model was done to make it perform a better extraction of the information within the given image.</p>
+  <p align="justify">Updating the database model and changing the statistics page to show the new information grants to the user the possibility to know exactly what information the detection model has extracted from the image and the adjusts in the model was done to make it perform a better extraction of the information within the given image.</p>
   
 <h2>:running_woman: ehSoja running :computer::computer_mouse:</h2>
 <p align="justify">For this sprint we integrated the application with the dispatch of the images and the counting of the recognized pods in the images. You can click on the preview option to quickly analyze the chosen image or finish importing all the images. After the pods of all images have been counted, the user is redirected to the statistics pages, where is shown the amount of pods in each sample.</p>
-<p align="justify">In the GIF bellow, it's shown the registration of a new plant sample for the plot with the analysis of the image. After the registration, the user access the statistics page and it displays the informations extracted from the analysis, in specially the amount of pods detected by the detection model.</p>
+<p align="justify">In the GIF bellow, it's shown the registration of a new plant sample for the plot with the analysis of the image. After the registration, the user access the statistics page and it displays the information extracted from the analysis, in specially the amount of pods detected by the detection model.</p>
 
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_3/ehSoja-Sprint-3.gif" height="600px"/>
@@ -81,7 +81,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_3/example4.png" height="400px"/>
 </p>
 
-<p align="justify">We have made several attempts to improve the IoU, Intersection over Union, which is calculated from the division between the detection masks and the masks annotated by us. Finally, we obtained a percentage of 44% similarity between the the ground-truth bounding boxes and the predicted bounding boxes. The successfull attempts were:</p>
+<p align="justify">We have made several attempts to improve the IoU, Intersection over Union, which is calculated from the division between the detection masks and the masks annotated by us. Finally, we obtained a percentage of 44% similarity between the the ground-truth bounding boxes and the predicted bounding boxes. The successful attempts were:</p>
 <ul>
     <li>Choosing better images for model training and validation;</li>
     <li>Training with the <b>Learning Rate</b> of 0.0001;</li>
@@ -127,7 +127,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
     </thead>
     <tr>
         <td><p align="justify">I, as an user, submit a request to register new plants samples</p></td>
-        <td><p align="justify">With the register of new samples, I can update the informations of my plot</p></td>
+        <td><p align="justify">With the register of new samples, I can update the information of my plot</p></td>
     </tr>
     <tr>
         <td><p align="justify">I, as an user, can visualize, in the page of the plot's statistics, the registered samples</p></td>
