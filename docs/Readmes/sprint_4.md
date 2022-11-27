@@ -113,6 +113,15 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 
 - [Source code](https://github.com/barbaraport/softtelie-ehsoja/tree/main/src)
 
+- New functionality in the application: The user can now view in the plot's statistics page estimated amount of grains found by the detection model.
+<p align="center">
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/ehSoja-Sprint-4.gif" height="600px"/>
+</p>
+
+- The database model was updated to reflect the new data that is generated when registering a sample.
+
+- The application now estimates the amount of grains for each plant in the moment of the register of a new sample for the plot.
+
 <h2 align="center"><i>Burndown</i> :date::chart_with_downwards_trend:</h3>
 <p align="justify">Looking at the burndown of the sprint, it's possible to see that the team was ahead of the time almost in all the sprint development, but in the end some delay occurred in the development of the product, but still under control.</p>
 <p align="center">
