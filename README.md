@@ -116,19 +116,19 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 <h4><i>:crossed_flags: Métricas 🔢</i></h4>
 <p align="justify">Check some examples with selected images. First, there is the annotated image, then the detected image and the confusion matrix that compare the annotations and the detections in the image.</p>
 <p align="center">
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_1/ann.png" height="160"/>
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_1/detected.png" height="160"/>
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_1/matrix.png" height="160"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_1/ann.png" height="290"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_1/detected.png" height="290"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_1/matrix.png" height="290"/>
 </p>
 <p align="center">
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_2/ann.png" height="160"/>
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_2/detected.png" height="160"/>
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_2/matrix.png" height="160"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_2/ann.png" height="290"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_2/detected.png" height="290"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_2/matrix.png" height="290"/>
 </p>
 
 <p align="justify">Below, there's the confusion matrix for all the images in the validation dataset. Our validation dataset contains around 150 images.</p>
 <p align="center">
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/confusion_matrix_all.png" height="256"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/confusion_matrix_all.png" height="512"/>
 </p>
 
 <h2>:girl: Our team members :boy:</h2>
