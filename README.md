@@ -59,10 +59,10 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 <h2 align="center">:test_tube: Sprint 4</h2>
 <table>
     <tr>
-        <td width="1000px"><p align="center">Calculate the amount of seeds in each pod :triangular_flag_on_post:</p></td>
+        <td width="1000px"><p align="center">Calculate the amount of seeds in each pod :heavy_check_mark:</p></td>
     </tr>
     <tr>
-        <td><p align="center">Estimate the number of soybeans in a soy plant according to the image analysis :triangular_flag_on_post:</p></td>
+        <td><p align="center">Estimate the number of soybeans in a soy plant according to the image analysis :heavy_check_mark:</p></td>
     </tr>
 </table>
 
@@ -109,7 +109,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 <p align="justify">For this sprint we integrated the application with the dispatch of the images and the counting of the recognized pods in the images. You can click on the preview option to quickly analyze the chosen image or finish importing all the images. After the pods of all images have been counted, the user is redirected to the statistics pages, where is shown the amount of pods in each sample.
     
 <p align="center">
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_3/ehSoja-Sprint-3.gif" height="600px"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/ehSoja-Sprint-4.gif" height="600px"/>
 </p>
 <p align="justify">We have made several attempts to improve the IoU, Intersection over Union, which is calculated from the division between the detection masks and the masks annotated by us. Finally, we obtained a percentage of 44% similarity between the ground-truth bounding boxes and the predicted bounding boxes.</p>
 
