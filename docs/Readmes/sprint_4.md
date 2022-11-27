@@ -122,7 +122,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 
 - The application now estimates the amount of grains for each plant in the moment of the register of a new sample for the plot.
 
-<h4><i>:crossed_flags: Métricas 🔢</i></h4>
+<h4><i>:crossed_flags: Metrics 🔢</i></h4>
 <p align="justify">Check some examples with selected images. First, there is the annotated image, then the detected image and the confusion matrix that compare the annotations and the detections in the image.</p>
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_1/ann.png" height="320"/>
