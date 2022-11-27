@@ -113,7 +113,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 </p>
 <p align="justify">We have made several attempts to improve the IoU, Intersection over Union, which is calculated from the division between the detection masks and the masks annotated by us. Finally, we obtained a mean percentage of 44% similarity between the ground-truth bounding boxes and the predicted bounding boxes.</p>
 
-<h4><i>:crossed_flags: Métricas 🔢</i></h4>
+<h4><i>:crossed_flags: Metrics 🔢</i></h4>
 <p align="justify">Check some examples with selected images. First, there is the annotated image, then the detected image and the confusion matrix that compare the annotations and the detections in the image.</p>
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_1/ann.png" height="250"/>
