@@ -109,7 +109,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 <p align="justify">For the last sprint we integrated the application with the dispatch of the images, the counting of the recognized pods in the images and the grains quantity estimative. You can click on the preview option to quickly analyze the chosen image or finish importing all the images. After the pods of all images have been counted, the user is redirected to the plot statistics pages, where is shown the amount of pods and grains in each sample. In this page is shown, too, the production expectation.
     
 <p align="center">
-  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/ehSoja-Sprint-4.gif" height="600px"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/ehSoja.gif" height="600px"/>
 </p>
 <p align="justify">We have made several attempts to improve the IoU, Intersection over Union, which is calculated from the division between the detection masks and the masks annotated by us. Finally, we obtained a mean percentage of 44% similarity between the ground-truth bounding boxes and the predicted bounding boxes.</p>
 
