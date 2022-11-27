@@ -17,7 +17,7 @@
 </p>
 
 <p align="justify">
-The ehSoja is a new module for recognizing soybean plants through the <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a> app! eSoja is a mobile application for the agricultor, in specific, soy farmers. eSoja provides its users with features that help them in monitoring, controlling and obtaining forecasts about their planting and harvesting. Our eSoja extension, ehSoja, enhances the native functions of the application and provides it with an innovation. Currently, the user needs to manually enter the number of pods within a plant so that the application can estimate the harvest data for them. Therefore, we developed the <i>upload</i> of a soybean plant image so that information like the amount of pods and grains per pod can be deduced through an analysis of the image. This functionality guarantees agility and versatility to the user, who will no longer need to make effort to obtain an estimate of his harvest.
+The ehSoja is a new module for recognizing soybean plants through the <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a> app! eSoja is a mobile application for the agricultor, in specific, soy farmers. eSoja provides its users with features that help them in monitoring, controlling and obtaining forecasts about their planting and harvesting. Our eSoja extension, ehSoja, enhances the native functions of the application and provides it with an innovation. Currently, the user needs to manually enter the number of pods within a plant so that the application can estimate the harvest data for them. Therefore, we developed the upload of a soybean plant image so that information like the amount of pods and grains per pod can be deduced through an analysis of the image. This functionality guarantees agility and versatility to the user, who will no longer need to make effort to obtain an estimate of his harvest.
 </p>
 
 <p align="center">🌱 See the eSoja app with our modifications <a href="https://github.com/barbaraport/esoja-mobile">here</a>! 🌿</p>
@@ -33,7 +33,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
     <tr>
         <td><p align="center">Calculate the estimated amount of grains for each soy plant</p></td>
     <tr>
-        <td><p align="center">Use the estimated amount of grains to fill the application with its data</p></td>
+        <td><p align="center">Use the estimated amount of grains to fill the application with the obtained data</p></td>
     <tr>
 </table>
 
@@ -58,7 +58,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 </table>
 
 <h3>:question: What we did?</h3>
-<p align="justify">In the 4rd and last, we updated the database model to store the estimated grains found in the soy plant, changed the interface of statistics to show the value and other places of the application that depends on this information.
+<p align="justify">In the 4th and last sprint, we updated the database model to store the estimated grains found in the soy plant, changed the interface of statistics to show the quantity of pods, grains and the productivity estimative and another places of the application that depends on this information.
 </p>
 
 <h3>:grey_question: Why?</h3>
@@ -66,7 +66,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 </p>
   
 <h2>:running_woman: ehSoja running :computer::computer_mouse:</h2>
-<p align="justify">In the GIF bellow, it is show the register of a new sample for the plot. The process is the same of the one in the previous sprint. Here, the difference is that in the statistics page of the sample, now is show to the user the amount of estimated grains founds in each sample.
+<p align="justify">In the GIF bellow, it is show the register of a new sample for the plot. The process is the same of the one in the previous sprint. Here, the difference is that in the statistics page of the sample, now is shown to the user the amount of estimated grains founds in each sample.
 </p>
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/ehSoja-Sprint-4.gif" height="600px"/>
@@ -84,7 +84,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
     <tr>
         <td><p align="center">Calculate the estimated amount of grains for each soy plant</p></td>
     <tr>
-        <td><p align="center">Use the estimated amount of grains to fill the application with its data</p></td>
+        <td><p align="center">Use the estimated amount of grains to fill the application with the obtained data</p></td>
     <tr>
 </table>
 
@@ -123,7 +123,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 - The application now estimates the amount of grains for each plant in the moment of the register of a new sample for the plot.
 
 <h2 align="center"><i>Burndown</i> :date::chart_with_downwards_trend:</h3>
-<p align="justify">Looking at the burndown of the sprint, it's possible to see that the team was ahead of the time almost in all the sprint development, but in the end some delay occurred in the development of the product, but still under control.</p>
+<p align="justify">Looking at the burndown of the sprint, it's possible to see that the team was ahead of the time almost in all the sprint development, but in the end some delay occurred in the development of the product due to issues with development team members, but all under control.</p>
 <p align="center">
   <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Burndown/sprint_4.png"/>
 </p>
