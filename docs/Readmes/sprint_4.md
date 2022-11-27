@@ -17,7 +17,7 @@
 </p>
 
 <p align="justify">
-The ehSoja is a new module for recognizing soybean plants through the <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a> app! eSoja is a mobile application for the agricultors, in specific, soy farmers. eSoja provides its users with features that help them in monitoring, controlling and obtaining forecasts about their planting and harvesting. Our eSoja extension, ehSoja, enhances the native functions of the application and provides it with an innovation. Currently, the user needs to manually enter the number of pods within a plant so that the aplication can estimate the harvest data for them. Therefore, we developed the <i>upload</i> of a soybean plant image so that informations like the amount of pods and grains per pod can be deduced through an analysis of the image. This functionality guarantees agility and versatility to the user, who will no longer need to make effort to obtain an estimate of his harvest.
+The ehSoja is a new module for recognizing soybean plants through the <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a> app! eSoja is a mobile application for the agricultor, in specific, soy farmers. eSoja provides its users with features that help them in monitoring, controlling and obtaining forecasts about their planting and harvesting. Our eSoja extension, ehSoja, enhances the native functions of the application and provides it with an innovation. Currently, the user needs to manually enter the number of pods within a plant so that the application can estimate the harvest data for them. Therefore, we developed the <i>upload</i> of a soybean plant image so that information like the amount of pods and grains per pod can be deduced through an analysis of the image. This functionality guarantees agility and versatility to the user, who will no longer need to make effort to obtain an estimate of his harvest.
 </p>
 
 <p align="center">🌱 See the eSoja app with our modifications <a href="https://github.com/barbaraport/esoja-mobile">here</a>! 🌿</p>
@@ -27,14 +27,13 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 <h2 align="center">:bookmark_tabs: Sprint backlog :pencil:</h2>
 <table height="230px">
     <tr>
-        <td width="1000px"><p align="center">Descobrir tamanho das vagens identificadas</p></td>
-    </tr>
+        <td width="1000px"><p align="center">Estimate the size of the identified pods</p></td></tr>
     <tr>
-        <td><p align="center">Estimar quantia de grãos para cada vagem</p></td>
+        <td><p align="center">Estimate the amount of grains in each pod</p></td>
     <tr>
-        <td><p align="center">Calcular quantia estimada de grãos para a planta de soja</p></td>
+        <td><p align="center">Calculate the estimated amount of grains for each soy plant</p></td>
     <tr>
-        <td><p align="center">Utilizar a quantia estimada de grãos da planta para alimentar a aplicação com esses dados</p></td>
+        <td><p align="center">Use the estimated amount of grains to fill the application with its data</p></td>
     <tr>
 </table>
 
@@ -45,28 +44,33 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
         <th>Why :star:</th>
     </thead>
     <tr>
-        <td><p align="justify">Eu, como usuário, registro amostras de plantas para que o sistema conte quantos grãos estão em cada planta</p></td>
-        <td><p align="justify">Com o sistema contando a quantia de grãos por mim, não preciso gastar tempo contando manualmente</p></td>
+        <td><p align="justify">I, as an user, can register samples of plants so that the system can count the amount of grains contained in each sample</p></td>
+        <td><p align="justify">With the grains being counted by the system, I won't need to count it manually myself</p></td>
     </tr>
     <tr>
-        <td><p align="justify">Eu, como usuário, consigo ver, na página de estatísticas das amostras, quantos grãos foram estimados para cada planta</p></td>
-        <td><p align="justify">Ao ficar ciente da quantia de grãos que foram identificados nas amostras, posso julgar por mim mesmo se devo ou não utilizar esses dados</p></td>
+        <td><p align="justify">I, as an user, can see the estimated amount of grains per plant at the samples statistics page</p></td>
+        <td><p align="justify">Knowing the amount of grains identified, I can decide whether to use this data or not</p></td>
     </tr>
     <tr>
-        <td><p align="justify">Eu, como usuário, utilizo normalmente as outras funcionalidades da aplicação que dependam da informação de grãos por planta</p></td>
-        <td><p align="justify">Ao ter a quantia de grãos estimadas automáticamente e ter essa informação corretamente associada na aplicação me permite utilizar rapidamente outras funcionalidades dependentes disso sem que tenha que gastar tempo contando manualmente a quantia de grãos da planta</p></td>
+        <td><p align="justify"> I, as an user, am able to use the other features that use the amount of grain's data</p></td>
+        <td><p align="justify">By automatically having the estimated amount of grains and having this data correctly associated within the application, I can use other dependent features without wasting time counting it manually</p></td>
     </tr>
 </table>
 
-  <h3>:question: What we did?</h3>
-  <p align="justify">TO-DO
-  </p>
+<h3>:question: What we did?</h3>
+<p align="justify">In the 4rd and last, we updated the database model to store the estimated grains found in the soy plant, changed the interface of statistics to show the value and other places of the application that depends on this information.
+</p>
 
-  <h3>:grey_question: Why?</h3>
-  <p align="justify">TO-DO</p>
+<h3>:grey_question: Why?</h3>
+<p align="justify">Since the main purpose of the recognition model was to estimate the amount of grains in each plant sample, implementing this functionality ensures that all the backlog requested by the client are being attended.
+</p>
   
 <h2>:running_woman: ehSoja running :computer::computer_mouse:</h2>
-<p align="justify">TO-DO</p>
+<p align="justify">In the GIF bellow, it is show the register of a new sample for the plot. The process is the same of the one in the previous sprint. Here, the difference is that in the statistics page of the sample, now is show to the user the amount of estimated grains founds in each sample.
+</p>
+<p align="center">
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/ehSoja-Sprint-4.gif" height="600px"/>
+</p>
   
 <h3><i>:crossed_flags: Definition Of Ready</i></h3>
 <p align="justify">The following artifacts were generated so that the team could start the development stage:</p>
@@ -74,14 +78,13 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 - Sprint's epics
 <table height="230px">
     <tr>
-        <td width="1000px"><p align="center">Descobrir tamanho das vagens identificadas</p></td>
-    </tr>
+        <td width="1000px"><p align="center">Estimate the size of the identified pods</p></td></tr>
     <tr>
-        <td><p align="center">Estimar quantia de grãos para cada vagem</p></td>
+        <td><p align="center">Estimate the amount of grains in each pod</p></td>
     <tr>
-        <td><p align="center">Calcular quantia estimada de grãos para a planta de soja</p></td>
+        <td><p align="center">Calculate the estimated amount of grains for each soy plant</p></td>
     <tr>
-        <td><p align="center">Utilizar a quantia estimada de grãos da planta para alimentar a aplicação com esses dados</p></td>
+        <td><p align="center">Use the estimated amount of grains to fill the application with its data</p></td>
     <tr>
 </table>
 
@@ -92,16 +95,16 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
         <th>Why :star:</th>
     </thead>
     <tr>
-        <td><p align="justify">Eu, como usuário, registro amostras de plantas para que o sistema conte quantos grãos estão em cada planta</p></td>
-        <td><p align="justify">Com o sistema contando a quantia de grãos por mim, não preciso gastar tempo contando manualmente</p></td>
+        <td><p align="justify">I, as an user, can register samples of plants so that the system can count the amount of grains contained in each sample</p></td>
+        <td><p align="justify">With the grains being counted by the system, I won't need to count it manually myself</p></td>
     </tr>
     <tr>
-        <td><p align="justify">Eu, como usuário, consigo ver, na página de estatísticas das amostras, quantos grãos foram estimados para cada planta</p></td>
-        <td><p align="justify">Ao ficar ciente da quantia de grãos que foram identificados nas amostras, posso julgar por mim mesmo se devo ou não utilizar esses dados</p></td>
+        <td><p align="justify">I, as an user, can see the estimated amount of grains per plant at the samples statistics page</p></td>
+        <td><p align="justify">Knowing the amount of grains identified, I can decide whether to use this data or not</p></td>
     </tr>
     <tr>
-        <td><p align="justify">Eu, como usuário, utilizo normalmente as outras funcionalidades da aplicação que dependam da informação de grãos por planta</p></td>
-        <td><p align="justify">Ao ter a quantia de grãos estimadas automáticamente e ter essa informação corretamente associada na aplicação me permite utilizar rapidamente outras funcionalidades dependentes disso sem que tenha que gastar tempo contando manualmente a quantia de grãos da planta</p></td>
+        <td><p align="justify"> I, as an user, am able to use the other features that use the amount of grain's data</p></td>
+        <td><p align="justify">By automatically having the estimated amount of grains and having this data correctly associated within the application, I can use other dependent features without wasting time counting it manually</p></td>
     </tr>
 </table>
 
@@ -110,8 +113,20 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 
 - [Source code](https://github.com/barbaraport/softtelie-ehsoja/tree/main/src)
 
+- New functionality in the application: The user can now view in the plot's statistics page estimated amount of grains found by the detection model.
+<p align="center">
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/ehSoja-Sprint-4.gif" height="600px"/>
+</p>
+
+- The database model was updated to reflect the new data that is generated when registering a sample.
+
+- The application now estimates the amount of grains for each plant in the moment of the register of a new sample for the plot.
+
 <h2 align="center"><i>Burndown</i> :date::chart_with_downwards_trend:</h3>
-<p align="justify">TO-DO</p>
+<p align="justify">Looking at the burndown of the sprint, it's possible to see that the team was ahead of the time almost in all the sprint development, but in the end some delay occurred in the development of the product, but still under control.</p>
+<p align="center">
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/Burndown/sprint_4.png"/>
+</p>
   
 <h2>:girl: Our team members :boy:</h2>
 <ul>

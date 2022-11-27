@@ -16,7 +16,7 @@
 </p>
 
 <p align="justify">
-The ehSoja is a new module for recognizing soybean plants through the <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a> app! eSoja is a mobile application for the agricultors, in specific, soy farmers. eSoja provides its users with features that help them in monitoring, controlling and obtaining forecasts about their planting and harvesting. Our eSoja extension, ehSoja, enhances the native functions of the application and provides it with an innovation. Currently, the user needs to manually enter the number of pods within a plant so that the aplication can estimate the harvest data for them. Therefore, we developed the <i>upload</i> of a soybean plant image so that informations like the amount of pods and grains per pod can be deduced through an analysis of the image. This functionality guarantees agility and versatility to the user, who will no longer need to make effort to obtain an estimate of his harvest.
+The ehSoja is a new module for recognizing soybean plants through the <a href="https://github.com/cluster-8/esoja-mobile">eSoja</a> app! eSoja is a mobile application for the agricultor, in specific, soy farmers. eSoja provides its users with features that help them in monitoring, controlling and obtaining forecasts about their planting and harvesting. Our eSoja extension, ehSoja, enhances the native functions of the application and provides it with an innovation. Currently, the user needs to manually enter the number of pods within a plant so that the application can estimate the harvest data for them. Therefore, we developed the <i>upload</i> of a soybean plant image so that information like the amount of pods and grains per pod can be deduced through an analysis of the image. This functionality guarantees agility and versatility to the user, who will no longer need to make effort to obtain an estimate of his harvest.
 </p>
 
 <p align="center">🌱 See the eSoja app with our modifications <a href="https://github.com/barbaraport/esoja-mobile">here</a>! Or see the eSoja server with our modifications <a href="https://github.com/barbaraport/esoja-api">here</a>! 🌱</p>
@@ -46,8 +46,8 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
         <td><p align="justify">Taking a photo without have to photograph it previously make the steps be faster</p></td>
     </tr>
     <tr>
-        <td><p align="justify">I, as an user, can choose a photo from my galery to register a plant</p></td>
-        <td><p align="justify">If I already has the photo of the plant that I want to register, choosing it from my galery will speed up the steps</p></td>
+        <td><p align="justify">I, as an user, can choose a photo from my gallery to register a plant</p></td>
+        <td><p align="justify">If I already has the photo of the plant that I want to register, choosing it from my gallery will speed up the steps</p></td>
     </tr>
     <tr>
         <td><p align="justify">I, as an user, submit the plant’s photo to be analyzed</p></td>
@@ -55,7 +55,7 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
     </tr>
     <tr>
         <td><p align="justify">I, as an user, receive the analyzed image with the identified elements marked on it
-to check if the identification is satisfatory</p></td>
+to check if the identification is satisfactory</p></td>
         <td><p align="justify">Receiving the analyzed photo will allow me to check if the submitted photo was good and ensure that I will only register if the analysis satisfies me</p></td>
     </tr>
 </table>
@@ -111,8 +111,8 @@ Among one of the used techniques, we performed data augmentation to pass more ex
         <td><p align="justify">Taking a photo without have to photograph it previously make the steps be faster</p></td>
     </tr>
     <tr>
-        <td><p align="justify">I, as an user, can choose a photo from my galery to register a plant</p></td>
-        <td><p align="justify">If I already has the photo of the plant that I want to register, choosing it from my galery will speed up the steps</p></td>
+        <td><p align="justify">I, as an user, can choose a photo from my gallery to register a plant</p></td>
+        <td><p align="justify">If I already has the photo of the plant that I want to register, choosing it from my gallery will speed up the steps</p></td>
     </tr>
     <tr>
         <td><p align="justify">I, as an user, submit the plant’s photo to be analyzed</p></td>
@@ -120,7 +120,7 @@ Among one of the used techniques, we performed data augmentation to pass more ex
     </tr>
     <tr>
         <td><p align="justify">I, as an user, receive the analyzed image with the identified elements marked on it
-to check if the identification is satisfatory</p></td>
+to check if the identification is satisfactory</p></td>
         <td><p align="justify">Receiving the analyzed photo will allow me to check if the submitted photo was good and ensure that I will only register if the analysis satisfies me</p></td>
     </tr>
 </table>
