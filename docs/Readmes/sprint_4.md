@@ -122,6 +122,24 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 
 - The application now estimates the amount of grains for each plant in the moment of the register of a new sample for the plot.
 
+<h4><i>:crossed_flags: Metrics 🔢</i></h4>
+<p align="justify">Check some examples with selected images. First, there is the annotated image, then the detected image and the confusion matrix that compare the annotations and the detections in the image.</p>
+<p align="center">
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_1/ann.png" height="320"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_1/detected.png" height="320"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_1/matrix.png" height="320"/>
+</p>
+<p align="center">
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_2/ann.png" height="320"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_2/detected.png" height="320"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_2/matrix.png" height="320"/>
+</p>
+
+<p align="justify">Below, there's the confusion matrix for all the images in the validation dataset. Our validation dataset contains around 150 images.</p>
+<p align="center">
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/confusion_matrix_all.png" height="512"/>
+</p>
+
 <h2 align="center"><i>Burndown</i> :date::chart_with_downwards_trend:</h3>
 <p align="justify">Looking at the burndown of the sprint, it's possible to see that the team was ahead of the time almost in all the sprint development, but in the end some delay occurred in the development of the product due to issues with development team members, but all under control.</p>
 <p align="center">

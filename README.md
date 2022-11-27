@@ -113,6 +113,24 @@ The ehSoja is a new module for recognizing soybean plants through the <a href="h
 </p>
 <p align="justify">We have made several attempts to improve the IoU, Intersection over Union, which is calculated from the division between the detection masks and the masks annotated by us. Finally, we obtained a mean percentage of 44% similarity between the ground-truth bounding boxes and the predicted bounding boxes.</p>
 
+<h4><i>:crossed_flags: Metrics 🔢</i></h4>
+<p align="justify">Check some examples with selected images. First, there is the annotated image, then the detected image and the confusion matrix that compare the annotations and the detections in the image.</p>
+<p align="center">
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_1/ann.png" height="250"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_1/detected.png" height="250"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_1/matrix.png" height="250"/>
+</p>
+<p align="center">
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_2/ann.png" height="250"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_2/detected.png" height="250"/>
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/examples/example_2/matrix.png" height="250"/>
+</p>
+
+<p align="justify">Below, there's the confusion matrix for all the images in the validation dataset. Our validation dataset contains around 150 images.</p>
+<p align="center">
+  <img src="https://github.com/barbaraport/softtelie-ehsoja/blob/main/docs/MVPs/sprint_4/confusion_matrix_all.png" height="512"/>
+</p>
+
 <h2>:girl: Our team members :boy:</h2>
 <ul>
     <li><a href="https://www.linkedin.com/in/b%C3%A1rbara-port-402158198/">Bárbara dos Santos Port</a> (<i>Scrum Master</i>)</li>
